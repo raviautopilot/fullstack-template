@@ -1,0 +1,10 @@
+{
+  "env_name": "prd",
+  "port": "8080",
+  "oauth_mode": "real",
+  "google_client_id": "PRD_CLIENT_ID.apps.googleusercontent.com",
+  "google_client_secret": "PRD_CLIENT_SECRET",
+  "oauth_redirect_url": "https://api.myapp.com/auth/callback",
+  "jwt_secret": "prd_jwt_secret_signing_key_zxywv",
+  "frontend_url": "https://myapp.com"
+}

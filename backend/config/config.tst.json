@@ -1,0 +1,10 @@
+{
+  "env_name": "tst",
+  "port": "8080",
+  "oauth_mode": "mock",
+  "google_client_id": "TST_CLIENT_ID.apps.googleusercontent.com",
+  "google_client_secret": "TST_CLIENT_SECRET",
+  "oauth_redirect_url": "http://localhost:8080/auth/callback",
+  "jwt_secret": "tst_jwt_secret_signing_key_abcde",
+  "frontend_url": "http://localhost:5173"
+}

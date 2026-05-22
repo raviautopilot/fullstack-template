@@ -1,0 +1,10 @@
+{
+  "env_name": "local",
+  "port": "8080",
+  "oauth_mode": "mock",
+  "google_client_id": "MOCK_CLIENT_ID.apps.googleusercontent.com",
+  "google_client_secret": "MOCK_CLIENT_SECRET",
+  "oauth_redirect_url": "http://localhost:8080/auth/callback",
+  "jwt_secret": "local_super_secret_signing_key_12345",
+  "frontend_url": "http://localhost:5173"
+}

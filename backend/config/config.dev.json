@@ -1,0 +1,10 @@
+{
+  "env_name": "dev",
+  "port": "8080",
+  "oauth_mode": "real",
+  "google_client_id": "DEV_CLIENT_ID.apps.googleusercontent.com",
+  "google_client_secret": "DEV_CLIENT_SECRET",
+  "oauth_redirect_url": "https://api.dev.myapp.com/auth/callback",
+  "jwt_secret": "dev_jwt_secret_signing_key_98765",
+  "frontend_url": "https://dev.myapp.com"
+}
