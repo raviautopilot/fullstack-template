@@ -1,0 +1,92 @@
+{
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/update-graphify.sh": {
+    "mtime": 1780236042.0576534,
+    "ast_hash": "446de290a9491abd639a6418bd12028e",
+    "semantic_hash": "446de290a9491abd639a6418bd12028e"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/manage.sh": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "fe053cae7e7d5cfed22ab6d901106e34",
+    "semantic_hash": "fe053cae7e7d5cfed22ab6d901106e34"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/frontend/vite.config.js": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "88439104b3c207f17d33ef3160e3b080",
+    "semantic_hash": "88439104b3c207f17d33ef3160e3b080"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/frontend/package.json": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "7aae4035172812f8fdd497713158e733",
+    "semantic_hash": "7aae4035172812f8fdd497713158e733"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/frontend/eslint.config.js": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "3aa4b57d7f08181d86bde52a4dcb7f22",
+    "semantic_hash": "3aa4b57d7f08181d86bde52a4dcb7f22"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/frontend/src/main.jsx": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "e13723e2574429d9a6d849727e3ff695",
+    "semantic_hash": "e13723e2574429d9a6d849727e3ff695"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/frontend/src/App.jsx": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "7be49bea23f070ba92cb0a7058d11495",
+    "semantic_hash": "7be49bea23f070ba92cb0a7058d11495"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/api_test.go": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "c4d4fa4f4dd1de0b4ef516ee649fb44c",
+    "semantic_hash": "c4d4fa4f4dd1de0b4ef516ee649fb44c"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/selenium_test.go": {
+    "mtime": 1780235876.6325834,
+    "ast_hash": "ef88a253901105e0ba374c511b04719e",
+    "semantic_hash": "ef88a253901105e0ba374c511b04719e"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/config/config.dev.json": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "9b32debdeac14121eec0feadad5fb6de",
+    "semantic_hash": "9b32debdeac14121eec0feadad5fb6de"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/config/config.tst.json": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "80a31a57a7119740f5f33e318e64d960",
+    "semantic_hash": "80a31a57a7119740f5f33e318e64d960"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/config/config.go": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "d38a8f3b0f02f46c798a46889a4484c7",
+    "semantic_hash": "d38a8f3b0f02f46c798a46889a4484c7"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/config/config.prd.json": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "871774b1c598ba38abc192a688fa6fc1",
+    "semantic_hash": "871774b1c598ba38abc192a688fa6fc1"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/config/config.local.json": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "6d3e5d32b60feae59d98bc04adff7a0f",
+    "semantic_hash": "6d3e5d32b60feae59d98bc04adff7a0f"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/cmd/server/main.go": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "9c12661486df3f0b784ed36b9d11328b",
+    "semantic_hash": "9c12661486df3f0b784ed36b9d11328b"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/internal/router/router.go": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "b7ccc1ac467308ae24c154c674f7fa63",
+    "semantic_hash": "b7ccc1ac467308ae24c154c674f7fa63"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/internal/health/health.go": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "c30e303b1120792de8ecda89541e302b",
+    "semantic_hash": "c30e303b1120792de8ecda89541e302b"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/internal/auth/auth.go": {
+    "mtime": 1780235410.82151,
+    "ast_hash": "876b2028e22272a2eeaf121d1ac4c6ac",
+    "semantic_hash": "876b2028e22272a2eeaf121d1ac4c6ac"
+  }
+}
