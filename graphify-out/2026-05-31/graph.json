@@ -1,0 +1,3569 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "update-graphify.sh",
+      "file_type": "code",
+      "source_file": "update-graphify.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "community": 18,
+      "norm_label": "update-graphify.sh",
+      "id": "update_graphify_sh"
+    },
+    {
+      "label": "manage.sh",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "community": 1,
+      "norm_label": "manage.sh",
+      "id": "manage_sh"
+    },
+    {
+      "label": "manage.sh script",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L1",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "community": 1,
+      "norm_label": "manage.sh script",
+      "id": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry"
+    },
+    {
+      "label": "log_info()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L26",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "log_info()",
+      "id": "fullstack_template_manage_log_info"
+    },
+    {
+      "label": "log_success()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L30",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "log_success()",
+      "id": "fullstack_template_manage_log_success"
+    },
+    {
+      "label": "log_warn()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L34",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "log_warn()",
+      "id": "fullstack_template_manage_log_warn"
+    },
+    {
+      "label": "log_error()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L38",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "log_error()",
+      "id": "fullstack_template_manage_log_error"
+    },
+    {
+      "label": "print_help()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L42",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "print_help()",
+      "id": "fullstack_template_manage_print_help"
+    },
+    {
+      "label": "do_install()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L61",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_install()",
+      "id": "fullstack_template_manage_do_install"
+    },
+    {
+      "label": "do_swagger()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L82",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_swagger()",
+      "id": "fullstack_template_manage_do_swagger"
+    },
+    {
+      "label": "do_build()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L101",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_build()",
+      "id": "fullstack_template_manage_do_build"
+    },
+    {
+      "label": "do_run()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L121",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_run()",
+      "id": "fullstack_template_manage_do_run"
+    },
+    {
+      "label": "do_stop()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L169",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_stop()",
+      "id": "fullstack_template_manage_do_stop"
+    },
+    {
+      "label": "do_kill()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L195",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_kill()",
+      "id": "fullstack_template_manage_do_kill"
+    },
+    {
+      "label": "do_status()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L224",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_status()",
+      "id": "fullstack_template_manage_do_status"
+    },
+    {
+      "label": "do_troubleshoot()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L265",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_troubleshoot()",
+      "id": "fullstack_template_manage_do_troubleshoot"
+    },
+    {
+      "label": "do_test()",
+      "file_type": "code",
+      "source_file": "manage.sh",
+      "source_location": "L333",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "community": 1,
+      "norm_label": "do_test()",
+      "id": "fullstack_template_manage_do_test"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "frontend/vite.config.js",
+      "source_location": "L1",
+      "community": 19,
+      "norm_label": "vite.config.js",
+      "id": "frontend_vite_config_js"
+    },
+    {
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L1",
+      "community": 4,
+      "norm_label": "package.json",
+      "id": "frontend_package_json"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "community": 4,
+      "norm_label": "name",
+      "id": "frontend_package_name"
+    },
+    {
+      "label": "private",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "community": 4,
+      "norm_label": "private",
+      "id": "frontend_package_private"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "community": 4,
+      "norm_label": "version",
+      "id": "frontend_package_version"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "community": 4,
+      "norm_label": "type",
+      "id": "frontend_package_type"
+    },
+    {
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "community": 4,
+      "norm_label": "scripts",
+      "id": "frontend_package_scripts"
+    },
+    {
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "community": 4,
+      "norm_label": "dev",
+      "id": "frontend_package_scripts_dev"
+    },
+    {
+      "label": "build",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "community": 4,
+      "norm_label": "build",
+      "id": "frontend_package_scripts_build"
+    },
+    {
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "community": 4,
+      "norm_label": "lint",
+      "id": "frontend_package_scripts_lint"
+    },
+    {
+      "label": "preview",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "community": 4,
+      "norm_label": "preview",
+      "id": "frontend_package_scripts_preview"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "community": 4,
+      "norm_label": "dependencies",
+      "id": "frontend_package_dependencies"
+    },
+    {
+      "label": "react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "community": 4,
+      "norm_label": "react",
+      "id": "frontend_package_dependencies_react"
+    },
+    {
+      "label": "react-dom",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "community": 4,
+      "norm_label": "react-dom",
+      "id": "frontend_package_dependencies_react_dom"
+    },
+    {
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "community": 10,
+      "norm_label": "devdependencies",
+      "id": "frontend_package_devdependencies"
+    },
+    {
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "community": 10,
+      "norm_label": "@eslint/js",
+      "id": "frontend_package_devdependencies_eslint_js"
+    },
+    {
+      "label": "@types/react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L18",
+      "community": 10,
+      "norm_label": "@types/react",
+      "id": "frontend_package_devdependencies_types_react"
+    },
+    {
+      "label": "@vitejs/plugin-react",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "community": 10,
+      "norm_label": "@vitejs/plugin-react",
+      "id": "frontend_package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "community": 10,
+      "norm_label": "eslint",
+      "id": "frontend_package_devdependencies_eslint"
+    },
+    {
+      "label": "eslint-plugin-react-hooks",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "community": 10,
+      "norm_label": "eslint-plugin-react-hooks",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_hooks"
+    },
+    {
+      "label": "eslint-plugin-react-refresh",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "community": 10,
+      "norm_label": "eslint-plugin-react-refresh",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_refresh"
+    },
+    {
+      "label": "globals",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "community": 10,
+      "norm_label": "globals",
+      "id": "frontend_package_devdependencies_globals"
+    },
+    {
+      "label": "vite",
+      "file_type": "code",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "community": 10,
+      "norm_label": "vite",
+      "id": "frontend_package_devdependencies_vite"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "frontend/eslint.config.js",
+      "source_location": "L1",
+      "community": 20,
+      "norm_label": "eslint.config.js",
+      "id": "frontend_eslint_config_js"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "main.jsx",
+      "id": "frontend_src_main_jsx"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L1",
+      "community": 16,
+      "norm_label": "app.jsx",
+      "id": "frontend_src_app_jsx"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L5",
+      "community": 16,
+      "norm_label": "app()",
+      "id": "src_app_app"
+    },
+    {
+      "label": "config.dev.json",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "config.dev.json",
+      "id": "backend_config_config_dev_json"
+    },
+    {
+      "label": "env_name",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L2",
+      "community": 5,
+      "norm_label": "env_name",
+      "id": "config_config_dev_env_name"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L3",
+      "community": 5,
+      "norm_label": "port",
+      "id": "config_config_dev_port"
+    },
+    {
+      "label": "oauth_mode",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L4",
+      "community": 5,
+      "norm_label": "oauth_mode",
+      "id": "config_config_dev_oauth_mode"
+    },
+    {
+      "label": "google_client_id",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L5",
+      "community": 5,
+      "norm_label": "google_client_id",
+      "id": "config_config_dev_google_client_id"
+    },
+    {
+      "label": "google_client_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L6",
+      "community": 5,
+      "norm_label": "google_client_secret",
+      "id": "config_config_dev_google_client_secret"
+    },
+    {
+      "label": "oauth_redirect_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L7",
+      "community": 5,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_dev_oauth_redirect_url"
+    },
+    {
+      "label": "jwt_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L8",
+      "community": 5,
+      "norm_label": "jwt_secret",
+      "id": "config_config_dev_jwt_secret"
+    },
+    {
+      "label": "frontend_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L9",
+      "community": 5,
+      "norm_label": "frontend_url",
+      "id": "config_config_dev_frontend_url"
+    },
+    {
+      "label": "config.tst.json",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L1",
+      "community": 8,
+      "norm_label": "config.tst.json",
+      "id": "backend_config_config_tst_json"
+    },
+    {
+      "label": "env_name",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L2",
+      "community": 8,
+      "norm_label": "env_name",
+      "id": "config_config_tst_env_name"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L3",
+      "community": 8,
+      "norm_label": "port",
+      "id": "config_config_tst_port"
+    },
+    {
+      "label": "oauth_mode",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L4",
+      "community": 8,
+      "norm_label": "oauth_mode",
+      "id": "config_config_tst_oauth_mode"
+    },
+    {
+      "label": "google_client_id",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L5",
+      "community": 8,
+      "norm_label": "google_client_id",
+      "id": "config_config_tst_google_client_id"
+    },
+    {
+      "label": "google_client_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L6",
+      "community": 8,
+      "norm_label": "google_client_secret",
+      "id": "config_config_tst_google_client_secret"
+    },
+    {
+      "label": "oauth_redirect_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L7",
+      "community": 8,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_tst_oauth_redirect_url"
+    },
+    {
+      "label": "jwt_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L8",
+      "community": 8,
+      "norm_label": "jwt_secret",
+      "id": "config_config_tst_jwt_secret"
+    },
+    {
+      "label": "frontend_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L9",
+      "community": 8,
+      "norm_label": "frontend_url",
+      "id": "config_config_tst_frontend_url"
+    },
+    {
+      "label": "config.go",
+      "file_type": "code",
+      "source_file": "backend/config/config.go",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "config.go",
+      "id": "backend_config_config_go"
+    },
+    {
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "backend/config/config.go",
+      "source_location": "L10",
+      "community": 0,
+      "norm_label": "config",
+      "id": "config_config"
+    },
+    {
+      "label": "Load()",
+      "file_type": "code",
+      "source_file": "backend/config/config.go",
+      "source_location": "L23",
+      "community": 0,
+      "norm_label": "load()",
+      "id": "config_config_load"
+    },
+    {
+      "label": "config.prd.json",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L1",
+      "community": 7,
+      "norm_label": "config.prd.json",
+      "id": "backend_config_config_prd_json"
+    },
+    {
+      "label": "env_name",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L2",
+      "community": 7,
+      "norm_label": "env_name",
+      "id": "config_config_prd_env_name"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L3",
+      "community": 7,
+      "norm_label": "port",
+      "id": "config_config_prd_port"
+    },
+    {
+      "label": "oauth_mode",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L4",
+      "community": 7,
+      "norm_label": "oauth_mode",
+      "id": "config_config_prd_oauth_mode"
+    },
+    {
+      "label": "google_client_id",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L5",
+      "community": 7,
+      "norm_label": "google_client_id",
+      "id": "config_config_prd_google_client_id"
+    },
+    {
+      "label": "google_client_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L6",
+      "community": 7,
+      "norm_label": "google_client_secret",
+      "id": "config_config_prd_google_client_secret"
+    },
+    {
+      "label": "oauth_redirect_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L7",
+      "community": 7,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_prd_oauth_redirect_url"
+    },
+    {
+      "label": "jwt_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L8",
+      "community": 7,
+      "norm_label": "jwt_secret",
+      "id": "config_config_prd_jwt_secret"
+    },
+    {
+      "label": "frontend_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L9",
+      "community": 7,
+      "norm_label": "frontend_url",
+      "id": "config_config_prd_frontend_url"
+    },
+    {
+      "label": "config.local.json",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "config.local.json",
+      "id": "backend_config_config_local_json"
+    },
+    {
+      "label": "env_name",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L2",
+      "community": 6,
+      "norm_label": "env_name",
+      "id": "config_config_local_env_name"
+    },
+    {
+      "label": "port",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L3",
+      "community": 6,
+      "norm_label": "port",
+      "id": "config_config_local_port"
+    },
+    {
+      "label": "oauth_mode",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L4",
+      "community": 6,
+      "norm_label": "oauth_mode",
+      "id": "config_config_local_oauth_mode"
+    },
+    {
+      "label": "google_client_id",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L5",
+      "community": 6,
+      "norm_label": "google_client_id",
+      "id": "config_config_local_google_client_id"
+    },
+    {
+      "label": "google_client_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L6",
+      "community": 6,
+      "norm_label": "google_client_secret",
+      "id": "config_config_local_google_client_secret"
+    },
+    {
+      "label": "oauth_redirect_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L7",
+      "community": 6,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_local_oauth_redirect_url"
+    },
+    {
+      "label": "jwt_secret",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L8",
+      "community": 6,
+      "norm_label": "jwt_secret",
+      "id": "config_config_local_jwt_secret"
+    },
+    {
+      "label": "frontend_url",
+      "file_type": "code",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L9",
+      "community": 6,
+      "norm_label": "frontend_url",
+      "id": "config_config_local_frontend_url"
+    },
+    {
+      "label": "main.go",
+      "file_type": "code",
+      "source_file": "backend/cmd/server/main.go",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "main.go",
+      "id": "backend_cmd_server_main_go"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "backend/cmd/server/main.go",
+      "source_location": "L26",
+      "community": 0,
+      "norm_label": "main()",
+      "id": "server_main_main"
+    },
+    {
+      "label": "router.go",
+      "file_type": "code",
+      "source_file": "backend/internal/router/router.go",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "router.go",
+      "id": "backend_internal_router_router_go"
+    },
+    {
+      "label": "CORSMiddleware()",
+      "file_type": "code",
+      "source_file": "backend/internal/router/router.go",
+      "source_location": "L17",
+      "community": 0,
+      "norm_label": "corsmiddleware()",
+      "id": "router_router_corsmiddleware"
+    },
+    {
+      "label": "SetupRouter()",
+      "file_type": "code",
+      "source_file": "backend/internal/router/router.go",
+      "source_location": "L38",
+      "community": 0,
+      "norm_label": "setuprouter()",
+      "id": "router_router_setuprouter"
+    },
+    {
+      "label": "health.go",
+      "file_type": "code",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "health.go",
+      "id": "backend_internal_health_health_go"
+    },
+    {
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L14",
+      "community": 11,
+      "norm_label": "init()",
+      "id": "health_health_init"
+    },
+    {
+      "label": "MemoryStats",
+      "file_type": "code",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L18",
+      "community": 11,
+      "norm_label": "memorystats",
+      "id": "health_memorystats"
+    },
+    {
+      "label": "DependencyCheck",
+      "file_type": "code",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L25",
+      "community": 11,
+      "norm_label": "dependencycheck",
+      "id": "health_dependencycheck"
+    },
+    {
+      "label": "HealthResponse",
+      "file_type": "code",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L30",
+      "community": 11,
+      "norm_label": "healthresponse",
+      "id": "health_healthresponse"
+    },
+    {
+      "label": "HealthCheckHandler()",
+      "file_type": "code",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L47",
+      "community": 11,
+      "norm_label": "healthcheckhandler()",
+      "id": "health_health_healthcheckhandler"
+    },
+    {
+      "label": "auth.go",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L1",
+      "community": 0,
+      "norm_label": "auth.go",
+      "id": "backend_internal_auth_auth_go"
+    },
+    {
+      "label": "Claims",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L19",
+      "community": 0,
+      "norm_label": "claims",
+      "id": "auth_claims"
+    },
+    {
+      "label": "InitOauth()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L28",
+      "community": 0,
+      "norm_label": "initoauth()",
+      "id": "auth_auth_initoauth"
+    },
+    {
+      "label": "LoginHandler()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L51",
+      "community": 0,
+      "norm_label": "loginhandler()",
+      "id": "auth_auth_loginhandler"
+    },
+    {
+      "label": "MockConsentHandler()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L70",
+      "community": 0,
+      "norm_label": "mockconsenthandler()",
+      "id": "auth_auth_mockconsenthandler"
+    },
+    {
+      "label": "CallbackHandler()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L334",
+      "community": 0,
+      "norm_label": "callbackhandler()",
+      "id": "auth_auth_callbackhandler"
+    },
+    {
+      "label": "UserHandler()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L450",
+      "community": 0,
+      "norm_label": "userhandler()",
+      "id": "auth_auth_userhandler"
+    },
+    {
+      "label": "LogoutHandler()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L496",
+      "community": 0,
+      "norm_label": "logouthandler()",
+      "id": "auth_auth_logouthandler"
+    },
+    {
+      "label": "base64Decode()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L503",
+      "community": 0,
+      "norm_label": "base64decode()",
+      "id": "auth_auth_base64decode"
+    },
+    {
+      "label": "b64decode()",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L523",
+      "community": 0,
+      "norm_label": "b64decode()",
+      "id": "auth_auth_b64decode"
+    },
+    {
+      "label": "AppConfig",
+      "file_type": "code",
+      "source_file": "backend/config/config.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "appconfig",
+      "id": "backend_appconfig"
+    },
+    {
+      "label": "Configuration Loader",
+      "file_type": "code",
+      "source_file": "backend/config/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "configuration loader",
+      "id": "backend_config_loader"
+    },
+    {
+      "label": "Health Controller",
+      "file_type": "code",
+      "source_file": "backend/internal/health/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "health controller",
+      "id": "backend_health_controller"
+    },
+    {
+      "label": "Auth Controller",
+      "file_type": "code",
+      "source_file": "backend/internal/auth/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "auth controller",
+      "id": "backend_auth_controller"
+    },
+    {
+      "label": "Gin Router",
+      "file_type": "code",
+      "source_file": "backend/internal/router/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "gin router",
+      "id": "backend_router"
+    },
+    {
+      "label": "Swagger Documentation",
+      "file_type": "document",
+      "source_file": "backend/docs/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "swagger documentation",
+      "id": "backend_swagger"
+    },
+    {
+      "label": "Backend High & Low-Level Design Document",
+      "file_type": "document",
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "backend high & low-level design document",
+      "id": "backend_design_doc"
+    },
+    {
+      "label": "Frontend Entry Point",
+      "file_type": "code",
+      "source_file": "frontend/index.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 15,
+      "norm_label": "frontend entry point",
+      "id": "frontend_index"
+    },
+    {
+      "label": "Main React Entry",
+      "file_type": "code",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 15,
+      "norm_label": "main react entry",
+      "id": "frontend_main"
+    },
+    {
+      "label": "Frontend README",
+      "file_type": "document",
+      "source_file": "frontend/README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 15,
+      "norm_label": "frontend readme",
+      "id": "frontend_readme"
+    },
+    {
+      "label": "Frontend Dashboard Mockup",
+      "file_type": "image",
+      "source_file": "user-documents/frontend_dashboard_mockup.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 21,
+      "norm_label": "frontend dashboard mockup",
+      "id": "frontend_dashboard_mockup"
+    },
+    {
+      "label": "Google Identity Provider",
+      "file_type": "concept",
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "google identity provider",
+      "id": "google_idp"
+    },
+    {
+      "label": "Mock Consent Portal",
+      "file_type": "concept",
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 9,
+      "norm_label": "mock consent portal",
+      "id": "mock_consent_portal"
+    },
+    {
+      "label": "base_suite.go",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L1",
+      "id": "e2etest_base_suite_go",
+      "community": 2,
+      "norm_label": "base_suite.go"
+    },
+    {
+      "label": "BaseAPISuite",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L16",
+      "id": "e2etest_baseapisuite",
+      "community": 2,
+      "norm_label": "baseapisuite"
+    },
+    {
+      "label": ".SetupSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L22",
+      "id": "e2etest_baseapisuite_setupsuite",
+      "community": 2,
+      "norm_label": ".setupsuite()"
+    },
+    {
+      "label": ".SetupTest()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L26",
+      "id": "e2etest_baseapisuite_setuptest",
+      "community": 2,
+      "norm_label": ".setuptest()"
+    },
+    {
+      "label": ".TearDownTest()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L30",
+      "id": "e2etest_baseapisuite_teardowntest",
+      "community": 2,
+      "norm_label": ".teardowntest()"
+    },
+    {
+      "label": ".LogAndDoRequest()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L41",
+      "id": "e2etest_baseapisuite_loganddorequest",
+      "community": 2,
+      "norm_label": ".loganddorequest()"
+    },
+    {
+      "label": "BaseWebSuite",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L67",
+      "id": "e2etest_basewebsuite",
+      "community": 2,
+      "norm_label": "basewebsuite"
+    },
+    {
+      "label": ".TakeScreenshot()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L149",
+      "id": "e2etest_basewebsuite_takescreenshot",
+      "community": 2,
+      "norm_label": ".takescreenshot()"
+    },
+    {
+      "label": ".NavigateTo()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L176",
+      "id": "e2etest_basewebsuite_navigateto",
+      "community": 2,
+      "norm_label": ".navigateto()"
+    },
+    {
+      "label": ".ClickElement()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L187",
+      "id": "e2etest_basewebsuite_clickelement",
+      "community": 2,
+      "norm_label": ".clickelement()"
+    },
+    {
+      "label": ".WaitTillElementFound()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L202",
+      "id": "e2etest_basewebsuite_waittillelementfound",
+      "community": 2,
+      "norm_label": ".waittillelementfound()"
+    },
+    {
+      "label": "main_test.go",
+      "file_type": "code",
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L1",
+      "id": "e2etest_main_test_go",
+      "community": 2,
+      "norm_label": "main_test.go"
+    },
+    {
+      "label": "TestMain()",
+      "file_type": "code",
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L8",
+      "id": "e2etest_main_test_testmain",
+      "community": 2,
+      "norm_label": "testmain()"
+    },
+    {
+      "label": "api_suite_test.go",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L1",
+      "id": "e2etest_api_suite_test_go",
+      "community": 12,
+      "norm_label": "api_suite_test.go"
+    },
+    {
+      "label": "APITestSuite",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L12",
+      "id": "e2etest_apitestsuite",
+      "community": 12,
+      "norm_label": "apitestsuite"
+    },
+    {
+      "label": ".SetupSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L17",
+      "id": "e2etest_apitestsuite_setupsuite",
+      "community": 12,
+      "norm_label": ".setupsuite()"
+    },
+    {
+      "label": ".TestAPIHealthEndpoint()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L25",
+      "id": "e2etest_apitestsuite_testapihealthendpoint",
+      "community": 12,
+      "norm_label": ".testapihealthendpoint()"
+    },
+    {
+      "label": ".TestAPISwaggerEndpoint()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L61",
+      "id": "e2etest_apitestsuite_testapiswaggerendpoint",
+      "community": 12,
+      "norm_label": ".testapiswaggerendpoint()"
+    },
+    {
+      "label": "TestRunAPISuite()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L93",
+      "id": "e2etest_api_suite_test_testrunapisuite",
+      "community": 12,
+      "norm_label": "testrunapisuite()"
+    },
+    {
+      "label": "web_suite_test.go",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L1",
+      "id": "e2etest_web_suite_test_go",
+      "community": 13,
+      "norm_label": "web_suite_test.go"
+    },
+    {
+      "label": "WebTestSuite",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L13",
+      "id": "e2etest_webtestsuite",
+      "community": 13,
+      "norm_label": "webtestsuite"
+    },
+    {
+      "label": ".SetupSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L18",
+      "id": "e2etest_webtestsuite_setupsuite",
+      "community": 13,
+      "norm_label": ".setupsuite()"
+    },
+    {
+      "label": ".TestFrontendWorkflow()",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L26",
+      "id": "e2etest_webtestsuite_testfrontendworkflow",
+      "community": 13,
+      "norm_label": ".testfrontendworkflow()"
+    },
+    {
+      "label": "TestRunWebSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L95",
+      "id": "e2etest_web_suite_test_testrunwebsuite",
+      "community": 13,
+      "norm_label": "testrunwebsuite()"
+    },
+    {
+      "label": "reporter.go",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L1",
+      "id": "e2etest_reporter_go",
+      "community": 3,
+      "norm_label": "reporter.go"
+    },
+    {
+      "label": "APIRequestDump",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L14",
+      "id": "e2etest_apirequestdump",
+      "community": 3,
+      "norm_label": "apirequestdump"
+    },
+    {
+      "label": "APIResponseDump",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L21",
+      "id": "e2etest_apiresponsedump",
+      "community": 3,
+      "norm_label": "apiresponsedump"
+    },
+    {
+      "label": "Step",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L28",
+      "id": "e2etest_step",
+      "community": 3,
+      "norm_label": "step"
+    },
+    {
+      "label": "TestCase",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L38",
+      "id": "e2etest_testcase",
+      "community": 3,
+      "norm_label": "testcase"
+    },
+    {
+      "label": "TestSuite",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L48",
+      "id": "e2etest_testsuite",
+      "community": 3,
+      "norm_label": "testsuite"
+    },
+    {
+      "label": "Report",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L57",
+      "id": "e2etest_report",
+      "community": 3,
+      "norm_label": "report"
+    },
+    {
+      "label": "GetReport()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L74",
+      "id": "e2etest_reporter_getreport",
+      "community": 2,
+      "norm_label": "getreport()"
+    },
+    {
+      "label": ".AddSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L86",
+      "id": "e2etest_report_addsuite",
+      "community": 3,
+      "norm_label": ".addsuite()"
+    },
+    {
+      "label": ".AddTestCase()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L101",
+      "id": "e2etest_testsuite_addtestcase",
+      "community": 3,
+      "norm_label": ".addtestcase()"
+    },
+    {
+      "label": ".LogStep()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L116",
+      "id": "e2etest_testcase_logstep",
+      "community": 3,
+      "norm_label": ".logstep()"
+    },
+    {
+      "label": ".LogScreenshotStep()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L133",
+      "id": "e2etest_testcase_logscreenshotstep",
+      "community": 3,
+      "norm_label": ".logscreenshotstep()"
+    },
+    {
+      "label": ".LogAPIStep()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L151",
+      "id": "e2etest_testcase_logapistep",
+      "community": 3,
+      "norm_label": ".logapistep()"
+    },
+    {
+      "label": ".Finalize()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L190",
+      "id": "e2etest_report_finalize",
+      "community": 3,
+      "norm_label": ".finalize()"
+    },
+    {
+      "label": ".GenerateHTML()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L229",
+      "id": "e2etest_report_generatehtml",
+      "community": 3,
+      "norm_label": ".generatehtml()"
+    },
+    {
+      "label": "E2E Test Suite (Web & API)",
+      "file_type": "document",
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-31 19:45:17",
+      "author": null,
+      "contributor": null,
+      "id": "report_e2e_test_suite",
+      "community": 14,
+      "norm_label": "e2e test suite (web & api)"
+    },
+    {
+      "label": "API E2E Tests",
+      "file_type": "code",
+      "source_file": "e2etest/report.html",
+      "source_location": "suite-section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "report_api_e2e_tests",
+      "community": 14,
+      "norm_label": "api e2e tests"
+    },
+    {
+      "label": "TestRunAPISuite/TestAPIHealthEndpoint",
+      "file_type": "code",
+      "source_file": "e2etest/report.html",
+      "source_location": "TestRunAPISuite/TestAPIHealthEndpoint",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "report_test_api_health_endpoint",
+      "community": 14,
+      "norm_label": "testrunapisuite/testapihealthendpoint"
+    },
+    {
+      "label": "GET /health",
+      "file_type": "code",
+      "source_file": "e2etest/report.html",
+      "source_location": "http://localhost:8080/health",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "report_health_endpoint",
+      "community": 14,
+      "norm_label": "get /health"
+    },
+    {
+      "label": "Favicon",
+      "file_type": "image",
+      "source_file": "frontend/public/favicon.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "favicon_svg",
+      "community": 22,
+      "norm_label": "favicon"
+    },
+    {
+      "label": "Icon Library",
+      "file_type": "image",
+      "source_file": "frontend/public/icons.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "icons_svg",
+      "community": 23,
+      "norm_label": "icon library"
+    },
+    {
+      "label": "Hero Image",
+      "file_type": "image",
+      "source_file": "frontend/src/assets/hero.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "hero_png",
+      "community": 24,
+      "norm_label": "hero image"
+    },
+    {
+      "label": "Vite Logo",
+      "file_type": "image",
+      "source_file": "frontend/src/assets/vite.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "vite_svg",
+      "community": 17,
+      "norm_label": "vite logo"
+    },
+    {
+      "label": "React Logo",
+      "file_type": "image",
+      "source_file": "frontend/src/assets/react.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "react_svg",
+      "community": 17,
+      "norm_label": "react logo"
+    }
+  ],
+  "links": [
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L101",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_build"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_install"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L195",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_kill"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L121",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_run"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L224",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_status"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L169",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_stop"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L82",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_swagger"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L333",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_test"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L265",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_do_troubleshoot"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_log_error"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L34",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_log_warn"
+    },
+    {
+      "relation": "defines",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L42",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "fullstack_template_manage_print_help"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "manage_sh",
+      "target": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L408",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_build"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L405",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_install"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L417",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_kill"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L411",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_run"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L420",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_status"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L414",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_stop"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L429",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_swagger"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L426",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_test"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L423",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_do_troubleshoot"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L435",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_log_error"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L396",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "target": "fullstack_template_manage_print_help"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L102",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_build",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L62",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_install",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L217",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_kill",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L142",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_run",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L170",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_stop",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L84",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_swagger",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L337",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_test",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L266",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_troubleshoot",
+      "target": "fullstack_template_manage_log_info"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L118",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_build",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L79",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_install",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L221",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_kill",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L149",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_run",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L178",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_stop",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L98",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_swagger",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L375",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_test",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L330",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_troubleshoot",
+      "target": "fullstack_template_manage_log_success"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L196",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_kill",
+      "target": "fullstack_template_manage_log_warn"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L128",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_run",
+      "target": "fullstack_template_manage_log_warn"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L91",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_swagger",
+      "target": "fullstack_template_manage_log_warn"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L377",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_test",
+      "target": "fullstack_template_manage_log_error"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L105",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_build",
+      "target": "fullstack_template_manage_do_swagger"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L129",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_run",
+      "target": "fullstack_template_manage_do_kill"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L166",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_run",
+      "target": "fullstack_template_manage_do_status"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L355",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_test",
+      "target": "fullstack_template_manage_do_run"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "manage.sh",
+      "source_location": "L371",
+      "weight": 1.0,
+      "context": "call",
+      "confidence_score": 1.0,
+      "source": "fullstack_template_manage_do_test",
+      "target": "fullstack_template_manage_do_stop"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_dependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_devdependencies"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_private"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_scripts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_type"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_json",
+      "target": "frontend_package_version"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_build"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_dev"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_lint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_scripts",
+      "target": "frontend_package_scripts_preview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_dependencies",
+      "target": "frontend_package_dependencies_react_dom"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_js"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L24",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_globals"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_types_react"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/package.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_package_devdependencies",
+      "target": "frontend_package_devdependencies_vitejs_plugin_react"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/main.jsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_src_main_jsx",
+      "target": "frontend_src_app_jsx"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "frontend/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "frontend_src_app_jsx",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_env_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_frontend_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_google_client_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_google_client_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_jwt_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_oauth_mode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_oauth_redirect_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.dev.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_dev_json",
+      "target": "config_config_dev_port"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_env_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_frontend_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_google_client_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_google_client_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_jwt_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_oauth_mode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_oauth_redirect_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.tst.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_tst_json",
+      "target": "config_config_tst_port"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.go",
+      "source_location": "L10",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_go",
+      "target": "config_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.go",
+      "source_location": "L23",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_go",
+      "target": "config_config_load"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/cmd/server/main.go",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "server_main_main",
+      "target": "config_config_load"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_env_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_frontend_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_google_client_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_google_client_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_jwt_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_oauth_mode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_oauth_redirect_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.prd.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_prd_json",
+      "target": "config_config_prd_port"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_env_name"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_frontend_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_google_client_id"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_google_client_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_jwt_secret"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_oauth_mode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_oauth_redirect_url"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/config/config.local.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_config_config_local_json",
+      "target": "config_config_local_port"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/cmd/server/main.go",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_cmd_server_main_go",
+      "target": "server_main_main"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/cmd/server/main.go",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "server_main_main",
+      "target": "auth_auth_initoauth"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/cmd/server/main.go",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "server_main_main",
+      "target": "router_router_setuprouter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/router/router.go",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_router_router_go",
+      "target": "router_router_corsmiddleware"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/router/router.go",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_router_router_go",
+      "target": "router_router_setuprouter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/router/router.go",
+      "source_location": "L40",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "router_router_setuprouter",
+      "target": "router_router_corsmiddleware"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_health_health_go",
+      "target": "health_dependencycheck"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L47",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_health_health_go",
+      "target": "health_health_healthcheckhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_health_health_go",
+      "target": "health_health_init"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_health_health_go",
+      "target": "health_healthresponse"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/health/health.go",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_health_health_go",
+      "target": "health_memorystats"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L523",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_b64decode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L503",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_base64decode"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L334",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_callbackhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_initoauth"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L51",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_loginhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L496",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_logouthandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L70",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_mockconsenthandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L450",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_auth_userhandler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "backend_internal_auth_auth_go",
+      "target": "auth_claims"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L356",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "auth_auth_callbackhandler",
+      "target": "auth_auth_base64decode"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/internal/auth/auth.go",
+      "source_location": "L519",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "auth_auth_base64decode",
+      "target": "auth_auth_b64decode"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_config_loader",
+      "target": "backend_appconfig"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_router",
+      "target": "backend_config_loader"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_router",
+      "target": "backend_health_controller"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_auth_controller",
+      "target": "google_idp"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_auth_controller",
+      "target": "mock_consent_portal"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_router",
+      "target": "backend_auth_controller"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_design_doc",
+      "target": "backend_router"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "user-documents/backend.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "backend_router",
+      "target": "backend_swagger"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "frontend/index.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "frontend_index",
+      "target": "frontend_main"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "frontend/README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "frontend_readme",
+      "target": "frontend_index"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "e2etest_base_suite_go",
+      "target": "e2etest_baseapisuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "e2etest_base_suite_go",
+      "target": "e2etest_basewebsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_loganddorequest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_setupsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_setuptest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L30",
+      "weight": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_teardowntest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "e2etest_baseapisuite_setupsuite",
+      "target": "e2etest_reporter_getreport"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_baseapisuite_setupsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_baseapisuite_setuptest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "e2etest_baseapisuite_teardowntest",
+      "target": "e2etest_basewebsuite_takescreenshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_baseapisuite_teardowntest",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L187",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_clickelement",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_navigateto",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_takescreenshot",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_waittillelementfound",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "e2etest_main_test_go",
+      "target": "e2etest_main_test_testmain",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "e2etest_main_test_testmain",
+      "target": "e2etest_reporter_getreport"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L93",
+      "weight": 1.0,
+      "source": "e2etest_api_suite_test_go",
+      "target": "e2etest_api_suite_test_testrunapisuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "e2etest_api_suite_test_go",
+      "target": "e2etest_apitestsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "e2etest_apitestsuite",
+      "target": "e2etest_apitestsuite_setupsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "e2etest_apitestsuite",
+      "target": "e2etest_apitestsuite_testapihealthendpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "e2etest_apitestsuite",
+      "target": "e2etest_apitestsuite_testapiswaggerendpoint",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "e2etest_web_suite_test_go",
+      "target": "e2etest_web_suite_test_testrunwebsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "e2etest_web_suite_test_go",
+      "target": "e2etest_webtestsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "e2etest_webtestsuite",
+      "target": "e2etest_webtestsuite_setupsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "e2etest_webtestsuite",
+      "target": "e2etest_webtestsuite_testfrontendworkflow",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_apirequestdump",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_apiresponsedump",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L57",
+      "weight": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_report",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_reporter_getreport",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_step",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_testcase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_testsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L151",
+      "weight": 1.0,
+      "source": "e2etest_testcase",
+      "target": "e2etest_testcase_logapistep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L133",
+      "weight": 1.0,
+      "source": "e2etest_testcase",
+      "target": "e2etest_testcase_logscreenshotstep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L116",
+      "weight": 1.0,
+      "source": "e2etest_testcase",
+      "target": "e2etest_testcase_logstep",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L101",
+      "weight": 1.0,
+      "source": "e2etest_testsuite",
+      "target": "e2etest_testsuite_addtestcase",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "e2etest_report",
+      "target": "e2etest_report_addsuite",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L190",
+      "weight": 1.0,
+      "source": "e2etest_report",
+      "target": "e2etest_report_finalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L229",
+      "weight": 1.0,
+      "source": "e2etest_report",
+      "target": "e2etest_report_generatehtml",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L230",
+      "weight": 1.0,
+      "source": "e2etest_report_generatehtml",
+      "target": "e2etest_report_finalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_e2e_test_suite",
+      "target": "report_api_e2e_tests"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_api_e2e_tests",
+      "target": "report_test_api_health_endpoint"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_health_endpoint",
+      "target": "report_api_e2e_tests"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_test_api_health_endpoint",
+      "target": "report_health_endpoint"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend/src/assets/vite.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "vite_svg",
+      "target": "react_svg"
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "85ce003e400672521a95a10adc7fd82ff398cb8f"
+}
