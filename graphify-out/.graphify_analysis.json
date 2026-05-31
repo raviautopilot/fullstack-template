@@ -1,0 +1,299 @@
+{
+  "communities": {
+    "0": [
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_eslint",
+      "frontend_package_devdependencies_eslint_js",
+      "frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "frontend_package_devdependencies_globals",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_vite",
+      "frontend_package_devdependencies_vitejs_plugin_react",
+      "frontend_package_json",
+      "frontend_package_name",
+      "frontend_package_private",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_lint",
+      "frontend_package_scripts_preview",
+      "frontend_package_type",
+      "frontend_package_version"
+    ],
+    "1": [
+      "fullstack_template_manage_do_build",
+      "fullstack_template_manage_do_install",
+      "fullstack_template_manage_do_kill",
+      "fullstack_template_manage_do_run",
+      "fullstack_template_manage_do_status",
+      "fullstack_template_manage_do_stop",
+      "fullstack_template_manage_do_swagger",
+      "fullstack_template_manage_do_test",
+      "fullstack_template_manage_do_troubleshoot",
+      "fullstack_template_manage_log_error",
+      "fullstack_template_manage_log_info",
+      "fullstack_template_manage_log_success",
+      "fullstack_template_manage_log_warn",
+      "fullstack_template_manage_print_help",
+      "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "manage_sh"
+    ],
+    "2": [
+      "auth_auth_b64decode",
+      "auth_auth_base64decode",
+      "auth_auth_callbackhandler",
+      "auth_auth_loginhandler",
+      "auth_auth_logouthandler",
+      "auth_auth_mockconsenthandler",
+      "auth_auth_userhandler",
+      "auth_claims",
+      "backend_internal_auth_auth_go"
+    ],
+    "3": [
+      "auth_auth_initoauth",
+      "backend_cmd_server_main_go",
+      "backend_config_config_go",
+      "backend_internal_router_router_go",
+      "config_config",
+      "config_config_load",
+      "router_router_corsmiddleware",
+      "router_router_setuprouter",
+      "server_main_main"
+    ],
+    "4": [
+      "backend_config_config_dev_json",
+      "config_config_dev_env_name",
+      "config_config_dev_frontend_url",
+      "config_config_dev_google_client_id",
+      "config_config_dev_google_client_secret",
+      "config_config_dev_jwt_secret",
+      "config_config_dev_oauth_mode",
+      "config_config_dev_oauth_redirect_url",
+      "config_config_dev_port"
+    ],
+    "5": [
+      "backend_config_config_local_json",
+      "config_config_local_env_name",
+      "config_config_local_frontend_url",
+      "config_config_local_google_client_id",
+      "config_config_local_google_client_secret",
+      "config_config_local_jwt_secret",
+      "config_config_local_oauth_mode",
+      "config_config_local_oauth_redirect_url",
+      "config_config_local_port"
+    ],
+    "6": [
+      "backend_config_config_prd_json",
+      "config_config_prd_env_name",
+      "config_config_prd_frontend_url",
+      "config_config_prd_google_client_id",
+      "config_config_prd_google_client_secret",
+      "config_config_prd_jwt_secret",
+      "config_config_prd_oauth_mode",
+      "config_config_prd_oauth_redirect_url",
+      "config_config_prd_port"
+    ],
+    "7": [
+      "backend_appconfig",
+      "backend_auth_controller",
+      "backend_config_loader",
+      "backend_design_doc",
+      "backend_health_controller",
+      "backend_router",
+      "backend_swagger",
+      "google_idp",
+      "mock_consent_portal"
+    ],
+    "8": [
+      "backend_config_config_tst_json",
+      "config_config_tst_env_name",
+      "config_config_tst_frontend_url",
+      "config_config_tst_google_client_id",
+      "config_config_tst_google_client_secret",
+      "config_config_tst_jwt_secret",
+      "config_config_tst_oauth_mode",
+      "config_config_tst_oauth_redirect_url",
+      "config_config_tst_port"
+    ],
+    "9": [
+      "backend_internal_health_health_go",
+      "health_dependencycheck",
+      "health_health_healthcheckhandler",
+      "health_health_init",
+      "health_healthresponse",
+      "health_memorystats"
+    ],
+    "10": [
+      "e2etest_selenium_test_getfrontendurl",
+      "e2etest_selenium_test_go",
+      "e2etest_selenium_test_takescreenshot",
+      "e2etest_selenium_test_testfrontendseleniume2e",
+      "e2etest_selenium_test_waittillelementfound"
+    ],
+    "11": [
+      "e2etest_api_test_getbackendurl",
+      "e2etest_api_test_go",
+      "e2etest_api_test_testapihealthendpoint",
+      "e2etest_api_test_testapiswaggerendpoint"
+    ],
+    "12": [
+      "frontend_index",
+      "frontend_main",
+      "frontend_readme"
+    ],
+    "13": [
+      "frontend_src_app_jsx",
+      "frontend_src_main_jsx",
+      "src_app_app"
+    ],
+    "14": [
+      "update_graphify_sh"
+    ],
+    "15": [
+      "frontend_vite_config_js"
+    ],
+    "16": [
+      "frontend_eslint_config_js"
+    ],
+    "17": [
+      "frontend_dashboard_mockup"
+    ]
+  },
+  "cohesion": {
+    "0": 0.09090909090909091,
+    "1": 0.425,
+    "2": 0.2777777777777778,
+    "3": 0.25,
+    "4": 0.2222222222222222,
+    "5": 0.2222222222222222,
+    "6": 0.2222222222222222,
+    "7": 0.2222222222222222,
+    "8": 0.2222222222222222,
+    "9": 0.3333333333333333,
+    "10": 0.8,
+    "11": 0.8333333333333334,
+    "12": 0.6666666666666666,
+    "13": 0.6666666666666666,
+    "14": 1.0,
+    "15": 1.0,
+    "16": 1.0,
+    "17": 1.0
+  },
+  "gods": [
+    {
+      "id": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
+      "label": "manage.sh script",
+      "degree": 12
+    },
+    {
+      "id": "fullstack_template_manage_log_info",
+      "label": "log_info()",
+      "degree": 9
+    },
+    {
+      "id": "fullstack_template_manage_log_success",
+      "label": "log_success()",
+      "degree": 9
+    },
+    {
+      "id": "fullstack_template_manage_do_run",
+      "label": "do_run()",
+      "degree": 8
+    },
+    {
+      "id": "fullstack_template_manage_do_test",
+      "label": "do_test()",
+      "degree": 7
+    },
+    {
+      "id": "fullstack_template_manage_do_swagger",
+      "label": "do_swagger()",
+      "degree": 6
+    },
+    {
+      "id": "fullstack_template_manage_do_kill",
+      "label": "do_kill()",
+      "degree": 6
+    },
+    {
+      "id": "fullstack_template_manage_do_build",
+      "label": "do_build()",
+      "degree": 5
+    },
+    {
+      "id": "fullstack_template_manage_do_stop",
+      "label": "do_stop()",
+      "degree": 5
+    },
+    {
+      "id": "frontend_package_scripts",
+      "label": "scripts",
+      "degree": 5
+    }
+  ],
+  "surprises": [
+    {
+      "source": "Frontend Entry Point",
+      "target": "Main React Entry",
+      "source_files": [
+        "frontend/index.html",
+        "frontend/src/main.jsx"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "crosses file types (doc \u2194 code)"
+    },
+    {
+      "source": "main()",
+      "target": "Load()",
+      "source_files": [
+        "backend/cmd/server/main.go",
+        "backend/config/config.go"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "main()",
+      "target": "InitOauth()",
+      "source_files": [
+        "backend/cmd/server/main.go",
+        "backend/internal/auth/auth.go"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "main()",
+      "target": "SetupRouter()",
+      "source_files": [
+        "backend/cmd/server/main.go",
+        "backend/internal/router/router.go"
+      ],
+      "confidence": "INFERRED",
+      "relation": "calls",
+      "why": "inferred connection - not explicitly stated in source"
+    },
+    {
+      "source": "Frontend README",
+      "target": "Frontend Entry Point",
+      "source_files": [
+        "frontend/README.md",
+        "frontend/index.html"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source"
+    }
+  ],
+  "tokens": {
+    "input": 44303,
+    "output": 2176
+  }
+}
