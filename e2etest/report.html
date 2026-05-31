@@ -1,0 +1,1545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E2E Test Suite (Web &amp; API) - Test Report</title>
+    <style>
+        :root {
+            --bg-primary: #0f172a;
+            --bg-secondary: #1e293b;
+            --bg-tertiary: #334155;
+            --text-primary: #f8fafc;
+            --text-secondary: #94a3b8;
+            --accent-success: #10b981;
+            --accent-failure: #ef4444;
+            --accent-info: #3b82f6;
+            --accent-warning: #f59e0b;
+            --border-color: #475569;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', system-ui, -apple-system, sans-serif;
+            background-color: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.5;
+            padding: 2rem;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid var(--border-color);
+            margin-bottom: 2rem;
+        }
+
+        h1 {
+            font-size: 2.25rem;
+            font-weight: 800;
+            background: linear-gradient(to right, #60a5fa, #34d399);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            margin-top: 0.25rem;
+        }
+
+         
+        .dashboard-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .stat-card {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            text-align: center;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            transition: transform 0.2s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-2px);
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+
+        .stat-val {
+            font-size: 2rem;
+            font-weight: 800;
+        }
+
+        .stat-val.passed { color: var(--accent-success); }
+        .stat-val.failed { color: var(--accent-failure); }
+        .stat-val.duration { color: var(--accent-info); }
+
+         
+        .filter-container {
+            display: flex;
+            gap: 0.75rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .btn-filter {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            color: var(--text-primary);
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 600;
+            transition: all 0.2s;
+        }
+
+        .btn-filter:hover {
+            background-color: var(--bg-tertiary);
+        }
+
+        .btn-filter.active {
+            background-color: var(--accent-info);
+            border-color: var(--accent-info);
+        }
+
+         
+        .suite-section {
+            background-color: var(--bg-secondary);
+            border: 1px solid var(--border-color);
+            border-radius: 0.75rem;
+            margin-bottom: 2rem;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+        }
+
+        .suite-header {
+            padding: 1.25rem 1.5rem;
+            background-color: rgba(255, 255, 255, 0.02);
+            border-bottom: 1px solid var(--border-color);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .suite-title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        .badge {
+            font-size: 0.75rem;
+            padding: 0.25rem 0.5rem;
+            border-radius: 9999px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        .badge.passed {
+            background-color: rgba(16, 185, 129, 0.2);
+            color: var(--accent-success);
+            border: 1px solid var(--accent-success);
+        }
+
+        .badge.failed {
+            background-color: rgba(239, 68, 68, 0.2);
+            color: var(--accent-failure);
+            border: 1px solid var(--accent-failure);
+        }
+
+        .suite-meta {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+         
+        .test-case {
+            border-bottom: 1px solid var(--border-color);
+            transition: background-color 0.2s;
+        }
+
+        .test-case:last-child {
+            border-bottom: none;
+        }
+
+        .test-case-header {
+            padding: 1rem 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .test-case-header:hover {
+            background-color: rgba(255, 255, 255, 0.02);
+        }
+
+        .test-case-title {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-weight: 600;
+        }
+
+        .test-case-meta {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+        }
+
+        .chevron {
+            transition: transform 0.2s;
+        }
+
+        .expanded .chevron {
+            transform: rotate(90deg);
+        }
+
+         
+        .test-case-body {
+            display: none;
+            padding: 1.5rem;
+            background-color: rgba(0, 0, 0, 0.15);
+            border-top: 1px solid var(--border-color);
+        }
+
+        .expanded + .test-case-body {
+            display: block;
+        }
+
+         
+        .timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 5px;
+            top: 8px;
+            bottom: 8px;
+            width: 2px;
+            background-color: var(--border-color);
+        }
+
+        .step-item {
+            position: relative;
+        }
+
+        .step-dot {
+            position: absolute;
+            left: -22px;
+            top: 6px;
+            width: 12px;
+            height: 12px;
+            border-radius: 9999px;
+            background-color: var(--border-color);
+            border: 2px solid var(--bg-secondary);
+        }
+
+        .step-dot.passed { background-color: var(--accent-success); }
+        .step-dot.failed { background-color: var(--accent-failure); }
+        .step-dot.info { background-color: var(--accent-info); }
+
+        .step-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 0.25rem;
+        }
+
+        .step-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .step-time {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .step-message {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 0.5rem;
+        }
+
+         
+        .screenshot-container {
+            margin-top: 0.5rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.375rem;
+            max-width: 500px;
+            overflow: hidden;
+            background-color: #000;
+            cursor: zoom-in;
+        }
+
+        .screenshot-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            transition: transform 0.2s;
+        }
+
+        .screenshot-container img:hover {
+            transform: scale(1.02);
+        }
+
+         
+        .api-dump {
+            margin-top: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 0.5rem;
+            overflow: hidden;
+            font-size: 0.8125rem;
+        }
+
+        .api-header {
+            background-color: var(--bg-tertiary);
+            padding: 0.5rem 1rem;
+            font-weight: 700;
+            font-family: monospace;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+        }
+
+        .api-details {
+            background-color: #0c1017;
+            padding: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .api-section-title {
+            color: #60a5fa;
+            font-weight: bold;
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        pre {
+            font-family: 'JetBrains Mono', 'Fira Code', monospace;
+            color: #c9d1d9;
+            background-color: #161b22;
+            padding: 0.75rem;
+            border-radius: 0.25rem;
+            overflow-x: auto;
+            white-space: pre-wrap;
+            border: 1px solid #21262d;
+        }
+
+        .http-method {
+            padding: 0.125rem 0.375rem;
+            border-radius: 0.25rem;
+            color: #fff;
+            font-weight: 800;
+            font-size: 0.75rem;
+        }
+        .http-method.GET { background-color: #059669; }
+        .http-method.POST { background-color: #2563eb; }
+        .http-method.PUT { background-color: #d97706; }
+        .http-method.DELETE { background-color: #dc2626; }
+
+         
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background-color: rgba(0,0,0,0.9);
+            justify-content: center;
+            align-items: center;
+            cursor: zoom-out;
+        }
+
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border: 2px solid var(--border-color);
+            box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5);
+            border-radius: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <h1>E2E Test Suite (Web &amp; API)</h1>
+                <div class="subtitle">Generated on 2026-05-31 19:45:17 | E2E Suite Run</div>
+            </div>
+            <div style="text-align: right">
+                <div class="badge passed" style="font-size: 0.875rem">Success Rate: 100.0%</div>
+            </div>
+        </header>
+
+        
+        <section class="dashboard-grid">
+            <div class="stat-card">
+                <div class="stat-label">Total Tests</div>
+                <div class="stat-val">3</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Passed</div>
+                <div class="stat-val passed">3</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Failed</div>
+                <div class="stat-val failed">0</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Duration</div>
+                <div class="stat-val duration">9.51 s</div>
+            </div>
+        </section>
+
+        
+        <div class="filter-container">
+            <button class="btn-filter active" onclick="filterTests('all')">All Tests</button>
+            <button class="btn-filter" onclick="filterTests('PASSED')">Passed (3)</button>
+            <button class="btn-filter" onclick="filterTests('FAILED')">Failed (0)</button>
+        </div>
+
+        
+        
+        <section class="suite-section" data-suite-status="PASSED">
+            <div class="suite-header">
+                <div class="suite-title">
+                    <span class="badge passed">PASSED</span>
+                    <span>API E2E Tests</span>
+                </div>
+                <div class="suite-meta">
+                    <span>2 Tests</span> &bull; <span>Duration: 9.51 s</span>
+                </div>
+            </div>
+
+            
+            <div>
+                
+                <div class="test-case" data-status="PASSED">
+                    <div class="test-case-header" onclick="toggleTestCase(this)">
+                        <div class="test-case-title">
+                            <span class="chevron">▶</span>
+                            <span class="badge passed">PASSED</span>
+                            <span>TestRunAPISuite/TestAPIHealthEndpoint</span>
+                        </div>
+                        <div class="test-case-meta">
+                            <span>Duration: 6 ms</span>
+                        </div>
+                    </div>
+                    <div class="test-case-body">
+                        
+
+                        <div class="timeline">
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Prep Request</div>
+                                    <div class="step-time">19:45:17.026</div>
+                                </div>
+                                <div class="step-message">Preparing API request for health check endpoint</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">API Call Completed</div>
+                                    <div class="step-time">19:45:17.032</div>
+                                </div>
+                                <div class="step-message">API Call: GET /health -&gt; Status: 200 OK</div>
+
+                                
+
+                                
+                                <div class="api-dump">
+                                    <div class="api-header" onclick="toggleAPIInspector(this, event)">
+                                        <span>
+                                            <span class="http-method GET">GET</span>
+                                            <span style="margin-left: 0.5rem">http://localhost:8080/health</span>
+                                        </span>
+                                        <span>Show Details ▼</span>
+                                    </div>
+                                    <div class="api-details" style="display: none;">
+                                        
+                                        <div>
+                                            <div class="api-section-title">Request Headers</div>
+                                            <pre>{}</pre>
+                                        </div>
+                                        
+                                        
+
+                                        
+                                        <div>
+                                            <div class="api-section-title">Response Status: 200 OK</div>
+                                            <div class="api-section-title" style="margin-top: 0.5rem">Response Headers</div>
+                                            <pre>{
+  &#34;Access-Control-Allow-Credentials&#34;: [
+    &#34;true&#34;
+  ],
+  &#34;Access-Control-Allow-Headers&#34;: [
+    &#34;Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With&#34;
+  ],
+  &#34;Access-Control-Allow-Methods&#34;: [
+    &#34;POST, OPTIONS, GET, PUT, DELETE, PATCH&#34;
+  ],
+  &#34;Access-Control-Allow-Origin&#34;: [
+    &#34;http://localhost:5173&#34;
+  ],
+  &#34;Content-Length&#34;: [
+    &#34;250&#34;
+  ],
+  &#34;Content-Type&#34;: [
+    &#34;application/json; charset=utf-8&#34;
+  ],
+  &#34;Date&#34;: [
+    &#34;Sun, 31 May 2026 14:15:17 GMT&#34;
+  ]
+}</pre>
+                                        </div>
+                                        
+                                        <div>
+                                            <div class="api-section-title">Response Body</div>
+                                            <pre>{&#34;status&#34;:&#34;UP&#34;,&#34;environment&#34;:&#34;local&#34;,&#34;uptime_seconds&#34;:8.160541059,&#34;timestamp&#34;:&#34;2026-05-31T19:45:17&#43;05:30&#34;,&#34;memory&#34;:{&#34;alloc_mb&#34;:9,&#34;total_alloc_mb&#34;:11,&#34;sys_mb&#34;:20,&#34;num_gc&#34;:3},&#34;dependencies&#34;:{&#34;google_oauth&#34;:{&#34;status&#34;:&#34;UP&#34;,&#34;details&#34;:&#34;OAuth mode: mock&#34;}}}</pre>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Decode Response</div>
+                                    <div class="step-time">19:45:17.032</div>
+                                </div>
+                                <div class="step-message">Decoding health check response body</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Assert Schema</div>
+                                    <div class="step-time">19:45:17.032</div>
+                                </div>
+                                <div class="step-message">Validating health response schemas and keys</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Assertions Completed</div>
+                                    <div class="step-time">19:45:17.032</div>
+                                </div>
+                                <div class="step-message">All health check fields validated successfully</div>
+
+                                
+
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="test-case" data-status="PASSED">
+                    <div class="test-case-header" onclick="toggleTestCase(this)">
+                        <div class="test-case-title">
+                            <span class="chevron">▶</span>
+                            <span class="badge passed">PASSED</span>
+                            <span>TestRunAPISuite/TestAPISwaggerEndpoint</span>
+                        </div>
+                        <div class="test-case-meta">
+                            <span>Duration: 1 ms</span>
+                        </div>
+                    </div>
+                    <div class="test-case-body">
+                        
+
+                        <div class="timeline">
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Prep HTML Request</div>
+                                    <div class="step-time">19:45:17.032</div>
+                                </div>
+                                <div class="step-message">Querying Swagger UI HTML page</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">API Call Completed</div>
+                                    <div class="step-time">19:45:17.033</div>
+                                </div>
+                                <div class="step-message">API Call: GET /swagger/index.html -&gt; Status: 200 OK</div>
+
+                                
+
+                                
+                                <div class="api-dump">
+                                    <div class="api-header" onclick="toggleAPIInspector(this, event)">
+                                        <span>
+                                            <span class="http-method GET">GET</span>
+                                            <span style="margin-left: 0.5rem">http://localhost:8080/swagger/index.html</span>
+                                        </span>
+                                        <span>Show Details ▼</span>
+                                    </div>
+                                    <div class="api-details" style="display: none;">
+                                        
+                                        <div>
+                                            <div class="api-section-title">Request Headers</div>
+                                            <pre>{}</pre>
+                                        </div>
+                                        
+                                        
+
+                                        
+                                        <div>
+                                            <div class="api-section-title">Response Status: 200 OK</div>
+                                            <div class="api-section-title" style="margin-top: 0.5rem">Response Headers</div>
+                                            <pre>{
+  &#34;Access-Control-Allow-Credentials&#34;: [
+    &#34;true&#34;
+  ],
+  &#34;Access-Control-Allow-Headers&#34;: [
+    &#34;Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With&#34;
+  ],
+  &#34;Access-Control-Allow-Methods&#34;: [
+    &#34;POST, OPTIONS, GET, PUT, DELETE, PATCH&#34;
+  ],
+  &#34;Access-Control-Allow-Origin&#34;: [
+    &#34;http://localhost:5173&#34;
+  ],
+  &#34;Content-Type&#34;: [
+    &#34;text/html; charset=utf-8&#34;
+  ],
+  &#34;Date&#34;: [
+    &#34;Sun, 31 May 2026 14:15:17 GMT&#34;
+  ]
+}</pre>
+                                        </div>
+                                        
+                                        <div>
+                                            <div class="api-section-title">Response Body</div>
+                                            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang=&#34;en&#34;&gt;
+&lt;head&gt;
+  &lt;meta charset=&#34;UTF-8&#34;&gt;
+  &lt;title&gt;Swagger UI&lt;/title&gt;
+  &lt;link rel=&#34;stylesheet&#34; type=&#34;text/css&#34; href=&#34;./swagger-ui.css&#34; &gt;
+  &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; href=&#34;./favicon-32x32.png&#34; sizes=&#34;32x32&#34; /&gt;
+  &lt;link rel=&#34;icon&#34; type=&#34;image/png&#34; href=&#34;./favicon-16x16.png&#34; sizes=&#34;16x16&#34; /&gt;
+  &lt;style&gt;
+    html
+    {
+        box-sizing: border-box;
+        overflow: -moz-scrollbars-vertical;
+        overflow-y: scroll;
+    }
+    *,
+    *:before,
+    *:after
+    {
+        box-sizing: inherit;
+    }
+
+    body {
+      margin:0;
+      background: #fafafa;
+    }
+  &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; xmlns:xlink=&#34;http://www.w3.org/1999/xlink&#34; style=&#34;position:absolute;width:0;height:0&#34;&gt;
+  &lt;defs&gt;
+    &lt;symbol viewBox=&#34;0 0 20 20&#34; id=&#34;unlocked&#34;&gt;
+          &lt;path d=&#34;M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V6h2v-.801C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8z&#34;&gt;&lt;/path&gt;
+    &lt;/symbol&gt;
+
+    &lt;symbol viewBox=&#34;0 0 20 20&#34; id=&#34;locked&#34;&gt;
+      &lt;path d=&#34;M15.8 8H14V5.6C14 2.703 12.665 1 10 1 7.334 1 6 2.703 6 5.6V8H4c-.553 0-1 .646-1 1.199V17c0 .549.428 1.139.951 1.307l1.197.387C5.672 18.861 6.55 19 7.1 19h5.8c.549 0 1.428-.139 1.951-.307l1.196-.387c.524-.167.953-.757.953-1.306V9.199C17 8.646 16.352 8 15.8 8zM12 8H8V5.199C8 3.754 8.797 3 10 3c1.203 0 2 .754 2 2.199V8z&#34;/&gt;
+    &lt;/symbol&gt;
+
+    &lt;symbol viewBox=&#34;0 0 20 20&#34; id=&#34;close&#34;&gt;
+      &lt;path d=&#34;M14.348 14.849c-.469.469-1.229.469-1.697 0L10 11.819l-2.651 3.029c-.469.469-1.229.469-1.697 0-.469-.469-.469-1.229 0-1.697l2.758-3.15-2.759-3.152c-.469-.469-.469-1.228 0-1.697.469-.469 1.228-.469 1.697 0L10 8.183l2.651-3.031c.469-.469 1.228-.469 1.697 0 .469.469.469 1.229 0 1.697l-2.758 3.152 2.758 3.15c.469.469.469 1.229 0 1.698z&#34;/&gt;
+    &lt;/symbol&gt;
+
+    &lt;symbol viewBox=&#34;0 0 20 20&#34; id=&#34;large-arrow&#34;&gt;
+      &lt;path d=&#34;M13.25 10L6.109 2.58c-.268-.27-.268-.707 0-.979.268-.27.701-.27.969 0l7.83 7.908c.268.271.268.709 0 .979l-7.83 7.908c-.268.271-.701.27-.969 0-.268-.269-.268-.707 0-.979L13.25 10z&#34;/&gt;
+    &lt;/symbol&gt;
+
+    &lt;symbol viewBox=&#34;0 0 20 20&#34; id=&#34;large-arrow-down&#34;&gt;
+      &lt;path d=&#34;M17.418 6.109c.272-.268.709-.268.979 0s.271.701 0 .969l-7.908 7.83c-.27.268-.707.268-.979 0l-7.908-7.83c-.27-.268-.27-.701 0-.969.271-.268.709-.268.979 0L10 13.25l7.418-7.141z&#34;/&gt;
+    &lt;/symbol&gt;
+
+
+    &lt;symbol viewBox=&#34;0 0 24 24&#34; id=&#34;jump-to&#34;&gt;
+      &lt;path d=&#34;M19 7v4H5.83l3.58-3.59L8 6l-6 6 6 6 1.41-1.41L5.83 13H21V7z&#34;/&gt;
+    &lt;/symbol&gt;
+
+    &lt;symbol viewBox=&#34;0 0 24 24&#34; id=&#34;expand&#34;&gt;
+      &lt;path d=&#34;M10 18h4v-2h-4v2zM3 6v2h18V6H3zm3 7h12v-2H6v2z&#34;/&gt;
+    &lt;/symbol&gt;
+
+  &lt;/defs&gt;
+&lt;/svg&gt;
+
+&lt;div id=&#34;swagger-ui&#34;&gt;&lt;/div&gt;
+
+&lt;script src=&#34;./swagger-ui-bundle.js&#34;&gt; &lt;/script&gt;
+&lt;script src=&#34;./swagger-ui-standalone-preset.js&#34;&gt; &lt;/script&gt;
+&lt;script&gt;
+window.onload = function() {
+  
+  const ui = SwaggerUIBundle({
+    url: &#34;doc.json&#34;,
+    dom_id: &#39;#swagger-ui&#39;,
+    validatorUrl: null,
+    oauth2RedirectUrl: `${window.location.protocol}//${window.location.host}${window.location.pathname.split(&#39;/&#39;).slice(0, window.location.pathname.split(&#39;/&#39;).length - 1).join(&#39;/&#39;)}/oauth2-redirect.html`,
+    persistAuthorization:  false ,
+    presets: [
+      SwaggerUIBundle.presets.apis,
+      SwaggerUIStandalonePreset
+    ],
+    plugins: [
+      SwaggerUIBundle.plugins.DownloadUrl
+    ],
+	layout: &#34;StandaloneLayout&#34;,
+    docExpansion: &#34;list&#34;,
+	deepLinking:  true ,
+	defaultModelsExpandDepth:  1 
+  })
+
+  const defaultClientId = &#34;&#34;;
+  if (defaultClientId) {
+    ui.initOAuth({
+      clientId: defaultClientId
+    })
+  }
+
+  window.ui = ui
+}
+&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+</pre>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Prep JSON Request</div>
+                                    <div class="step-time">19:45:17.033</div>
+                                </div>
+                                <div class="step-message">Querying Swagger JSON API document spec</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">API Call Completed</div>
+                                    <div class="step-time">19:45:17.033</div>
+                                </div>
+                                <div class="step-message">API Call: GET /swagger/doc.json -&gt; Status: 200 OK</div>
+
+                                
+
+                                
+                                <div class="api-dump">
+                                    <div class="api-header" onclick="toggleAPIInspector(this, event)">
+                                        <span>
+                                            <span class="http-method GET">GET</span>
+                                            <span style="margin-left: 0.5rem">http://localhost:8080/swagger/doc.json</span>
+                                        </span>
+                                        <span>Show Details ▼</span>
+                                    </div>
+                                    <div class="api-details" style="display: none;">
+                                        
+                                        <div>
+                                            <div class="api-section-title">Request Headers</div>
+                                            <pre>{}</pre>
+                                        </div>
+                                        
+                                        
+
+                                        
+                                        <div>
+                                            <div class="api-section-title">Response Status: 200 OK</div>
+                                            <div class="api-section-title" style="margin-top: 0.5rem">Response Headers</div>
+                                            <pre>{
+  &#34;Access-Control-Allow-Credentials&#34;: [
+    &#34;true&#34;
+  ],
+  &#34;Access-Control-Allow-Headers&#34;: [
+    &#34;Content-Type, Content-Length, Accept-Encoding, X-CSRF-Token, Authorization, accept, origin, Cache-Control, X-Requested-With&#34;
+  ],
+  &#34;Access-Control-Allow-Methods&#34;: [
+    &#34;POST, OPTIONS, GET, PUT, DELETE, PATCH&#34;
+  ],
+  &#34;Access-Control-Allow-Origin&#34;: [
+    &#34;http://localhost:5173&#34;
+  ],
+  &#34;Content-Type&#34;: [
+    &#34;application/json; charset=utf-8&#34;
+  ],
+  &#34;Date&#34;: [
+    &#34;Sun, 31 May 2026 14:15:17 GMT&#34;
+  ]
+}</pre>
+                                        </div>
+                                        
+                                        <div>
+                                            <div class="api-section-title">Response Body</div>
+                                            <pre>{
+    &#34;schemes&#34;: [&#34;http&#34;],
+    &#34;swagger&#34;: &#34;2.0&#34;,
+    &#34;info&#34;: {
+        &#34;description&#34;: &#34;Antigravity Gin Web API running in local mode.&#34;,
+        &#34;title&#34;: &#34;Antigravity Monorepo API - [local]&#34;,
+        &#34;termsOfService&#34;: &#34;http://swagger.io/terms/&#34;,
+        &#34;contact&#34;: {
+            &#34;name&#34;: &#34;API Support&#34;,
+            &#34;url&#34;: &#34;http://www.swagger.io/support&#34;,
+            &#34;email&#34;: &#34;support@swagger.io&#34;
+        },
+        &#34;license&#34;: {
+            &#34;name&#34;: &#34;Apache 2.0&#34;,
+            &#34;url&#34;: &#34;http://www.apache.org/licenses/LICENSE-2.0.html&#34;
+        },
+        &#34;version&#34;: &#34;1.0.0&#34;
+    },
+    &#34;host&#34;: &#34;localhost:8080&#34;,
+    &#34;basePath&#34;: &#34;/&#34;,
+    &#34;paths&#34;: {
+        &#34;/api/user&#34;: {
+            &#34;get&#34;: {
+                &#34;description&#34;: &#34;Validates the JWT token in authorization headers or cookie and returns user profile details&#34;,
+                &#34;produces&#34;: [
+                    &#34;application/json&#34;
+                ],
+                &#34;tags&#34;: [
+                    &#34;Auth&#34;
+                ],
+                &#34;summary&#34;: &#34;Get Logged In User Profile&#34;,
+                &#34;parameters&#34;: [
+                    {
+                        &#34;type&#34;: &#34;string&#34;,
+                        &#34;description&#34;: &#34;Bearer Token&#34;,
+                        &#34;name&#34;: &#34;Authorization&#34;,
+                        &#34;in&#34;: &#34;header&#34;
+                    }
+                ],
+                &#34;responses&#34;: {
+                    &#34;200&#34;: {
+                        &#34;description&#34;: &#34;OK&#34;,
+                        &#34;schema&#34;: {
+                            &#34;type&#34;: &#34;object&#34;,
+                            &#34;additionalProperties&#34;: {
+                                &#34;type&#34;: &#34;string&#34;
+                            }
+                        }
+                    },
+                    &#34;401&#34;: {
+                        &#34;description&#34;: &#34;Unauthorized&#34;,
+                        &#34;schema&#34;: {
+                            &#34;type&#34;: &#34;object&#34;,
+                            &#34;additionalProperties&#34;: {
+                                &#34;type&#34;: &#34;string&#34;
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        &#34;/auth/callback&#34;: {
+            &#34;get&#34;: {
+                &#34;description&#34;: &#34;Exchanges authorization code for access token and logs in user, setting a JWT token. Redirects to frontend.&#34;,
+                &#34;produces&#34;: [
+                    &#34;application/json&#34;
+                ],
+                &#34;tags&#34;: [
+                    &#34;Auth&#34;
+                ],
+                &#34;summary&#34;: &#34;Google OAuth Callback Endpoint&#34;,
+                &#34;parameters&#34;: [
+                    {
+                        &#34;type&#34;: &#34;string&#34;,
+                        &#34;description&#34;: &#34;Authorization Code&#34;,
+                        &#34;name&#34;: &#34;code&#34;,
+                        &#34;in&#34;: &#34;query&#34;,
+                        &#34;required&#34;: true
+                    },
+                    {
+                        &#34;type&#34;: &#34;string&#34;,
+                        &#34;description&#34;: &#34;OAuth State&#34;,
+                        &#34;name&#34;: &#34;state&#34;,
+                        &#34;in&#34;: &#34;query&#34;,
+                        &#34;required&#34;: true
+                    }
+                ],
+                &#34;responses&#34;: {
+                    &#34;302&#34;: {
+                        &#34;description&#34;: &#34;Redirect back to react app with token&#34;,
+                        &#34;schema&#34;: {
+                            &#34;type&#34;: &#34;string&#34;
+                        }
+                    }
+                }
+            }
+        },
+        &#34;/auth/login&#34;: {
+            &#34;get&#34;: {
+                &#34;description&#34;: &#34;Redirects the user to Google OAuth Consent screen, or a Mock OAuth consent screen when OAUTH_MODE=mock&#34;,
+                &#34;produces&#34;: [
+                    &#34;text/html&#34;
+                ],
+                &#34;tags&#34;: [
+                    &#34;Auth&#34;
+                ],
+                &#34;summary&#34;: &#34;Initiate Google OAuth Login&#34;,
+                &#34;responses&#34;: {
+                    &#34;302&#34;: {
+                        &#34;description&#34;: &#34;Redirect to Google or Mock portal&#34;,
+                        &#34;schema&#34;: {
+                            &#34;type&#34;: &#34;string&#34;
+                        }
+                    }
+                }
+            }
+        },
+        &#34;/auth/logout&#34;: {
+            &#34;get&#34;: {
+                &#34;description&#34;: &#34;Clears session cookies and logs the user out&#34;,
+                &#34;produces&#34;: [
+                    &#34;application/json&#34;
+                ],
+                &#34;tags&#34;: [
+                    &#34;Auth&#34;
+                ],
+                &#34;summary&#34;: &#34;Logout User&#34;,
+                &#34;responses&#34;: {
+                    &#34;200&#34;: {
+                        &#34;description&#34;: &#34;OK&#34;,
+                        &#34;schema&#34;: {
+                            &#34;type&#34;: &#34;object&#34;,
+                            &#34;additionalProperties&#34;: {
+                                &#34;type&#34;: &#34;string&#34;
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        &#34;/health&#34;: {
+            &#34;get&#34;: {
+                &#34;description&#34;: &#34;Returns the health status, uptime, system metrics and dependency checks of the API&#34;,
+                &#34;consumes&#34;: [
+                    &#34;application/json&#34;
+                ],
+                &#34;produces&#34;: [
+                    &#34;application/json&#34;
+                ],
+                &#34;tags&#34;: [
+                    &#34;Health&#34;
+                ],
+                &#34;summary&#34;: &#34;Get health status&#34;,
+                &#34;responses&#34;: {
+                    &#34;200&#34;: {
+                        &#34;description&#34;: &#34;OK&#34;,
+                        &#34;schema&#34;: {
+                            &#34;$ref&#34;: &#34;#/definitions/health.HealthResponse&#34;
+                        }
+                    }
+                }
+            }
+        }
+    },
+    &#34;definitions&#34;: {
+        &#34;health.DependencyCheck&#34;: {
+            &#34;type&#34;: &#34;object&#34;,
+            &#34;properties&#34;: {
+                &#34;details&#34;: {
+                    &#34;type&#34;: &#34;string&#34;
+                },
+                &#34;status&#34;: {
+                    &#34;type&#34;: &#34;string&#34;
+                }
+            }
+        },
+        &#34;health.HealthResponse&#34;: {
+            &#34;type&#34;: &#34;object&#34;,
+            &#34;properties&#34;: {
+                &#34;dependencies&#34;: {
+                    &#34;type&#34;: &#34;object&#34;,
+                    &#34;additionalProperties&#34;: {
+                        &#34;$ref&#34;: &#34;#/definitions/health.DependencyCheck&#34;
+                    }
+                },
+                &#34;environment&#34;: {
+                    &#34;type&#34;: &#34;string&#34;
+                },
+                &#34;memory&#34;: {
+                    &#34;$ref&#34;: &#34;#/definitions/health.MemoryStats&#34;
+                },
+                &#34;status&#34;: {
+                    &#34;type&#34;: &#34;string&#34;
+                },
+                &#34;timestamp&#34;: {
+                    &#34;type&#34;: &#34;string&#34;
+                },
+                &#34;uptime_seconds&#34;: {
+                    &#34;type&#34;: &#34;number&#34;
+                }
+            }
+        },
+        &#34;health.MemoryStats&#34;: {
+            &#34;type&#34;: &#34;object&#34;,
+            &#34;properties&#34;: {
+                &#34;alloc_mb&#34;: {
+                    &#34;type&#34;: &#34;integer&#34;
+                },
+                &#34;num_gc&#34;: {
+                    &#34;type&#34;: &#34;integer&#34;
+                },
+                &#34;sys_mb&#34;: {
+                    &#34;type&#34;: &#34;integer&#34;
+                },
+                &#34;total_alloc_mb&#34;: {
+                    &#34;type&#34;: &#34;integer&#34;
+                }
+            }
+        }
+    }
+}</pre>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Decode Swagger Spec</div>
+                                    <div class="step-time">19:45:17.033</div>
+                                </div>
+                                <div class="step-message">Decoding Swagger specification document</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Assert Swagger Spec</div>
+                                    <div class="step-time">19:45:17.033</div>
+                                </div>
+                                <div class="step-message">Validating schema attributes</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Assertions Completed</div>
+                                    <div class="step-time">19:45:17.033</div>
+                                </div>
+                                <div class="step-message">Swagger UI and spec documents successfully verified</div>
+
+                                
+
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="suite-section" data-suite-status="PASSED">
+            <div class="suite-header">
+                <div class="suite-title">
+                    <span class="badge passed">PASSED</span>
+                    <span>Web UI E2E Tests</span>
+                </div>
+                <div class="suite-meta">
+                    <span>1 Tests</span> &bull; <span>Duration: 9.50 s</span>
+                </div>
+            </div>
+
+            
+            <div>
+                
+                <div class="test-case" data-status="PASSED">
+                    <div class="test-case-header" onclick="toggleTestCase(this)">
+                        <div class="test-case-title">
+                            <span class="chevron">▶</span>
+                            <span class="badge passed">PASSED</span>
+                            <span>TestRunWebSuite/TestFrontendWorkflow</span>
+                        </div>
+                        <div class="test-case-meta">
+                            <span>Duration: 8.35 s</span>
+                        </div>
+                    </div>
+                    <div class="test-case-body">
+                        
+
+                        <div class="timeline">
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Resize Window</div>
+                                    <div class="step-time">19:45:19.394</div>
+                                </div>
+                                <div class="step-message">Warning: failed to resize browser window: no such window: no such window
+  (Session info: chrome=147.0.7727.137)</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Navigation</div>
+                                    <div class="step-time">19:45:19.394</div>
+                                </div>
+                                <div class="step-message">Navigating to URL: http://localhost:5173</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Capture Evidence</div>
+                                    <div class="step-time">19:45:22.617</div>
+                                </div>
+                                <div class="step-message">Screenshot saved: report_evidences/01_landing_page_194522_000.png</div>
+
+                                
+                                <div class="screenshot-container" onclick="openModal('report_evidences\/01_landing_page_194522_000.png')">
+                                    <img src="report_evidences/01_landing_page_194522_000.png" alt="Screenshot evidence">
+                                </div>
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Verify Landing Page State</div>
+                                    <div class="step-time">19:45:22.617</div>
+                                </div>
+                                <div class="step-message">Validating presence of login card and elements</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Check Health Status Badge</div>
+                                    <div class="step-time">19:45:22.890</div>
+                                </div>
+                                <div class="step-message">Health status badge reports: ONLINE</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Click Element</div>
+                                    <div class="step-time">19:45:22.890</div>
+                                </div>
+                                <div class="step-message">Clicking [data-testid=&#39;google-login-btn&#39;] (Google Login Button)</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Wait For Element</div>
+                                    <div class="step-time">19:45:23.845</div>
+                                </div>
+                                <div class="step-message">Waiting for element visible: [data-testid=&#39;mock-login-user-btn&#39;]</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Element Located</div>
+                                    <div class="step-time">19:45:24.032</div>
+                                </div>
+                                <div class="step-message">Located visible element: [data-testid=&#39;mock-login-user-btn&#39;]</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Capture Evidence</div>
+                                    <div class="step-time">19:45:24.197</div>
+                                </div>
+                                <div class="step-message">Screenshot saved: report_evidences/02_mock_consent_portal_194524_000.png</div>
+
+                                
+                                <div class="screenshot-container" onclick="openModal('report_evidences\/02_mock_consent_portal_194524_000.png')">
+                                    <img src="report_evidences/02_mock_consent_portal_194524_000.png" alt="Screenshot evidence">
+                                </div>
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Click Element</div>
+                                    <div class="step-time">19:45:24.197</div>
+                                </div>
+                                <div class="step-message">Clicking [data-testid=&#39;mock-login-user-btn&#39;] (Test Developer profile selection button)</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Wait For Element</div>
+                                    <div class="step-time">19:45:24.822</div>
+                                </div>
+                                <div class="step-message">Waiting for element visible: [data-testid=&#39;dashboard-header&#39;]</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Element Located</div>
+                                    <div class="step-time">19:45:25.111</div>
+                                </div>
+                                <div class="step-message">Located visible element: [data-testid=&#39;dashboard-header&#39;]</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Capture Evidence</div>
+                                    <div class="step-time">19:45:25.238</div>
+                                </div>
+                                <div class="step-message">Screenshot saved: report_evidences/03_dashboard_page_194525_000.png</div>
+
+                                
+                                <div class="screenshot-container" onclick="openModal('report_evidences\/03_dashboard_page_194525_000.png')">
+                                    <img src="report_evidences/03_dashboard_page_194525_000.png" alt="Screenshot evidence">
+                                </div>
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Verify Dashboard Components</div>
+                                    <div class="step-time">19:45:25.238</div>
+                                </div>
+                                <div class="step-message">Validating presence of cards on dashboard</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Check Dashboard Health Badge</div>
+                                    <div class="step-time">19:45:25.540</div>
+                                </div>
+                                <div class="step-message">Dashboard reports backend status: ONLINE</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Click Element</div>
+                                    <div class="step-time">19:45:25.540</div>
+                                </div>
+                                <div class="step-message">Clicking [data-testid=&#39;logout-btn&#39;] (Logout Button)</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Wait For Element</div>
+                                    <div class="step-time">19:45:26.015</div>
+                                </div>
+                                <div class="step-message">Waiting for element visible: [data-testid=&#39;login-card&#39;]</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Element Located</div>
+                                    <div class="step-time">19:45:26.176</div>
+                                </div>
+                                <div class="step-message">Located visible element: [data-testid=&#39;login-card&#39;]</div>
+
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot info"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Capture Evidence</div>
+                                    <div class="step-time">19:45:26.391</div>
+                                </div>
+                                <div class="step-message">Screenshot saved: report_evidences/04_returned_to_landing_194526_000.png</div>
+
+                                
+                                <div class="screenshot-container" onclick="openModal('report_evidences\/04_returned_to_landing_194526_000.png')">
+                                    <img src="report_evidences/04_returned_to_landing_194526_000.png" alt="Screenshot evidence">
+                                </div>
+                                
+
+                                
+                            </div>
+                            
+                            <div class="step-item">
+                                <div class="step-dot passed"></div>
+                                <div class="step-header">
+                                    <div class="step-name">Workflow Complete</div>
+                                    <div class="step-time">19:45:26.391</div>
+                                </div>
+                                <div class="step-message">Successfully traversed login, mock authorization, dashboard verification, and logout workflow</div>
+
+                                
+
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+    </div>
+
+    
+    <div id="imageModal" class="modal" onclick="closeModal()">
+        <img id="modalImg" src="" alt="Fullscreen Screenshot">
+    </div>
+
+    <script>
+        function toggleTestCase(header) {
+            header.classList.toggle('expanded');
+            const chevron = header.querySelector('.chevron');
+            if (header.classList.contains('expanded')) {
+                chevron.textContent = '▼';
+            } else {
+                chevron.textContent = '▶';
+            }
+        }
+
+        function toggleAPIInspector(header, event) {
+            event.stopPropagation();
+            const details = header.nextElementSibling;
+            const textSpan = header.querySelector('span:last-child');
+            if (details.style.display === 'none') {
+                details.style.display = 'flex';
+                textSpan.textContent = 'Hide Details ▲';
+            } else {
+                details.style.display = 'none';
+                textSpan.textContent = 'Show Details ▼';
+            }
+        }
+
+        function filterTests(status) {
+            
+            const buttons = document.querySelectorAll('.btn-filter');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            event.target.classList.add('active');
+
+            
+            const testCases = document.querySelectorAll('.test-case');
+            testCases.forEach(tc => {
+                if (status === 'all') {
+                    tc.style.display = '';
+                } else if (tc.getAttribute('data-status') === status) {
+                    tc.style.display = '';
+                } else {
+                    tc.style.display = 'none';
+                }
+            });
+
+            
+            const suites = document.querySelectorAll('.suite-section');
+            suites.forEach(suite => {
+                const visibleTests = suite.querySelectorAll('.test-case[style=""]');
+                const allTests = suite.querySelectorAll('.test-case');
+                
+                let hasVisible = false;
+                if (status === 'all') {
+                    hasVisible = true;
+                } else {
+                    allTests.forEach(tc => {
+                        if (tc.getAttribute('data-status') === status) {
+                            hasVisible = true;
+                        }
+                    });
+                }
+                
+                if (hasVisible) {
+                    suite.style.display = '';
+                } else {
+                    suite.style.display = 'none';
+                }
+            });
+        }
+
+        function openModal(src) {
+            document.getElementById('modalImg').src = src;
+            document.getElementById('imageModal').style.display = 'flex';
+        }
+
+        function closeModal() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

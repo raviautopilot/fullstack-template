@@ -11,10 +11,7 @@
 rbot.exe
 rbot.bin
 .build_hash
-<<<<<<< HEAD
 
-=======
->>>>>>> 98fcb72 (docs added togit ignore)
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -55,6 +52,7 @@ coverage.*
 /coverage/
 *.lcov
 .nyc_output
+/screenshots/
 
 # Logs
 *.log
@@ -104,13 +102,6 @@ tmp/.bash_profile
 .yarn-integrity
 .node_repl_history
 
-# Coverage and test outputs
-*.out
-coverage.*
-/coverage/
-*.lcov
-.nyc_output
-
 # Aider files
 .aider*
 
@@ -121,4 +112,3 @@ certs/
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
-

@@ -12,9 +12,9 @@
         "language": "bash",
         "kind": "file"
       },
-      "id": "update_graphify_sh",
-      "community": 14,
-      "norm_label": "update-graphify.sh"
+      "community": 23,
+      "norm_label": "update-graphify.sh",
+      "id": "update_graphify_sh"
     },
     {
       "label": "manage.sh",
@@ -25,9 +25,9 @@
         "language": "bash",
         "kind": "file"
       },
-      "id": "manage_sh",
-      "community": 1,
-      "norm_label": "manage.sh"
+      "community": 4,
+      "norm_label": "manage.sh",
+      "id": "manage_sh"
     },
     {
       "label": "manage.sh script",
@@ -38,9 +38,9 @@
         "language": "bash",
         "kind": "bash_entrypoint"
       },
-      "id": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "community": 1,
-      "norm_label": "manage.sh script"
+      "community": 4,
+      "norm_label": "manage.sh script",
+      "id": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry"
     },
     {
       "label": "log_info()",
@@ -51,9 +51,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_log_info",
-      "community": 1,
-      "norm_label": "log_info()"
+      "community": 4,
+      "norm_label": "log_info()",
+      "id": "fullstack_template_manage_log_info"
     },
     {
       "label": "log_success()",
@@ -64,9 +64,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_log_success",
-      "community": 1,
-      "norm_label": "log_success()"
+      "community": 4,
+      "norm_label": "log_success()",
+      "id": "fullstack_template_manage_log_success"
     },
     {
       "label": "log_warn()",
@@ -77,9 +77,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_log_warn",
-      "community": 1,
-      "norm_label": "log_warn()"
+      "community": 4,
+      "norm_label": "log_warn()",
+      "id": "fullstack_template_manage_log_warn"
     },
     {
       "label": "log_error()",
@@ -90,9 +90,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_log_error",
-      "community": 1,
-      "norm_label": "log_error()"
+      "community": 4,
+      "norm_label": "log_error()",
+      "id": "fullstack_template_manage_log_error"
     },
     {
       "label": "print_help()",
@@ -103,9 +103,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_print_help",
-      "community": 1,
-      "norm_label": "print_help()"
+      "community": 4,
+      "norm_label": "print_help()",
+      "id": "fullstack_template_manage_print_help"
     },
     {
       "label": "do_install()",
@@ -116,9 +116,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_install",
-      "community": 1,
-      "norm_label": "do_install()"
+      "community": 4,
+      "norm_label": "do_install()",
+      "id": "fullstack_template_manage_do_install"
     },
     {
       "label": "do_swagger()",
@@ -129,9 +129,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_swagger",
-      "community": 1,
-      "norm_label": "do_swagger()"
+      "community": 4,
+      "norm_label": "do_swagger()",
+      "id": "fullstack_template_manage_do_swagger"
     },
     {
       "label": "do_build()",
@@ -142,9 +142,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_build",
-      "community": 1,
-      "norm_label": "do_build()"
+      "community": 4,
+      "norm_label": "do_build()",
+      "id": "fullstack_template_manage_do_build"
     },
     {
       "label": "do_run()",
@@ -155,9 +155,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_run",
-      "community": 1,
-      "norm_label": "do_run()"
+      "community": 4,
+      "norm_label": "do_run()",
+      "id": "fullstack_template_manage_do_run"
     },
     {
       "label": "do_stop()",
@@ -168,9 +168,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_stop",
-      "community": 1,
-      "norm_label": "do_stop()"
+      "community": 4,
+      "norm_label": "do_stop()",
+      "id": "fullstack_template_manage_do_stop"
     },
     {
       "label": "do_kill()",
@@ -181,9 +181,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_kill",
-      "community": 1,
-      "norm_label": "do_kill()"
+      "community": 4,
+      "norm_label": "do_kill()",
+      "id": "fullstack_template_manage_do_kill"
     },
     {
       "label": "do_status()",
@@ -194,9 +194,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_status",
-      "community": 1,
-      "norm_label": "do_status()"
+      "community": 4,
+      "norm_label": "do_status()",
+      "id": "fullstack_template_manage_do_status"
     },
     {
       "label": "do_troubleshoot()",
@@ -207,9 +207,9 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_troubleshoot",
-      "community": 1,
-      "norm_label": "do_troubleshoot()"
+      "community": 4,
+      "norm_label": "do_troubleshoot()",
+      "id": "fullstack_template_manage_do_troubleshoot"
     },
     {
       "label": "do_test()",
@@ -220,873 +220,792 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "id": "fullstack_template_manage_do_test",
-      "community": 1,
-      "norm_label": "do_test()"
+      "community": 4,
+      "norm_label": "do_test()",
+      "id": "fullstack_template_manage_do_test"
     },
     {
       "label": "vite.config.js",
       "file_type": "code",
       "source_file": "frontend/vite.config.js",
       "source_location": "L1",
-      "id": "frontend_vite_config_js",
-      "community": 15,
-      "norm_label": "vite.config.js"
+      "community": 24,
+      "norm_label": "vite.config.js",
+      "id": "frontend_vite_config_js"
     },
     {
       "label": "package.json",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L1",
-      "id": "frontend_package_json",
       "community": 0,
-      "norm_label": "package.json"
+      "norm_label": "package.json",
+      "id": "frontend_package_json"
     },
     {
       "label": "name",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L2",
-      "id": "frontend_package_name",
       "community": 0,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "frontend_package_name"
     },
     {
       "label": "private",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L3",
-      "id": "frontend_package_private",
       "community": 0,
-      "norm_label": "private"
+      "norm_label": "private",
+      "id": "frontend_package_private"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L4",
-      "id": "frontend_package_version",
       "community": 0,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "frontend_package_version"
     },
     {
       "label": "type",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L5",
-      "id": "frontend_package_type",
       "community": 0,
-      "norm_label": "type"
+      "norm_label": "type",
+      "id": "frontend_package_type"
     },
     {
       "label": "scripts",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L6",
-      "id": "frontend_package_scripts",
       "community": 0,
-      "norm_label": "scripts"
+      "norm_label": "scripts",
+      "id": "frontend_package_scripts"
     },
     {
       "label": "dev",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L7",
-      "id": "frontend_package_scripts_dev",
       "community": 0,
-      "norm_label": "dev"
+      "norm_label": "dev",
+      "id": "frontend_package_scripts_dev"
     },
     {
       "label": "build",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L8",
-      "id": "frontend_package_scripts_build",
       "community": 0,
-      "norm_label": "build"
+      "norm_label": "build",
+      "id": "frontend_package_scripts_build"
     },
     {
       "label": "lint",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L9",
-      "id": "frontend_package_scripts_lint",
       "community": 0,
-      "norm_label": "lint"
+      "norm_label": "lint",
+      "id": "frontend_package_scripts_lint"
     },
     {
       "label": "preview",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L10",
-      "id": "frontend_package_scripts_preview",
       "community": 0,
-      "norm_label": "preview"
+      "norm_label": "preview",
+      "id": "frontend_package_scripts_preview"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L12",
-      "id": "frontend_package_dependencies",
       "community": 0,
-      "norm_label": "dependencies"
+      "norm_label": "dependencies",
+      "id": "frontend_package_dependencies"
     },
     {
       "label": "react",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L13",
-      "id": "frontend_package_dependencies_react",
       "community": 0,
-      "norm_label": "react"
+      "norm_label": "react",
+      "id": "frontend_package_dependencies_react"
     },
     {
       "label": "react-dom",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L14",
-      "id": "frontend_package_dependencies_react_dom",
       "community": 0,
-      "norm_label": "react-dom"
+      "norm_label": "react-dom",
+      "id": "frontend_package_dependencies_react_dom"
     },
     {
       "label": "devDependencies",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L16",
-      "id": "frontend_package_devdependencies",
       "community": 0,
-      "norm_label": "devdependencies"
+      "norm_label": "devdependencies",
+      "id": "frontend_package_devdependencies"
     },
     {
       "label": "@eslint/js",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L17",
-      "id": "frontend_package_devdependencies_eslint_js",
       "community": 0,
-      "norm_label": "@eslint/js"
+      "norm_label": "@eslint/js",
+      "id": "frontend_package_devdependencies_eslint_js"
     },
     {
       "label": "@types/react",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L18",
-      "id": "frontend_package_devdependencies_types_react",
       "community": 0,
-      "norm_label": "@types/react"
+      "norm_label": "@types/react",
+      "id": "frontend_package_devdependencies_types_react"
     },
     {
       "label": "@vitejs/plugin-react",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L20",
-      "id": "frontend_package_devdependencies_vitejs_plugin_react",
       "community": 0,
-      "norm_label": "@vitejs/plugin-react"
+      "norm_label": "@vitejs/plugin-react",
+      "id": "frontend_package_devdependencies_vitejs_plugin_react"
     },
     {
       "label": "eslint",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L21",
-      "id": "frontend_package_devdependencies_eslint",
       "community": 0,
-      "norm_label": "eslint"
+      "norm_label": "eslint",
+      "id": "frontend_package_devdependencies_eslint"
     },
     {
       "label": "eslint-plugin-react-hooks",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L22",
-      "id": "frontend_package_devdependencies_eslint_plugin_react_hooks",
       "community": 0,
-      "norm_label": "eslint-plugin-react-hooks"
+      "norm_label": "eslint-plugin-react-hooks",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_hooks"
     },
     {
       "label": "eslint-plugin-react-refresh",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L23",
-      "id": "frontend_package_devdependencies_eslint_plugin_react_refresh",
       "community": 0,
-      "norm_label": "eslint-plugin-react-refresh"
+      "norm_label": "eslint-plugin-react-refresh",
+      "id": "frontend_package_devdependencies_eslint_plugin_react_refresh"
     },
     {
       "label": "globals",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L24",
-      "id": "frontend_package_devdependencies_globals",
       "community": 0,
-      "norm_label": "globals"
+      "norm_label": "globals",
+      "id": "frontend_package_devdependencies_globals"
     },
     {
       "label": "vite",
       "file_type": "code",
       "source_file": "frontend/package.json",
       "source_location": "L25",
-      "id": "frontend_package_devdependencies_vite",
       "community": 0,
-      "norm_label": "vite"
+      "norm_label": "vite",
+      "id": "frontend_package_devdependencies_vite"
     },
     {
       "label": "eslint.config.js",
       "file_type": "code",
       "source_file": "frontend/eslint.config.js",
       "source_location": "L1",
-      "id": "frontend_eslint_config_js",
-      "community": 16,
-      "norm_label": "eslint.config.js"
+      "community": 25,
+      "norm_label": "eslint.config.js",
+      "id": "frontend_eslint_config_js"
     },
     {
       "label": "main.jsx",
       "file_type": "code",
       "source_file": "frontend/src/main.jsx",
       "source_location": "L1",
-      "id": "frontend_src_main_jsx",
-      "community": 13,
-      "norm_label": "main.jsx"
+      "community": 19,
+      "norm_label": "main.jsx",
+      "id": "frontend_src_main_jsx"
     },
     {
       "label": "App.jsx",
       "file_type": "code",
       "source_file": "frontend/src/App.jsx",
       "source_location": "L1",
-      "id": "frontend_src_app_jsx",
-      "community": 13,
-      "norm_label": "app.jsx"
+      "community": 19,
+      "norm_label": "app.jsx",
+      "id": "frontend_src_app_jsx"
     },
     {
       "label": "App()",
       "file_type": "code",
       "source_file": "frontend/src/App.jsx",
       "source_location": "L5",
-      "id": "src_app_app",
-      "community": 13,
-      "norm_label": "app()"
-    },
-    {
-      "label": "api_test.go",
-      "file_type": "code",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L1",
-      "id": "e2etest_api_test_go",
-      "community": 11,
-      "norm_label": "api_test.go"
-    },
-    {
-      "label": "getBackendURL()",
-      "file_type": "code",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L11",
-      "id": "e2etest_api_test_getbackendurl",
-      "community": 11,
-      "norm_label": "getbackendurl()"
-    },
-    {
-      "label": "TestAPIHealthEndpoint()",
-      "file_type": "code",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L19",
-      "id": "e2etest_api_test_testapihealthendpoint",
-      "community": 11,
-      "norm_label": "testapihealthendpoint()"
-    },
-    {
-      "label": "TestAPISwaggerEndpoint()",
-      "file_type": "code",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L77",
-      "id": "e2etest_api_test_testapiswaggerendpoint",
-      "community": 11,
-      "norm_label": "testapiswaggerendpoint()"
-    },
-    {
-      "label": "selenium_test.go",
-      "file_type": "code",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L1",
-      "id": "e2etest_selenium_test_go",
-      "community": 10,
-      "norm_label": "selenium_test.go"
-    },
-    {
-      "label": "getFrontendURL()",
-      "file_type": "code",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L12",
-      "id": "e2etest_selenium_test_getfrontendurl",
-      "community": 10,
-      "norm_label": "getfrontendurl()"
-    },
-    {
-      "label": "takeScreenshot()",
-      "file_type": "code",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L21",
-      "id": "e2etest_selenium_test_takescreenshot",
-      "community": 10,
-      "norm_label": "takescreenshot()"
-    },
-    {
-      "label": "TestFrontendSeleniumE2E()",
-      "file_type": "code",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L43",
-      "id": "e2etest_selenium_test_testfrontendseleniume2e",
-      "community": 10,
-      "norm_label": "testfrontendseleniume2e()"
-    },
-    {
-      "label": "waitTillElementFound()",
-      "file_type": "code",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L224",
-      "id": "e2etest_selenium_test_waittillelementfound",
-      "community": 10,
-      "norm_label": "waittillelementfound()"
+      "community": 19,
+      "norm_label": "app()",
+      "id": "src_app_app"
     },
     {
       "label": "config.dev.json",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L1",
-      "id": "backend_config_config_dev_json",
-      "community": 4,
-      "norm_label": "config.dev.json"
+      "community": 8,
+      "norm_label": "config.dev.json",
+      "id": "backend_config_config_dev_json"
     },
     {
       "label": "env_name",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L2",
-      "id": "config_config_dev_env_name",
-      "community": 4,
-      "norm_label": "env_name"
+      "community": 8,
+      "norm_label": "env_name",
+      "id": "config_config_dev_env_name"
     },
     {
       "label": "port",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L3",
-      "id": "config_config_dev_port",
-      "community": 4,
-      "norm_label": "port"
+      "community": 8,
+      "norm_label": "port",
+      "id": "config_config_dev_port"
     },
     {
       "label": "oauth_mode",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L4",
-      "id": "config_config_dev_oauth_mode",
-      "community": 4,
-      "norm_label": "oauth_mode"
+      "community": 8,
+      "norm_label": "oauth_mode",
+      "id": "config_config_dev_oauth_mode"
     },
     {
       "label": "google_client_id",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L5",
-      "id": "config_config_dev_google_client_id",
-      "community": 4,
-      "norm_label": "google_client_id"
+      "community": 8,
+      "norm_label": "google_client_id",
+      "id": "config_config_dev_google_client_id"
     },
     {
       "label": "google_client_secret",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L6",
-      "id": "config_config_dev_google_client_secret",
-      "community": 4,
-      "norm_label": "google_client_secret"
+      "community": 8,
+      "norm_label": "google_client_secret",
+      "id": "config_config_dev_google_client_secret"
     },
     {
       "label": "oauth_redirect_url",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L7",
-      "id": "config_config_dev_oauth_redirect_url",
-      "community": 4,
-      "norm_label": "oauth_redirect_url"
+      "community": 8,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_dev_oauth_redirect_url"
     },
     {
       "label": "jwt_secret",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L8",
-      "id": "config_config_dev_jwt_secret",
-      "community": 4,
-      "norm_label": "jwt_secret"
+      "community": 8,
+      "norm_label": "jwt_secret",
+      "id": "config_config_dev_jwt_secret"
     },
     {
       "label": "frontend_url",
       "file_type": "code",
       "source_file": "backend/config/config.dev.json",
       "source_location": "L9",
-      "id": "config_config_dev_frontend_url",
-      "community": 4,
-      "norm_label": "frontend_url"
+      "community": 8,
+      "norm_label": "frontend_url",
+      "id": "config_config_dev_frontend_url"
     },
     {
       "label": "config.tst.json",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L1",
-      "id": "backend_config_config_tst_json",
-      "community": 8,
-      "norm_label": "config.tst.json"
+      "community": 11,
+      "norm_label": "config.tst.json",
+      "id": "backend_config_config_tst_json"
     },
     {
       "label": "env_name",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L2",
-      "id": "config_config_tst_env_name",
-      "community": 8,
-      "norm_label": "env_name"
+      "community": 11,
+      "norm_label": "env_name",
+      "id": "config_config_tst_env_name"
     },
     {
       "label": "port",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L3",
-      "id": "config_config_tst_port",
-      "community": 8,
-      "norm_label": "port"
+      "community": 11,
+      "norm_label": "port",
+      "id": "config_config_tst_port"
     },
     {
       "label": "oauth_mode",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L4",
-      "id": "config_config_tst_oauth_mode",
-      "community": 8,
-      "norm_label": "oauth_mode"
+      "community": 11,
+      "norm_label": "oauth_mode",
+      "id": "config_config_tst_oauth_mode"
     },
     {
       "label": "google_client_id",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L5",
-      "id": "config_config_tst_google_client_id",
-      "community": 8,
-      "norm_label": "google_client_id"
+      "community": 11,
+      "norm_label": "google_client_id",
+      "id": "config_config_tst_google_client_id"
     },
     {
       "label": "google_client_secret",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L6",
-      "id": "config_config_tst_google_client_secret",
-      "community": 8,
-      "norm_label": "google_client_secret"
+      "community": 11,
+      "norm_label": "google_client_secret",
+      "id": "config_config_tst_google_client_secret"
     },
     {
       "label": "oauth_redirect_url",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L7",
-      "id": "config_config_tst_oauth_redirect_url",
-      "community": 8,
-      "norm_label": "oauth_redirect_url"
+      "community": 11,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_tst_oauth_redirect_url"
     },
     {
       "label": "jwt_secret",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L8",
-      "id": "config_config_tst_jwt_secret",
-      "community": 8,
-      "norm_label": "jwt_secret"
+      "community": 11,
+      "norm_label": "jwt_secret",
+      "id": "config_config_tst_jwt_secret"
     },
     {
       "label": "frontend_url",
       "file_type": "code",
       "source_file": "backend/config/config.tst.json",
       "source_location": "L9",
-      "id": "config_config_tst_frontend_url",
-      "community": 8,
-      "norm_label": "frontend_url"
+      "community": 11,
+      "norm_label": "frontend_url",
+      "id": "config_config_tst_frontend_url"
     },
     {
       "label": "config.go",
       "file_type": "code",
       "source_file": "backend/config/config.go",
       "source_location": "L1",
-      "id": "backend_config_config_go",
-      "community": 3,
-      "norm_label": "config.go"
+      "community": 2,
+      "norm_label": "config.go",
+      "id": "backend_config_config_go"
     },
     {
       "label": "Config",
       "file_type": "code",
       "source_file": "backend/config/config.go",
       "source_location": "L10",
-      "id": "config_config",
-      "community": 3,
-      "norm_label": "config"
+      "community": 2,
+      "norm_label": "config",
+      "id": "config_config"
     },
     {
       "label": "Load()",
       "file_type": "code",
       "source_file": "backend/config/config.go",
       "source_location": "L23",
-      "id": "config_config_load",
-      "community": 3,
-      "norm_label": "load()"
+      "community": 2,
+      "norm_label": "load()",
+      "id": "config_config_load"
     },
     {
       "label": "config.prd.json",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L1",
-      "id": "backend_config_config_prd_json",
-      "community": 6,
-      "norm_label": "config.prd.json"
+      "community": 10,
+      "norm_label": "config.prd.json",
+      "id": "backend_config_config_prd_json"
     },
     {
       "label": "env_name",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L2",
-      "id": "config_config_prd_env_name",
-      "community": 6,
-      "norm_label": "env_name"
+      "community": 10,
+      "norm_label": "env_name",
+      "id": "config_config_prd_env_name"
     },
     {
       "label": "port",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L3",
-      "id": "config_config_prd_port",
-      "community": 6,
-      "norm_label": "port"
+      "community": 10,
+      "norm_label": "port",
+      "id": "config_config_prd_port"
     },
     {
       "label": "oauth_mode",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L4",
-      "id": "config_config_prd_oauth_mode",
-      "community": 6,
-      "norm_label": "oauth_mode"
+      "community": 10,
+      "norm_label": "oauth_mode",
+      "id": "config_config_prd_oauth_mode"
     },
     {
       "label": "google_client_id",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L5",
-      "id": "config_config_prd_google_client_id",
-      "community": 6,
-      "norm_label": "google_client_id"
+      "community": 10,
+      "norm_label": "google_client_id",
+      "id": "config_config_prd_google_client_id"
     },
     {
       "label": "google_client_secret",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L6",
-      "id": "config_config_prd_google_client_secret",
-      "community": 6,
-      "norm_label": "google_client_secret"
+      "community": 10,
+      "norm_label": "google_client_secret",
+      "id": "config_config_prd_google_client_secret"
     },
     {
       "label": "oauth_redirect_url",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L7",
-      "id": "config_config_prd_oauth_redirect_url",
-      "community": 6,
-      "norm_label": "oauth_redirect_url"
+      "community": 10,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_prd_oauth_redirect_url"
     },
     {
       "label": "jwt_secret",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L8",
-      "id": "config_config_prd_jwt_secret",
-      "community": 6,
-      "norm_label": "jwt_secret"
+      "community": 10,
+      "norm_label": "jwt_secret",
+      "id": "config_config_prd_jwt_secret"
     },
     {
       "label": "frontend_url",
       "file_type": "code",
       "source_file": "backend/config/config.prd.json",
       "source_location": "L9",
-      "id": "config_config_prd_frontend_url",
-      "community": 6,
-      "norm_label": "frontend_url"
+      "community": 10,
+      "norm_label": "frontend_url",
+      "id": "config_config_prd_frontend_url"
     },
     {
       "label": "config.local.json",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L1",
-      "id": "backend_config_config_local_json",
-      "community": 5,
-      "norm_label": "config.local.json"
+      "community": 9,
+      "norm_label": "config.local.json",
+      "id": "backend_config_config_local_json"
     },
     {
       "label": "env_name",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L2",
-      "id": "config_config_local_env_name",
-      "community": 5,
-      "norm_label": "env_name"
+      "community": 9,
+      "norm_label": "env_name",
+      "id": "config_config_local_env_name"
     },
     {
       "label": "port",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L3",
-      "id": "config_config_local_port",
-      "community": 5,
-      "norm_label": "port"
+      "community": 9,
+      "norm_label": "port",
+      "id": "config_config_local_port"
     },
     {
       "label": "oauth_mode",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L4",
-      "id": "config_config_local_oauth_mode",
-      "community": 5,
-      "norm_label": "oauth_mode"
+      "community": 9,
+      "norm_label": "oauth_mode",
+      "id": "config_config_local_oauth_mode"
     },
     {
       "label": "google_client_id",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L5",
-      "id": "config_config_local_google_client_id",
-      "community": 5,
-      "norm_label": "google_client_id"
+      "community": 9,
+      "norm_label": "google_client_id",
+      "id": "config_config_local_google_client_id"
     },
     {
       "label": "google_client_secret",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L6",
-      "id": "config_config_local_google_client_secret",
-      "community": 5,
-      "norm_label": "google_client_secret"
+      "community": 9,
+      "norm_label": "google_client_secret",
+      "id": "config_config_local_google_client_secret"
     },
     {
       "label": "oauth_redirect_url",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L7",
-      "id": "config_config_local_oauth_redirect_url",
-      "community": 5,
-      "norm_label": "oauth_redirect_url"
+      "community": 9,
+      "norm_label": "oauth_redirect_url",
+      "id": "config_config_local_oauth_redirect_url"
     },
     {
       "label": "jwt_secret",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L8",
-      "id": "config_config_local_jwt_secret",
-      "community": 5,
-      "norm_label": "jwt_secret"
+      "community": 9,
+      "norm_label": "jwt_secret",
+      "id": "config_config_local_jwt_secret"
     },
     {
       "label": "frontend_url",
       "file_type": "code",
       "source_file": "backend/config/config.local.json",
       "source_location": "L9",
-      "id": "config_config_local_frontend_url",
-      "community": 5,
-      "norm_label": "frontend_url"
+      "community": 9,
+      "norm_label": "frontend_url",
+      "id": "config_config_local_frontend_url"
     },
     {
       "label": "main.go",
       "file_type": "code",
       "source_file": "backend/cmd/server/main.go",
       "source_location": "L1",
-      "id": "backend_cmd_server_main_go",
-      "community": 3,
-      "norm_label": "main.go"
+      "community": 2,
+      "norm_label": "main.go",
+      "id": "backend_cmd_server_main_go"
     },
     {
       "label": "main()",
       "file_type": "code",
       "source_file": "backend/cmd/server/main.go",
       "source_location": "L26",
-      "id": "server_main_main",
-      "community": 3,
-      "norm_label": "main()"
+      "community": 2,
+      "norm_label": "main()",
+      "id": "server_main_main"
     },
     {
       "label": "router.go",
       "file_type": "code",
       "source_file": "backend/internal/router/router.go",
       "source_location": "L1",
-      "id": "backend_internal_router_router_go",
-      "community": 3,
-      "norm_label": "router.go"
+      "community": 2,
+      "norm_label": "router.go",
+      "id": "backend_internal_router_router_go"
     },
     {
       "label": "CORSMiddleware()",
       "file_type": "code",
       "source_file": "backend/internal/router/router.go",
       "source_location": "L17",
-      "id": "router_router_corsmiddleware",
-      "community": 3,
-      "norm_label": "corsmiddleware()"
+      "community": 2,
+      "norm_label": "corsmiddleware()",
+      "id": "router_router_corsmiddleware"
     },
     {
       "label": "SetupRouter()",
       "file_type": "code",
       "source_file": "backend/internal/router/router.go",
       "source_location": "L38",
-      "id": "router_router_setuprouter",
-      "community": 3,
-      "norm_label": "setuprouter()"
+      "community": 2,
+      "norm_label": "setuprouter()",
+      "id": "router_router_setuprouter"
     },
     {
       "label": "health.go",
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L1",
-      "id": "backend_internal_health_health_go",
-      "community": 9,
-      "norm_label": "health.go"
+      "community": 13,
+      "norm_label": "health.go",
+      "id": "backend_internal_health_health_go"
     },
     {
       "label": "init()",
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L14",
-      "id": "health_health_init",
-      "community": 9,
-      "norm_label": "init()"
+      "community": 13,
+      "norm_label": "init()",
+      "id": "health_health_init"
     },
     {
       "label": "MemoryStats",
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L18",
-      "id": "health_memorystats",
-      "community": 9,
-      "norm_label": "memorystats"
+      "community": 13,
+      "norm_label": "memorystats",
+      "id": "health_memorystats"
     },
     {
       "label": "DependencyCheck",
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L25",
-      "id": "health_dependencycheck",
-      "community": 9,
-      "norm_label": "dependencycheck"
+      "community": 13,
+      "norm_label": "dependencycheck",
+      "id": "health_dependencycheck"
     },
     {
       "label": "HealthResponse",
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L30",
-      "id": "health_healthresponse",
-      "community": 9,
-      "norm_label": "healthresponse"
+      "community": 13,
+      "norm_label": "healthresponse",
+      "id": "health_healthresponse"
     },
     {
       "label": "HealthCheckHandler()",
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L47",
-      "id": "health_health_healthcheckhandler",
-      "community": 9,
-      "norm_label": "healthcheckhandler()"
+      "community": 13,
+      "norm_label": "healthcheckhandler()",
+      "id": "health_health_healthcheckhandler"
     },
     {
       "label": "auth.go",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L1",
-      "id": "backend_internal_auth_auth_go",
       "community": 2,
-      "norm_label": "auth.go"
+      "norm_label": "auth.go",
+      "id": "backend_internal_auth_auth_go"
     },
     {
       "label": "Claims",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L19",
-      "id": "auth_claims",
       "community": 2,
-      "norm_label": "claims"
+      "norm_label": "claims",
+      "id": "auth_claims"
     },
     {
       "label": "InitOauth()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L28",
-      "id": "auth_auth_initoauth",
-      "community": 3,
-      "norm_label": "initoauth()"
+      "community": 2,
+      "norm_label": "initoauth()",
+      "id": "auth_auth_initoauth"
     },
     {
       "label": "LoginHandler()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L51",
-      "id": "auth_auth_loginhandler",
       "community": 2,
-      "norm_label": "loginhandler()"
+      "norm_label": "loginhandler()",
+      "id": "auth_auth_loginhandler"
     },
     {
       "label": "MockConsentHandler()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L70",
-      "id": "auth_auth_mockconsenthandler",
       "community": 2,
-      "norm_label": "mockconsenthandler()"
+      "norm_label": "mockconsenthandler()",
+      "id": "auth_auth_mockconsenthandler"
     },
     {
       "label": "CallbackHandler()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L334",
-      "id": "auth_auth_callbackhandler",
       "community": 2,
-      "norm_label": "callbackhandler()"
+      "norm_label": "callbackhandler()",
+      "id": "auth_auth_callbackhandler"
     },
     {
       "label": "UserHandler()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L450",
-      "id": "auth_auth_userhandler",
       "community": 2,
-      "norm_label": "userhandler()"
+      "norm_label": "userhandler()",
+      "id": "auth_auth_userhandler"
     },
     {
       "label": "LogoutHandler()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L496",
-      "id": "auth_auth_logouthandler",
       "community": 2,
-      "norm_label": "logouthandler()"
+      "norm_label": "logouthandler()",
+      "id": "auth_auth_logouthandler"
     },
     {
       "label": "base64Decode()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L503",
-      "id": "auth_auth_base64decode",
       "community": 2,
-      "norm_label": "base64decode()"
+      "norm_label": "base64decode()",
+      "id": "auth_auth_base64decode"
     },
     {
       "label": "b64decode()",
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L523",
-      "id": "auth_auth_b64decode",
       "community": 2,
-      "norm_label": "b64decode()"
+      "norm_label": "b64decode()",
+      "id": "auth_auth_b64decode"
     },
     {
       "label": "AppConfig",
@@ -1097,9 +1016,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backend_appconfig",
-      "community": 7,
-      "norm_label": "appconfig"
+      "community": 12,
+      "norm_label": "appconfig",
+      "id": "backend_appconfig"
     },
     {
       "label": "Configuration Loader",
@@ -1110,9 +1029,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backend_config_loader",
-      "community": 7,
-      "norm_label": "configuration loader"
+      "community": 12,
+      "norm_label": "configuration loader",
+      "id": "backend_config_loader"
     },
     {
       "label": "Health Controller",
@@ -1123,9 +1042,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backend_health_controller",
-      "community": 7,
-      "norm_label": "health controller"
+      "community": 12,
+      "norm_label": "health controller",
+      "id": "backend_health_controller"
     },
     {
       "label": "Auth Controller",
@@ -1136,9 +1055,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backend_auth_controller",
-      "community": 7,
-      "norm_label": "auth controller"
+      "community": 12,
+      "norm_label": "auth controller",
+      "id": "backend_auth_controller"
     },
     {
       "label": "Gin Router",
@@ -1149,9 +1068,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backend_router",
-      "community": 7,
-      "norm_label": "gin router"
+      "community": 12,
+      "norm_label": "gin router",
+      "id": "backend_router"
     },
     {
       "label": "Swagger Documentation",
@@ -1162,9 +1081,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backend_swagger",
-      "community": 7,
-      "norm_label": "swagger documentation"
+      "community": 12,
+      "norm_label": "swagger documentation",
+      "id": "backend_swagger"
     },
     {
       "label": "Backend High & Low-Level Design Document",
@@ -1175,9 +1094,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "backend_design_doc",
-      "community": 7,
-      "norm_label": "backend high & low-level design document"
+      "community": 12,
+      "norm_label": "backend high & low-level design document",
+      "id": "backend_design_doc"
     },
     {
       "label": "Frontend Entry Point",
@@ -1188,9 +1107,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "frontend_index",
-      "community": 12,
-      "norm_label": "frontend entry point"
+      "community": 18,
+      "norm_label": "frontend entry point",
+      "id": "frontend_index"
     },
     {
       "label": "Main React Entry",
@@ -1201,9 +1120,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "frontend_main",
-      "community": 12,
-      "norm_label": "main react entry"
+      "community": 18,
+      "norm_label": "main react entry",
+      "id": "frontend_main"
     },
     {
       "label": "Frontend README",
@@ -1214,9 +1133,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "frontend_readme",
-      "community": 12,
-      "norm_label": "frontend readme"
+      "community": 18,
+      "norm_label": "frontend readme",
+      "id": "frontend_readme"
     },
     {
       "label": "Frontend Dashboard Mockup",
@@ -1227,9 +1146,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "frontend_dashboard_mockup",
-      "community": 17,
-      "norm_label": "frontend dashboard mockup"
+      "community": 26,
+      "norm_label": "frontend dashboard mockup",
+      "id": "frontend_dashboard_mockup"
     },
     {
       "label": "Google Identity Provider",
@@ -1240,9 +1159,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "google_idp",
-      "community": 7,
-      "norm_label": "google identity provider"
+      "community": 12,
+      "norm_label": "google identity provider",
+      "id": "google_idp"
     },
     {
       "label": "Mock Consent Portal",
@@ -1253,9 +1172,1062 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mock_consent_portal",
+      "community": 12,
+      "norm_label": "mock consent portal",
+      "id": "mock_consent_portal"
+    },
+    {
+      "label": "base_suite.go",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "base_suite.go",
+      "id": "e2etest_base_suite_go"
+    },
+    {
+      "label": "BaseAPISuite",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L16",
+      "community": 5,
+      "norm_label": "baseapisuite",
+      "id": "e2etest_baseapisuite"
+    },
+    {
+      "label": ".SetupSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L22",
+      "community": 5,
+      "norm_label": ".setupsuite()",
+      "id": "e2etest_baseapisuite_setupsuite"
+    },
+    {
+      "label": ".SetupTest()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L26",
+      "community": 5,
+      "norm_label": ".setuptest()",
+      "id": "e2etest_baseapisuite_setuptest"
+    },
+    {
+      "label": ".TearDownTest()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L30",
+      "community": 5,
+      "norm_label": ".teardowntest()",
+      "id": "e2etest_baseapisuite_teardowntest"
+    },
+    {
+      "label": ".LogAndDoRequest()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L41",
+      "community": 5,
+      "norm_label": ".loganddorequest()",
+      "id": "e2etest_baseapisuite_loganddorequest"
+    },
+    {
+      "label": "BaseWebSuite",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L67",
+      "community": 5,
+      "norm_label": "basewebsuite",
+      "id": "e2etest_basewebsuite"
+    },
+    {
+      "label": ".TakeScreenshot()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L149",
+      "community": 5,
+      "norm_label": ".takescreenshot()",
+      "id": "e2etest_basewebsuite_takescreenshot"
+    },
+    {
+      "label": ".NavigateTo()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L176",
+      "community": 5,
+      "norm_label": ".navigateto()",
+      "id": "e2etest_basewebsuite_navigateto"
+    },
+    {
+      "label": ".ClickElement()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L187",
+      "community": 5,
+      "norm_label": ".clickelement()",
+      "id": "e2etest_basewebsuite_clickelement"
+    },
+    {
+      "label": ".WaitTillElementFound()",
+      "file_type": "code",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L202",
+      "community": 5,
+      "norm_label": ".waittillelementfound()",
+      "id": "e2etest_basewebsuite_waittillelementfound"
+    },
+    {
+      "label": "main_test.go",
+      "file_type": "code",
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L1",
+      "community": 5,
+      "norm_label": "main_test.go",
+      "id": "e2etest_main_test_go"
+    },
+    {
+      "label": "TestMain()",
+      "file_type": "code",
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L8",
+      "community": 5,
+      "norm_label": "testmain()",
+      "id": "e2etest_main_test_testmain"
+    },
+    {
+      "label": "api_suite_test.go",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L1",
+      "community": 14,
+      "norm_label": "api_suite_test.go",
+      "id": "e2etest_api_suite_test_go"
+    },
+    {
+      "label": "APITestSuite",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L12",
+      "community": 14,
+      "norm_label": "apitestsuite",
+      "id": "e2etest_apitestsuite"
+    },
+    {
+      "label": ".SetupSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L17",
+      "community": 14,
+      "norm_label": ".setupsuite()",
+      "id": "e2etest_apitestsuite_setupsuite"
+    },
+    {
+      "label": ".TestAPIHealthEndpoint()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L25",
+      "community": 14,
+      "norm_label": ".testapihealthendpoint()",
+      "id": "e2etest_apitestsuite_testapihealthendpoint"
+    },
+    {
+      "label": ".TestAPISwaggerEndpoint()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L61",
+      "community": 14,
+      "norm_label": ".testapiswaggerendpoint()",
+      "id": "e2etest_apitestsuite_testapiswaggerendpoint"
+    },
+    {
+      "label": "TestRunAPISuite()",
+      "file_type": "code",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L93",
+      "community": 14,
+      "norm_label": "testrunapisuite()",
+      "id": "e2etest_api_suite_test_testrunapisuite"
+    },
+    {
+      "label": "web_suite_test.go",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L1",
+      "community": 15,
+      "norm_label": "web_suite_test.go",
+      "id": "e2etest_web_suite_test_go"
+    },
+    {
+      "label": "WebTestSuite",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L13",
+      "community": 15,
+      "norm_label": "webtestsuite",
+      "id": "e2etest_webtestsuite"
+    },
+    {
+      "label": ".SetupSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L18",
+      "community": 15,
+      "norm_label": ".setupsuite()",
+      "id": "e2etest_webtestsuite_setupsuite"
+    },
+    {
+      "label": ".TestFrontendWorkflow()",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L26",
+      "community": 15,
+      "norm_label": ".testfrontendworkflow()",
+      "id": "e2etest_webtestsuite_testfrontendworkflow"
+    },
+    {
+      "label": "TestRunWebSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L95",
+      "community": 15,
+      "norm_label": "testrunwebsuite()",
+      "id": "e2etest_web_suite_test_testrunwebsuite"
+    },
+    {
+      "label": "reporter.go",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L1",
+      "community": 6,
+      "norm_label": "reporter.go",
+      "id": "e2etest_reporter_go"
+    },
+    {
+      "label": "APIRequestDump",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L14",
+      "community": 6,
+      "norm_label": "apirequestdump",
+      "id": "e2etest_apirequestdump"
+    },
+    {
+      "label": "APIResponseDump",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L21",
+      "community": 6,
+      "norm_label": "apiresponsedump",
+      "id": "e2etest_apiresponsedump"
+    },
+    {
+      "label": "Step",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L28",
+      "community": 6,
+      "norm_label": "step",
+      "id": "e2etest_step"
+    },
+    {
+      "label": "TestCase",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L38",
+      "community": 6,
+      "norm_label": "testcase",
+      "id": "e2etest_testcase"
+    },
+    {
+      "label": "TestSuite",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L48",
+      "community": 6,
+      "norm_label": "testsuite",
+      "id": "e2etest_testsuite"
+    },
+    {
+      "label": "Report",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L57",
+      "community": 6,
+      "norm_label": "report",
+      "id": "e2etest_report"
+    },
+    {
+      "label": "GetReport()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L74",
+      "community": 5,
+      "norm_label": "getreport()",
+      "id": "e2etest_reporter_getreport"
+    },
+    {
+      "label": ".AddSuite()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L86",
+      "community": 6,
+      "norm_label": ".addsuite()",
+      "id": "e2etest_report_addsuite"
+    },
+    {
+      "label": ".AddTestCase()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L101",
+      "community": 6,
+      "norm_label": ".addtestcase()",
+      "id": "e2etest_testsuite_addtestcase"
+    },
+    {
+      "label": ".LogStep()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L116",
+      "community": 6,
+      "norm_label": ".logstep()",
+      "id": "e2etest_testcase_logstep"
+    },
+    {
+      "label": ".LogScreenshotStep()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L133",
+      "community": 6,
+      "norm_label": ".logscreenshotstep()",
+      "id": "e2etest_testcase_logscreenshotstep"
+    },
+    {
+      "label": ".LogAPIStep()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L151",
+      "community": 6,
+      "norm_label": ".logapistep()",
+      "id": "e2etest_testcase_logapistep"
+    },
+    {
+      "label": ".Finalize()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L190",
+      "community": 6,
+      "norm_label": ".finalize()",
+      "id": "e2etest_report_finalize"
+    },
+    {
+      "label": ".GenerateHTML()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L229",
+      "community": 6,
+      "norm_label": ".generatehtml()",
+      "id": "e2etest_report_generatehtml"
+    },
+    {
+      "label": "E2E Test Suite (Web & API)",
+      "file_type": "document",
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": "2026-05-31 19:45:17",
+      "author": null,
+      "contributor": null,
+      "community": 16,
+      "norm_label": "e2e test suite (web & api)",
+      "id": "report_e2e_test_suite"
+    },
+    {
+      "label": "API E2E Tests",
+      "file_type": "code",
+      "source_file": "e2etest/report.html",
+      "source_location": "suite-section",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 16,
+      "norm_label": "api e2e tests",
+      "id": "report_api_e2e_tests"
+    },
+    {
+      "label": "TestRunAPISuite/TestAPIHealthEndpoint",
+      "file_type": "code",
+      "source_file": "e2etest/report.html",
+      "source_location": "TestRunAPISuite/TestAPIHealthEndpoint",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 16,
+      "norm_label": "testrunapisuite/testapihealthendpoint",
+      "id": "report_test_api_health_endpoint"
+    },
+    {
+      "label": "GET /health",
+      "file_type": "code",
+      "source_file": "e2etest/report.html",
+      "source_location": "http://localhost:8080/health",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 16,
+      "norm_label": "get /health",
+      "id": "report_health_endpoint"
+    },
+    {
+      "label": "Favicon",
+      "file_type": "image",
+      "source_file": "frontend/public/favicon.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 27,
+      "norm_label": "favicon",
+      "id": "favicon_svg"
+    },
+    {
+      "label": "Icon Library",
+      "file_type": "image",
+      "source_file": "frontend/public/icons.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 28,
+      "norm_label": "icon library",
+      "id": "icons_svg"
+    },
+    {
+      "label": "Hero Image",
+      "file_type": "image",
+      "source_file": "frontend/src/assets/hero.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 29,
+      "norm_label": "hero image",
+      "id": "hero_png"
+    },
+    {
+      "label": "Vite Logo",
+      "file_type": "image",
+      "source_file": "frontend/src/assets/vite.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 22,
+      "norm_label": "vite logo",
+      "id": "vite_svg"
+    },
+    {
+      "label": "React Logo",
+      "file_type": "image",
+      "source_file": "frontend/src/assets/react.svg",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "community": 22,
+      "norm_label": "react logo",
+      "id": "react_svg"
+    },
+    {
+      "label": "docs.go",
+      "file_type": "code",
+      "source_file": "backend/docs/docs.go",
+      "source_location": "L1",
+      "id": "backend_docs_docs_go",
+      "community": 21,
+      "norm_label": "docs.go"
+    },
+    {
+      "label": "init()",
+      "file_type": "code",
+      "source_file": "backend/docs/docs.go",
+      "source_location": "L242",
+      "id": "docs_docs_init",
+      "community": 21,
+      "norm_label": "init()"
+    },
+    {
+      "label": "swagger.json",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L1",
+      "id": "backend_docs_swagger_json",
       "community": 7,
-      "norm_label": "mock consent portal"
+      "norm_label": "swagger.json"
+    },
+    {
+      "label": "swagger",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L2",
+      "id": "docs_swagger_swagger",
+      "community": 7,
+      "norm_label": "swagger"
+    },
+    {
+      "label": "info",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L3",
+      "id": "docs_swagger_info",
+      "community": 7,
+      "norm_label": "info"
+    },
+    {
+      "label": "title",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L5",
+      "id": "docs_swagger_info_title",
+      "community": 7,
+      "norm_label": "title"
+    },
+    {
+      "label": "termsOfService",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L6",
+      "id": "docs_swagger_info_termsofservice",
+      "community": 7,
+      "norm_label": "termsofservice"
+    },
+    {
+      "label": "contact",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L7",
+      "id": "docs_swagger_info_contact",
+      "community": 7,
+      "norm_label": "contact"
+    },
+    {
+      "label": "name",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L8",
+      "id": "docs_swagger_contact_name",
+      "community": 7,
+      "norm_label": "name"
+    },
+    {
+      "label": "url",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L9",
+      "id": "docs_swagger_contact_url",
+      "community": 7,
+      "norm_label": "url"
+    },
+    {
+      "label": "email",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L10",
+      "id": "docs_swagger_contact_email",
+      "community": 7,
+      "norm_label": "email"
+    },
+    {
+      "label": "license",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L12",
+      "id": "docs_swagger_info_license",
+      "community": 7,
+      "norm_label": "license"
+    },
+    {
+      "label": "version",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L16",
+      "id": "docs_swagger_info_version",
+      "community": 7,
+      "norm_label": "version"
+    },
+    {
+      "label": "host",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L18",
+      "id": "docs_swagger_host",
+      "community": 7,
+      "norm_label": "host"
+    },
+    {
+      "label": "basePath",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L19",
+      "id": "docs_swagger_basepath",
+      "community": 7,
+      "norm_label": "basepath"
+    },
+    {
+      "label": "paths",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L20",
+      "id": "docs_swagger_paths",
+      "community": 1,
+      "norm_label": "paths"
+    },
+    {
+      "label": "/api/user",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L21",
+      "id": "docs_swagger_paths_api_user",
+      "community": 1,
+      "norm_label": "/api/user"
+    },
+    {
+      "label": "description",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L23",
+      "id": "docs_swagger_get_description",
+      "community": 1,
+      "norm_label": "description"
+    },
+    {
+      "label": "produces",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L24",
+      "id": "docs_swagger_get_produces",
+      "community": 1,
+      "norm_label": "produces"
+    },
+    {
+      "label": "tags",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L27",
+      "id": "docs_swagger_get_tags",
+      "community": 1,
+      "norm_label": "tags"
+    },
+    {
+      "label": "summary",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L30",
+      "id": "docs_swagger_get_summary",
+      "community": 1,
+      "norm_label": "summary"
+    },
+    {
+      "label": "parameters",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L31",
+      "id": "docs_swagger_get_parameters",
+      "community": 1,
+      "norm_label": "parameters"
+    },
+    {
+      "label": "responses",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L39",
+      "id": "docs_swagger_get_responses",
+      "community": 1,
+      "norm_label": "responses"
+    },
+    {
+      "label": "200",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L40",
+      "id": "docs_swagger_responses_200",
+      "community": 1,
+      "norm_label": "200"
+    },
+    {
+      "label": "schema",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L42",
+      "id": "docs_swagger_200_schema",
+      "community": 1,
+      "norm_label": "schema"
+    },
+    {
+      "label": "type",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L43",
+      "id": "docs_swagger_schema_type",
+      "community": 3,
+      "norm_label": "type"
+    },
+    {
+      "label": "additionalProperties",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L44",
+      "id": "docs_swagger_schema_additionalproperties",
+      "community": 1,
+      "norm_label": "additionalproperties"
+    },
+    {
+      "label": "401",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L49",
+      "id": "docs_swagger_responses_401",
+      "community": 1,
+      "norm_label": "401"
+    },
+    {
+      "label": "/auth/callback",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L61",
+      "id": "docs_swagger_paths_auth_callback",
+      "community": 1,
+      "norm_label": "/auth/callback"
+    },
+    {
+      "label": "302",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L88",
+      "id": "docs_swagger_responses_302",
+      "community": 1,
+      "norm_label": "302"
+    },
+    {
+      "label": "/auth/login",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L97",
+      "id": "docs_swagger_paths_auth_login",
+      "community": 1,
+      "norm_label": "/auth/login"
+    },
+    {
+      "label": "/auth/logout",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L117",
+      "id": "docs_swagger_paths_auth_logout",
+      "community": 1,
+      "norm_label": "/auth/logout"
+    },
+    {
+      "label": "/health",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L140",
+      "id": "docs_swagger_paths_health",
+      "community": 1,
+      "norm_label": "/health"
+    },
+    {
+      "label": "get",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L141",
+      "id": "docs_swagger_health_get",
+      "community": 1,
+      "norm_label": "get"
+    },
+    {
+      "label": "consumes",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L143",
+      "id": "docs_swagger_get_consumes",
+      "community": 1,
+      "norm_label": "consumes"
+    },
+    {
+      "label": "$ref",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L157",
+      "id": "docs_swagger_schema_ref",
+      "community": 1,
+      "norm_label": "$ref"
+    },
+    {
+      "label": "definitions",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L164",
+      "id": "docs_swagger_definitions",
+      "community": 3,
+      "norm_label": "definitions"
+    },
+    {
+      "label": "health.DependencyCheck",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L165",
+      "id": "docs_swagger_definitions_health_dependencycheck",
+      "community": 3,
+      "norm_label": "health.dependencycheck"
+    },
+    {
+      "label": "details",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L168",
+      "id": "docs_swagger_properties_details",
+      "community": 3,
+      "norm_label": "details"
+    },
+    {
+      "label": "status",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L171",
+      "id": "docs_swagger_properties_status",
+      "community": 3,
+      "norm_label": "status"
+    },
+    {
+      "label": "health.HealthResponse",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L176",
+      "id": "docs_swagger_definitions_health_healthresponse",
+      "community": 3,
+      "norm_label": "health.healthresponse"
+    },
+    {
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L179",
+      "id": "docs_swagger_properties_dependencies",
+      "community": 3,
+      "norm_label": "dependencies"
+    },
+    {
+      "label": "environment",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L185",
+      "id": "docs_swagger_properties_environment",
+      "community": 3,
+      "norm_label": "environment"
+    },
+    {
+      "label": "memory",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L188",
+      "id": "docs_swagger_properties_memory",
+      "community": 1,
+      "norm_label": "memory"
+    },
+    {
+      "label": "timestamp",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L194",
+      "id": "docs_swagger_properties_timestamp",
+      "community": 3,
+      "norm_label": "timestamp"
+    },
+    {
+      "label": "uptime_seconds",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L197",
+      "id": "docs_swagger_properties_uptime_seconds",
+      "community": 3,
+      "norm_label": "uptime_seconds"
+    },
+    {
+      "label": "health.MemoryStats",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L202",
+      "id": "docs_swagger_definitions_health_memorystats",
+      "community": 3,
+      "norm_label": "health.memorystats"
+    },
+    {
+      "label": "properties",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L204",
+      "id": "docs_swagger_health_memorystats_properties",
+      "community": 3,
+      "norm_label": "properties"
+    },
+    {
+      "label": "alloc_mb",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L205",
+      "id": "docs_swagger_properties_alloc_mb",
+      "community": 3,
+      "norm_label": "alloc_mb"
+    },
+    {
+      "label": "num_gc",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L208",
+      "id": "docs_swagger_properties_num_gc",
+      "community": 3,
+      "norm_label": "num_gc"
+    },
+    {
+      "label": "sys_mb",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L211",
+      "id": "docs_swagger_properties_sys_mb",
+      "community": 3,
+      "norm_label": "sys_mb"
+    },
+    {
+      "label": "total_alloc_mb",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L214",
+      "id": "docs_swagger_properties_total_alloc_mb",
+      "community": 3,
+      "norm_label": "total_alloc_mb"
+    },
+    {
+      "label": "Antigravity Monorepo API",
+      "file_type": "document",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": "API Support",
+      "contributor": null,
+      "id": "swagger_antigravity_monorepo_api",
+      "community": 30,
+      "norm_label": "antigravity monorepo api"
+    },
+    {
+      "label": "health.DependencyCheck",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_health_dependencycheck",
+      "community": 17,
+      "norm_label": "health.dependencycheck"
+    },
+    {
+      "label": "health.HealthResponse",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_health_healthresponse",
+      "community": 17,
+      "norm_label": "health.healthresponse"
+    },
+    {
+      "label": "health.MemoryStats",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_health_memorystats",
+      "community": 17,
+      "norm_label": "health.memorystats"
+    },
+    {
+      "label": "Get Logged In User Profile",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_api_user",
+      "community": 20,
+      "norm_label": "get logged in user profile"
+    },
+    {
+      "label": "Google OAuth Callback Endpoint",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_auth_callback",
+      "community": 20,
+      "norm_label": "google oauth callback endpoint"
+    },
+    {
+      "label": "Initiate Google OAuth Login",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_auth_login",
+      "community": 20,
+      "norm_label": "initiate google oauth login"
+    },
+    {
+      "label": "Logout User",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_auth_logout",
+      "community": 31,
+      "norm_label": "logout user"
+    },
+    {
+      "label": "Get health status",
+      "file_type": "code",
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "swagger_health_endpoint",
+      "community": 17,
+      "norm_label": "get health status"
     }
   ],
   "links": [
@@ -1265,9 +2237,9 @@
       "source_file": "manage.sh",
       "source_location": "L101",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_build",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_build"
     },
     {
       "relation": "defines",
@@ -1275,9 +2247,9 @@
       "source_file": "manage.sh",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_install",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_install"
     },
     {
       "relation": "defines",
@@ -1285,9 +2257,9 @@
       "source_file": "manage.sh",
       "source_location": "L195",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_kill",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_kill"
     },
     {
       "relation": "defines",
@@ -1295,9 +2267,9 @@
       "source_file": "manage.sh",
       "source_location": "L121",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_run",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_run"
     },
     {
       "relation": "defines",
@@ -1305,9 +2277,9 @@
       "source_file": "manage.sh",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_status",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_status"
     },
     {
       "relation": "defines",
@@ -1315,9 +2287,9 @@
       "source_file": "manage.sh",
       "source_location": "L169",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_stop",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_stop"
     },
     {
       "relation": "defines",
@@ -1325,9 +2297,9 @@
       "source_file": "manage.sh",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_swagger",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_swagger"
     },
     {
       "relation": "defines",
@@ -1335,9 +2307,9 @@
       "source_file": "manage.sh",
       "source_location": "L333",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_test",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_test"
     },
     {
       "relation": "defines",
@@ -1345,9 +2317,9 @@
       "source_file": "manage.sh",
       "source_location": "L265",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_do_troubleshoot",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_troubleshoot"
     },
     {
       "relation": "defines",
@@ -1355,9 +2327,9 @@
       "source_file": "manage.sh",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_log_error",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_error"
     },
     {
       "relation": "defines",
@@ -1365,9 +2337,9 @@
       "source_file": "manage.sh",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "defines",
@@ -1375,9 +2347,9 @@
       "source_file": "manage.sh",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "defines",
@@ -1385,9 +2357,9 @@
       "source_file": "manage.sh",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_log_warn",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_warn"
     },
     {
       "relation": "defines",
@@ -1395,9 +2367,9 @@
       "source_file": "manage.sh",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "fullstack_template_manage_print_help",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_print_help"
     },
     {
       "relation": "contains",
@@ -1405,9 +2377,9 @@
       "source_file": "manage.sh",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "manage_sh",
-      "target": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "confidence_score": 1.0
+      "target": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry"
     },
     {
       "relation": "calls",
@@ -1416,9 +2388,9 @@
       "source_location": "L408",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_build",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_build"
     },
     {
       "relation": "calls",
@@ -1427,9 +2399,9 @@
       "source_location": "L405",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_install",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_install"
     },
     {
       "relation": "calls",
@@ -1438,9 +2410,9 @@
       "source_location": "L417",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_kill",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_kill"
     },
     {
       "relation": "calls",
@@ -1449,9 +2421,9 @@
       "source_location": "L411",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_run",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_run"
     },
     {
       "relation": "calls",
@@ -1460,9 +2432,9 @@
       "source_location": "L420",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_status",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_status"
     },
     {
       "relation": "calls",
@@ -1471,9 +2443,9 @@
       "source_location": "L414",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_stop",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_stop"
     },
     {
       "relation": "calls",
@@ -1482,9 +2454,9 @@
       "source_location": "L429",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_swagger",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_swagger"
     },
     {
       "relation": "calls",
@@ -1493,9 +2465,9 @@
       "source_location": "L426",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_test",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_test"
     },
     {
       "relation": "calls",
@@ -1504,9 +2476,9 @@
       "source_location": "L423",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_do_troubleshoot",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_troubleshoot"
     },
     {
       "relation": "calls",
@@ -1515,9 +2487,9 @@
       "source_location": "L435",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_log_error",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_error"
     },
     {
       "relation": "calls",
@@ -1526,9 +2498,9 @@
       "source_location": "L396",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
-      "target": "fullstack_template_manage_print_help",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_print_help"
     },
     {
       "relation": "calls",
@@ -1537,9 +2509,9 @@
       "source_location": "L102",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_build",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1548,9 +2520,9 @@
       "source_location": "L62",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_install",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1559,9 +2531,9 @@
       "source_location": "L217",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_kill",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1570,9 +2542,9 @@
       "source_location": "L142",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_run",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1581,9 +2553,9 @@
       "source_location": "L170",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_stop",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1592,9 +2564,9 @@
       "source_location": "L84",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_swagger",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1603,9 +2575,9 @@
       "source_location": "L337",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_test",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1614,9 +2586,9 @@
       "source_location": "L266",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_troubleshoot",
-      "target": "fullstack_template_manage_log_info",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_info"
     },
     {
       "relation": "calls",
@@ -1625,9 +2597,9 @@
       "source_location": "L118",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_build",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1636,9 +2608,9 @@
       "source_location": "L79",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_install",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1647,9 +2619,9 @@
       "source_location": "L221",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_kill",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1658,9 +2630,9 @@
       "source_location": "L149",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_run",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1669,9 +2641,9 @@
       "source_location": "L178",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_stop",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1680,9 +2652,9 @@
       "source_location": "L98",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_swagger",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1691,9 +2663,9 @@
       "source_location": "L375",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_test",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1702,9 +2674,9 @@
       "source_location": "L330",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_troubleshoot",
-      "target": "fullstack_template_manage_log_success",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_success"
     },
     {
       "relation": "calls",
@@ -1713,9 +2685,9 @@
       "source_location": "L196",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_kill",
-      "target": "fullstack_template_manage_log_warn",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_warn"
     },
     {
       "relation": "calls",
@@ -1724,9 +2696,9 @@
       "source_location": "L128",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_run",
-      "target": "fullstack_template_manage_log_warn",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_warn"
     },
     {
       "relation": "calls",
@@ -1735,9 +2707,9 @@
       "source_location": "L91",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_swagger",
-      "target": "fullstack_template_manage_log_warn",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_warn"
     },
     {
       "relation": "calls",
@@ -1746,9 +2718,9 @@
       "source_location": "L377",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_test",
-      "target": "fullstack_template_manage_log_error",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_log_error"
     },
     {
       "relation": "calls",
@@ -1757,9 +2729,9 @@
       "source_location": "L105",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_build",
-      "target": "fullstack_template_manage_do_swagger",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_swagger"
     },
     {
       "relation": "calls",
@@ -1768,9 +2740,9 @@
       "source_location": "L129",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_run",
-      "target": "fullstack_template_manage_do_kill",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_kill"
     },
     {
       "relation": "calls",
@@ -1779,9 +2751,9 @@
       "source_location": "L166",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_run",
-      "target": "fullstack_template_manage_do_status",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_status"
     },
     {
       "relation": "calls",
@@ -1790,9 +2762,9 @@
       "source_location": "L355",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_test",
-      "target": "fullstack_template_manage_do_run",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_run"
     },
     {
       "relation": "calls",
@@ -1801,9 +2773,9 @@
       "source_location": "L371",
       "weight": 1.0,
       "context": "call",
+      "confidence_score": 1.0,
       "source": "fullstack_template_manage_do_test",
-      "target": "fullstack_template_manage_do_stop",
-      "confidence_score": 1.0
+      "target": "fullstack_template_manage_do_stop"
     },
     {
       "relation": "contains",
@@ -1811,9 +2783,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_dependencies",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies"
     },
     {
       "relation": "contains",
@@ -1821,9 +2793,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_devdependencies",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies"
     },
     {
       "relation": "contains",
@@ -1831,9 +2803,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_name",
-      "confidence_score": 1.0
+      "target": "frontend_package_name"
     },
     {
       "relation": "contains",
@@ -1841,9 +2813,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_private",
-      "confidence_score": 1.0
+      "target": "frontend_package_private"
     },
     {
       "relation": "contains",
@@ -1851,9 +2823,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_scripts",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts"
     },
     {
       "relation": "contains",
@@ -1861,9 +2833,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_type",
-      "confidence_score": 1.0
+      "target": "frontend_package_type"
     },
     {
       "relation": "contains",
@@ -1871,9 +2843,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_json",
-      "target": "frontend_package_version",
-      "confidence_score": 1.0
+      "target": "frontend_package_version"
     },
     {
       "relation": "contains",
@@ -1881,9 +2853,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_build",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_build"
     },
     {
       "relation": "contains",
@@ -1891,9 +2863,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_dev",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_dev"
     },
     {
       "relation": "contains",
@@ -1901,9 +2873,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_lint",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_lint"
     },
     {
       "relation": "contains",
@@ -1911,9 +2883,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_scripts",
-      "target": "frontend_package_scripts_preview",
-      "confidence_score": 1.0
+      "target": "frontend_package_scripts_preview"
     },
     {
       "relation": "contains",
@@ -1921,9 +2893,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies_react"
     },
     {
       "relation": "contains",
@@ -1931,9 +2903,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_dependencies",
-      "target": "frontend_package_dependencies_react_dom",
-      "confidence_score": 1.0
+      "target": "frontend_package_dependencies_react_dom"
     },
     {
       "relation": "contains",
@@ -1941,9 +2913,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint"
     },
     {
       "relation": "contains",
@@ -1951,9 +2923,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_js",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint_js"
     },
     {
       "relation": "contains",
@@ -1961,9 +2933,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint_plugin_react_hooks"
     },
     {
       "relation": "contains",
@@ -1971,9 +2943,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_eslint_plugin_react_refresh"
     },
     {
       "relation": "contains",
@@ -1981,9 +2953,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_globals",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_globals"
     },
     {
       "relation": "contains",
@@ -1991,9 +2963,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_types_react",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_types_react"
     },
     {
       "relation": "contains",
@@ -2001,9 +2973,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_vite",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_vite"
     },
     {
       "relation": "contains",
@@ -2011,9 +2983,9 @@
       "source_file": "frontend/package.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_package_devdependencies",
-      "target": "frontend_package_devdependencies_vitejs_plugin_react",
-      "confidence_score": 1.0
+      "target": "frontend_package_devdependencies_vitejs_plugin_react"
     },
     {
       "relation": "imports_from",
@@ -2022,9 +2994,9 @@
       "source_file": "frontend/src/main.jsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_main_jsx",
-      "target": "frontend_src_app_jsx",
-      "confidence_score": 1.0
+      "target": "frontend_src_app_jsx"
     },
     {
       "relation": "contains",
@@ -2032,145 +3004,9 @@
       "source_file": "frontend/src/App.jsx",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "frontend_src_app_jsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L11",
-      "weight": 1.0,
-      "source": "e2etest_api_test_go",
-      "target": "e2etest_api_test_getbackendurl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L19",
-      "weight": 1.0,
-      "source": "e2etest_api_test_go",
-      "target": "e2etest_api_test_testapihealthendpoint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L77",
-      "weight": 1.0,
-      "source": "e2etest_api_test_go",
-      "target": "e2etest_api_test_testapiswaggerendpoint",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L20",
-      "weight": 1.0,
-      "source": "e2etest_api_test_testapihealthendpoint",
-      "target": "e2etest_api_test_getbackendurl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/api_test.go",
-      "source_location": "L78",
-      "weight": 1.0,
-      "source": "e2etest_api_test_testapiswaggerendpoint",
-      "target": "e2etest_api_test_getbackendurl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L12",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_go",
-      "target": "e2etest_selenium_test_getfrontendurl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L21",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_go",
-      "target": "e2etest_selenium_test_takescreenshot",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L43",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_go",
-      "target": "e2etest_selenium_test_testfrontendseleniume2e",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L224",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_go",
-      "target": "e2etest_selenium_test_waittillelementfound",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L44",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_testfrontendseleniume2e",
-      "target": "e2etest_selenium_test_getfrontendurl",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L101",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_testfrontendseleniume2e",
-      "target": "e2etest_selenium_test_takescreenshot",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L237",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_waittillelementfound",
-      "target": "e2etest_selenium_test_takescreenshot",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/selenium_test.go",
-      "source_location": "L144",
-      "weight": 1.0,
-      "source": "e2etest_selenium_test_testfrontendseleniume2e",
-      "target": "e2etest_selenium_test_waittillelementfound",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "contains",
@@ -2178,9 +3014,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_env_name",
-      "confidence_score": 1.0
+      "target": "config_config_dev_env_name"
     },
     {
       "relation": "contains",
@@ -2188,9 +3024,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_frontend_url",
-      "confidence_score": 1.0
+      "target": "config_config_dev_frontend_url"
     },
     {
       "relation": "contains",
@@ -2198,9 +3034,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_google_client_id",
-      "confidence_score": 1.0
+      "target": "config_config_dev_google_client_id"
     },
     {
       "relation": "contains",
@@ -2208,9 +3044,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_google_client_secret",
-      "confidence_score": 1.0
+      "target": "config_config_dev_google_client_secret"
     },
     {
       "relation": "contains",
@@ -2218,9 +3054,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_jwt_secret",
-      "confidence_score": 1.0
+      "target": "config_config_dev_jwt_secret"
     },
     {
       "relation": "contains",
@@ -2228,9 +3064,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_oauth_mode",
-      "confidence_score": 1.0
+      "target": "config_config_dev_oauth_mode"
     },
     {
       "relation": "contains",
@@ -2238,9 +3074,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_oauth_redirect_url",
-      "confidence_score": 1.0
+      "target": "config_config_dev_oauth_redirect_url"
     },
     {
       "relation": "contains",
@@ -2248,9 +3084,9 @@
       "source_file": "backend/config/config.dev.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_dev_json",
-      "target": "config_config_dev_port",
-      "confidence_score": 1.0
+      "target": "config_config_dev_port"
     },
     {
       "relation": "contains",
@@ -2258,9 +3094,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_env_name",
-      "confidence_score": 1.0
+      "target": "config_config_tst_env_name"
     },
     {
       "relation": "contains",
@@ -2268,9 +3104,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_frontend_url",
-      "confidence_score": 1.0
+      "target": "config_config_tst_frontend_url"
     },
     {
       "relation": "contains",
@@ -2278,9 +3114,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_google_client_id",
-      "confidence_score": 1.0
+      "target": "config_config_tst_google_client_id"
     },
     {
       "relation": "contains",
@@ -2288,9 +3124,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_google_client_secret",
-      "confidence_score": 1.0
+      "target": "config_config_tst_google_client_secret"
     },
     {
       "relation": "contains",
@@ -2298,9 +3134,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_jwt_secret",
-      "confidence_score": 1.0
+      "target": "config_config_tst_jwt_secret"
     },
     {
       "relation": "contains",
@@ -2308,9 +3144,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_oauth_mode",
-      "confidence_score": 1.0
+      "target": "config_config_tst_oauth_mode"
     },
     {
       "relation": "contains",
@@ -2318,9 +3154,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_oauth_redirect_url",
-      "confidence_score": 1.0
+      "target": "config_config_tst_oauth_redirect_url"
     },
     {
       "relation": "contains",
@@ -2328,9 +3164,9 @@
       "source_file": "backend/config/config.tst.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_tst_json",
-      "target": "config_config_tst_port",
-      "confidence_score": 1.0
+      "target": "config_config_tst_port"
     },
     {
       "relation": "contains",
@@ -2338,9 +3174,9 @@
       "source_file": "backend/config/config.go",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_go",
-      "target": "config_config",
-      "confidence_score": 1.0
+      "target": "config_config"
     },
     {
       "relation": "contains",
@@ -2348,9 +3184,9 @@
       "source_file": "backend/config/config.go",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_go",
-      "target": "config_config_load",
-      "confidence_score": 1.0
+      "target": "config_config_load"
     },
     {
       "relation": "calls",
@@ -2369,9 +3205,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_env_name",
-      "confidence_score": 1.0
+      "target": "config_config_prd_env_name"
     },
     {
       "relation": "contains",
@@ -2379,9 +3215,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_frontend_url",
-      "confidence_score": 1.0
+      "target": "config_config_prd_frontend_url"
     },
     {
       "relation": "contains",
@@ -2389,9 +3225,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_google_client_id",
-      "confidence_score": 1.0
+      "target": "config_config_prd_google_client_id"
     },
     {
       "relation": "contains",
@@ -2399,9 +3235,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_google_client_secret",
-      "confidence_score": 1.0
+      "target": "config_config_prd_google_client_secret"
     },
     {
       "relation": "contains",
@@ -2409,9 +3245,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_jwt_secret",
-      "confidence_score": 1.0
+      "target": "config_config_prd_jwt_secret"
     },
     {
       "relation": "contains",
@@ -2419,9 +3255,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_oauth_mode",
-      "confidence_score": 1.0
+      "target": "config_config_prd_oauth_mode"
     },
     {
       "relation": "contains",
@@ -2429,9 +3265,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_oauth_redirect_url",
-      "confidence_score": 1.0
+      "target": "config_config_prd_oauth_redirect_url"
     },
     {
       "relation": "contains",
@@ -2439,9 +3275,9 @@
       "source_file": "backend/config/config.prd.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_prd_json",
-      "target": "config_config_prd_port",
-      "confidence_score": 1.0
+      "target": "config_config_prd_port"
     },
     {
       "relation": "contains",
@@ -2449,9 +3285,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_env_name",
-      "confidence_score": 1.0
+      "target": "config_config_local_env_name"
     },
     {
       "relation": "contains",
@@ -2459,9 +3295,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_frontend_url",
-      "confidence_score": 1.0
+      "target": "config_config_local_frontend_url"
     },
     {
       "relation": "contains",
@@ -2469,9 +3305,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_google_client_id",
-      "confidence_score": 1.0
+      "target": "config_config_local_google_client_id"
     },
     {
       "relation": "contains",
@@ -2479,9 +3315,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_google_client_secret",
-      "confidence_score": 1.0
+      "target": "config_config_local_google_client_secret"
     },
     {
       "relation": "contains",
@@ -2489,9 +3325,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_jwt_secret",
-      "confidence_score": 1.0
+      "target": "config_config_local_jwt_secret"
     },
     {
       "relation": "contains",
@@ -2499,9 +3335,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_oauth_mode",
-      "confidence_score": 1.0
+      "target": "config_config_local_oauth_mode"
     },
     {
       "relation": "contains",
@@ -2509,9 +3345,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_oauth_redirect_url",
-      "confidence_score": 1.0
+      "target": "config_config_local_oauth_redirect_url"
     },
     {
       "relation": "contains",
@@ -2519,9 +3355,9 @@
       "source_file": "backend/config/config.local.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_config_config_local_json",
-      "target": "config_config_local_port",
-      "confidence_score": 1.0
+      "target": "config_config_local_port"
     },
     {
       "relation": "contains",
@@ -2529,9 +3365,9 @@
       "source_file": "backend/cmd/server/main.go",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_cmd_server_main_go",
-      "target": "server_main_main",
-      "confidence_score": 1.0
+      "target": "server_main_main"
     },
     {
       "relation": "calls",
@@ -2561,9 +3397,9 @@
       "source_file": "backend/internal/router/router.go",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_router_router_go",
-      "target": "router_router_corsmiddleware",
-      "confidence_score": 1.0
+      "target": "router_router_corsmiddleware"
     },
     {
       "relation": "contains",
@@ -2571,9 +3407,9 @@
       "source_file": "backend/internal/router/router.go",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_router_router_go",
-      "target": "router_router_setuprouter",
-      "confidence_score": 1.0
+      "target": "router_router_setuprouter"
     },
     {
       "relation": "calls",
@@ -2582,9 +3418,9 @@
       "source_file": "backend/internal/router/router.go",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "router_router_setuprouter",
-      "target": "router_router_corsmiddleware",
-      "confidence_score": 1.0
+      "target": "router_router_corsmiddleware"
     },
     {
       "relation": "contains",
@@ -2592,9 +3428,9 @@
       "source_file": "backend/internal/health/health.go",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_health_health_go",
-      "target": "health_dependencycheck",
-      "confidence_score": 1.0
+      "target": "health_dependencycheck"
     },
     {
       "relation": "contains",
@@ -2602,9 +3438,9 @@
       "source_file": "backend/internal/health/health.go",
       "source_location": "L47",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_health_health_go",
-      "target": "health_health_healthcheckhandler",
-      "confidence_score": 1.0
+      "target": "health_health_healthcheckhandler"
     },
     {
       "relation": "contains",
@@ -2612,9 +3448,9 @@
       "source_file": "backend/internal/health/health.go",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_health_health_go",
-      "target": "health_health_init",
-      "confidence_score": 1.0
+      "target": "health_health_init"
     },
     {
       "relation": "contains",
@@ -2622,9 +3458,9 @@
       "source_file": "backend/internal/health/health.go",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_health_health_go",
-      "target": "health_healthresponse",
-      "confidence_score": 1.0
+      "target": "health_healthresponse"
     },
     {
       "relation": "contains",
@@ -2632,9 +3468,9 @@
       "source_file": "backend/internal/health/health.go",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_health_health_go",
-      "target": "health_memorystats",
-      "confidence_score": 1.0
+      "target": "health_memorystats"
     },
     {
       "relation": "contains",
@@ -2642,9 +3478,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L523",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_b64decode",
-      "confidence_score": 1.0
+      "target": "auth_auth_b64decode"
     },
     {
       "relation": "contains",
@@ -2652,9 +3488,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L503",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_base64decode",
-      "confidence_score": 1.0
+      "target": "auth_auth_base64decode"
     },
     {
       "relation": "contains",
@@ -2662,9 +3498,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L334",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_callbackhandler",
-      "confidence_score": 1.0
+      "target": "auth_auth_callbackhandler"
     },
     {
       "relation": "contains",
@@ -2672,9 +3508,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_initoauth",
-      "confidence_score": 1.0
+      "target": "auth_auth_initoauth"
     },
     {
       "relation": "contains",
@@ -2682,9 +3518,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_loginhandler",
-      "confidence_score": 1.0
+      "target": "auth_auth_loginhandler"
     },
     {
       "relation": "contains",
@@ -2692,9 +3528,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L496",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_logouthandler",
-      "confidence_score": 1.0
+      "target": "auth_auth_logouthandler"
     },
     {
       "relation": "contains",
@@ -2702,9 +3538,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L70",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_mockconsenthandler",
-      "confidence_score": 1.0
+      "target": "auth_auth_mockconsenthandler"
     },
     {
       "relation": "contains",
@@ -2712,9 +3548,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L450",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_auth_userhandler",
-      "confidence_score": 1.0
+      "target": "auth_auth_userhandler"
     },
     {
       "relation": "contains",
@@ -2722,9 +3558,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_internal_auth_auth_go",
-      "target": "auth_claims",
-      "confidence_score": 1.0
+      "target": "auth_claims"
     },
     {
       "relation": "calls",
@@ -2733,9 +3569,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L356",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_callbackhandler",
-      "target": "auth_auth_base64decode",
-      "confidence_score": 1.0
+      "target": "auth_auth_base64decode"
     },
     {
       "relation": "calls",
@@ -2744,9 +3580,9 @@
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L519",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "auth_auth_base64decode",
-      "target": "auth_auth_b64decode",
-      "confidence_score": 1.0
+      "target": "auth_auth_b64decode"
     },
     {
       "relation": "implements",
@@ -2847,8 +3683,1322 @@
       "weight": 1.0,
       "source": "frontend_readme",
       "target": "frontend_index"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L16",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_base_suite_go",
+      "target": "e2etest_baseapisuite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L67",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_base_suite_go",
+      "target": "e2etest_basewebsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L41",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_loganddorequest"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L22",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_setupsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_setuptest"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L30",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_baseapisuite",
+      "target": "e2etest_baseapisuite_teardowntest"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L77",
+      "weight": 1.0,
+      "source": "e2etest_baseapisuite_setupsuite",
+      "target": "e2etest_reporter_getreport"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L76",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_baseapisuite_setupsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L103",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_baseapisuite_setuptest"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L140",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_baseapisuite_teardowntest",
+      "target": "e2etest_basewebsuite_takescreenshot"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L136",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_baseapisuite_teardowntest"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L187",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_clickelement"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L176",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_navigateto"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L149",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_takescreenshot"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L202",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_basewebsuite",
+      "target": "e2etest_basewebsuite_waittillelementfound"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L8",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_main_test_go",
+      "target": "e2etest_main_test_testmain"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "e2etest_main_test_testmain",
+      "target": "e2etest_reporter_getreport"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L93",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_api_suite_test_go",
+      "target": "e2etest_api_suite_test_testrunapisuite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L12",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_api_suite_test_go",
+      "target": "e2etest_apitestsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L17",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_apitestsuite",
+      "target": "e2etest_apitestsuite_setupsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L25",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_apitestsuite",
+      "target": "e2etest_apitestsuite_testapihealthendpoint"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/api_suite_test.go",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_apitestsuite",
+      "target": "e2etest_apitestsuite_testapiswaggerendpoint"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L95",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_web_suite_test_go",
+      "target": "e2etest_web_suite_test_testrunwebsuite"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_web_suite_test_go",
+      "target": "e2etest_webtestsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L18",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_webtestsuite",
+      "target": "e2etest_webtestsuite_setupsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/web_suite_test.go",
+      "source_location": "L26",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_webtestsuite",
+      "target": "e2etest_webtestsuite_testfrontendworkflow"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_apirequestdump"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L21",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_apiresponsedump"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L57",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_report"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L74",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_reporter_getreport"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L28",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_step"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_testcase"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L48",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_reporter_go",
+      "target": "e2etest_testsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L151",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_testcase",
+      "target": "e2etest_testcase_logapistep"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L133",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_testcase",
+      "target": "e2etest_testcase_logscreenshotstep"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L116",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_testcase",
+      "target": "e2etest_testcase_logstep"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L101",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_testsuite",
+      "target": "e2etest_testsuite_addtestcase"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L86",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_report",
+      "target": "e2etest_report_addsuite"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L190",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_report",
+      "target": "e2etest_report_finalize"
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L229",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_report",
+      "target": "e2etest_report_generatehtml"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L230",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "e2etest_report_generatehtml",
+      "target": "e2etest_report_finalize"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_e2e_test_suite",
+      "target": "report_api_e2e_tests"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_api_e2e_tests",
+      "target": "report_test_api_health_endpoint"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_health_endpoint",
+      "target": "report_api_e2e_tests"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2etest/report.html",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "report_test_api_health_endpoint",
+      "target": "report_health_endpoint"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "frontend/src/assets/vite.svg",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "vite_svg",
+      "target": "react_svg"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/docs.go",
+      "source_location": "L242",
+      "weight": 1.0,
+      "source": "backend_docs_docs_go",
+      "target": "docs_docs_init",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "backend_docs_swagger_json",
+      "target": "docs_swagger_basepath",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L164",
+      "weight": 1.0,
+      "source": "backend_docs_swagger_json",
+      "target": "docs_swagger_definitions",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "backend_docs_swagger_json",
+      "target": "docs_swagger_host",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "backend_docs_swagger_json",
+      "target": "docs_swagger_info",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "backend_docs_swagger_json",
+      "target": "docs_swagger_paths",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "backend_docs_swagger_json",
+      "target": "docs_swagger_swagger",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "docs_swagger_info",
+      "target": "docs_swagger_get_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "docs_swagger_info",
+      "target": "docs_swagger_info_contact",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "docs_swagger_info",
+      "target": "docs_swagger_info_license",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "docs_swagger_info",
+      "target": "docs_swagger_info_termsofservice",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "docs_swagger_info",
+      "target": "docs_swagger_info_title",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "source": "docs_swagger_info",
+      "target": "docs_swagger_info_version",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L10",
+      "weight": 1.0,
+      "source": "docs_swagger_info_contact",
+      "target": "docs_swagger_contact_email",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "docs_swagger_info_contact",
+      "target": "docs_swagger_contact_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "docs_swagger_info_contact",
+      "target": "docs_swagger_contact_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "docs_swagger_info_license",
+      "target": "docs_swagger_contact_name",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "docs_swagger_info_license",
+      "target": "docs_swagger_contact_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "docs_swagger_paths",
+      "target": "docs_swagger_paths_api_user",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "docs_swagger_paths",
+      "target": "docs_swagger_paths_auth_callback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L97",
+      "weight": 1.0,
+      "source": "docs_swagger_paths",
+      "target": "docs_swagger_paths_auth_login",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L117",
+      "weight": 1.0,
+      "source": "docs_swagger_paths",
+      "target": "docs_swagger_paths_auth_logout",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "docs_swagger_paths",
+      "target": "docs_swagger_paths_health",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "docs_swagger_paths_api_user",
+      "target": "docs_swagger_health_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L142",
+      "weight": 1.0,
+      "source": "docs_swagger_health_get",
+      "target": "docs_swagger_get_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L155",
+      "weight": 1.0,
+      "source": "docs_swagger_responses_200",
+      "target": "docs_swagger_get_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L109",
+      "weight": 1.0,
+      "source": "docs_swagger_responses_302",
+      "target": "docs_swagger_get_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "docs_swagger_responses_401",
+      "target": "docs_swagger_get_description",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L146",
+      "weight": 1.0,
+      "source": "docs_swagger_health_get",
+      "target": "docs_swagger_get_produces",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L149",
+      "weight": 1.0,
+      "source": "docs_swagger_health_get",
+      "target": "docs_swagger_get_tags",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L152",
+      "weight": 1.0,
+      "source": "docs_swagger_health_get",
+      "target": "docs_swagger_get_summary",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "docs_swagger_health_get",
+      "target": "docs_swagger_get_parameters",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L154",
+      "weight": 1.0,
+      "source": "docs_swagger_get_responses",
+      "target": "docs_swagger_responses_200",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L108",
+      "weight": 1.0,
+      "source": "docs_swagger_get_responses",
+      "target": "docs_swagger_responses_302",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "source": "docs_swagger_get_responses",
+      "target": "docs_swagger_responses_401",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L153",
+      "weight": 1.0,
+      "source": "docs_swagger_health_get",
+      "target": "docs_swagger_get_responses",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L156",
+      "weight": 1.0,
+      "source": "docs_swagger_responses_200",
+      "target": "docs_swagger_200_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L132",
+      "weight": 1.0,
+      "source": "docs_swagger_200_schema",
+      "target": "docs_swagger_schema_additionalproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L157",
+      "weight": 1.0,
+      "source": "docs_swagger_200_schema",
+      "target": "docs_swagger_schema_ref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L131",
+      "weight": 1.0,
+      "source": "docs_swagger_200_schema",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L110",
+      "weight": 1.0,
+      "source": "docs_swagger_responses_302",
+      "target": "docs_swagger_200_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "docs_swagger_responses_401",
+      "target": "docs_swagger_200_schema",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions_health_dependencycheck",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L177",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions_health_healthresponse",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions_health_memorystats",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L206",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_alloc_mb",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L180",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_dependencies",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L169",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_details",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_environment",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L209",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_num_gc",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L192",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_status",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L212",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_sys_mb",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L195",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_timestamp",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L215",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_total_alloc_mb",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L198",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_uptime_seconds",
+      "target": "docs_swagger_schema_type",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L181",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_dependencies",
+      "target": "docs_swagger_schema_additionalproperties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L182",
+      "weight": 1.0,
+      "source": "docs_swagger_schema_additionalproperties",
+      "target": "docs_swagger_schema_ref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L62",
+      "weight": 1.0,
+      "source": "docs_swagger_paths_auth_callback",
+      "target": "docs_swagger_health_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L98",
+      "weight": 1.0,
+      "source": "docs_swagger_paths_auth_login",
+      "target": "docs_swagger_health_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L118",
+      "weight": 1.0,
+      "source": "docs_swagger_paths_auth_logout",
+      "target": "docs_swagger_health_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L141",
+      "weight": 1.0,
+      "source": "docs_swagger_paths_health",
+      "target": "docs_swagger_health_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L143",
+      "weight": 1.0,
+      "source": "docs_swagger_health_get",
+      "target": "docs_swagger_get_consumes",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L189",
+      "weight": 1.0,
+      "source": "docs_swagger_properties_memory",
+      "target": "docs_swagger_schema_ref",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L165",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions",
+      "target": "docs_swagger_definitions_health_dependencycheck",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L176",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions",
+      "target": "docs_swagger_definitions_health_healthresponse",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L202",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions",
+      "target": "docs_swagger_definitions_health_memorystats",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L167",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions_health_dependencycheck",
+      "target": "docs_swagger_health_memorystats_properties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L168",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_details",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L191",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_status",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L178",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions_health_healthresponse",
+      "target": "docs_swagger_health_memorystats_properties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L179",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_dependencies",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L185",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_environment",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_memory",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L194",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_timestamp",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L197",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_uptime_seconds",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "docs_swagger_definitions_health_memorystats",
+      "target": "docs_swagger_health_memorystats_properties",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_alloc_mb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L208",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_num_gc",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L211",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_sys_mb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "backend/docs/swagger.json",
+      "source_location": "L214",
+      "weight": 1.0,
+      "source": "docs_swagger_health_memorystats_properties",
+      "target": "docs_swagger_properties_total_alloc_mb",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "swagger_health_healthresponse",
+      "target": "swagger_health_dependencycheck"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "swagger_health_endpoint",
+      "target": "swagger_health_healthresponse"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "swagger_health_healthresponse",
+      "target": "swagger_health_memorystats"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "swagger_api_user",
+      "target": "swagger_auth_login"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "backend/docs/swagger.yaml",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "swagger_auth_login",
+      "target": "swagger_auth_callback"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "0e54b792fde5939391732a725db22fcdcd1ae64f"
+  "built_at_commit": "85ce003e400672521a95a10adc7fd82ff398cb8f"
 }

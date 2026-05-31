@@ -14,7 +14,7 @@ CYAN='\033[0;36m'
 NC='\033[0m' # No Color
 
 # Directories
-WORKSPACE_DIR="/home/ubuntu/code/local/antigravity"
+WORKSPACE_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 BACKEND_DIR="${WORKSPACE_DIR}/backend"
 FRONTEND_DIR="${WORKSPACE_DIR}/frontend"
 E2E_DIR="${WORKSPACE_DIR}/e2etest"
@@ -363,7 +363,7 @@ do_test() {
         export APP_ENV=tst
         export BACKEND_URL="http://localhost:8080"
         export FRONTEND_URL="http://localhost:5173"
-        go test -v ./... || test_status=$?
+        go test -v -count=1 ./... || test_status=$?
         
         # Stop servers if we spun them up
         if [ "$spin_up" = true ]; then

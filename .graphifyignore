@@ -1,0 +1,60 @@
+# ==============================================================================
+# Graphify Ignore File
+# ==============================================================================
+
+# --- Environments & Credentials ---
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets.json
+
+# --- Graphify Core & Cache ---
+.graphify/
+.graphify-cache/
+*.graphify.lock
+graphify.config.local.json
+
+# --- Database & Embedded Stores ---
+# Ignore local database dumps, embedded graph stores, and transaction logs
+*.db
+*.sqlite
+/data/graphstore/
+/data/db/
+*.transactions.log
+neo4j/data/
+memgraph/query_modules/
+
+# --- Large Data Imports/Exports ---
+# Prevent tracking massive graph dumps, CSVs, or JSON arrays
+/imports/
+/exports/
+*.csv
+*.tsv
+*.jsonl
+*.parquet
+*.gml
+*.graphml
+
+# --- Dependencies & Package Managers ---
+node_modules/
+.pnp/
+.pnp.js
+venv/
+env/
+__pycache__/
+*.pyc
+
+# --- IDEs and System Files ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs and Diagnostics ---
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
