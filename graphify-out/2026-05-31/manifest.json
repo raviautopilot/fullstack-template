@@ -103,5 +103,15 @@
     "mtime": 1780236530.744814,
     "ast_hash": "72c1edf39fd6ea64e5cb95acb2f3b4cc",
     "semantic_hash": "72c1edf39fd6ea64e5cb95acb2f3b4cc"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/docs/docs.go": {
+    "mtime": 1780236712.445845,
+    "ast_hash": "59609c25592066abac888925500721fb",
+    "semantic_hash": "59609c25592066abac888925500721fb"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/backend/docs/swagger.json": {
+    "mtime": 1780236712.445845,
+    "ast_hash": "da35528ae7559818340893e2c00e503d",
+    "semantic_hash": "da35528ae7559818340893e2c00e503d"
   }
 }

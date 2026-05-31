@@ -12,7 +12,7 @@
         "language": "bash",
         "kind": "file"
       },
-      "community": 23,
+      "community": 24,
       "norm_label": "update-graphify.sh",
       "id": "update_graphify_sh"
     },
@@ -25,7 +25,7 @@
         "language": "bash",
         "kind": "file"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "manage.sh",
       "id": "manage_sh"
     },
@@ -38,7 +38,7 @@
         "language": "bash",
         "kind": "bash_entrypoint"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "manage.sh script",
       "id": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry"
     },
@@ -51,7 +51,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "log_info()",
       "id": "fullstack_template_manage_log_info"
     },
@@ -64,7 +64,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "log_success()",
       "id": "fullstack_template_manage_log_success"
     },
@@ -77,7 +77,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "log_warn()",
       "id": "fullstack_template_manage_log_warn"
     },
@@ -90,7 +90,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "log_error()",
       "id": "fullstack_template_manage_log_error"
     },
@@ -103,7 +103,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "print_help()",
       "id": "fullstack_template_manage_print_help"
     },
@@ -116,7 +116,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_install()",
       "id": "fullstack_template_manage_do_install"
     },
@@ -129,7 +129,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_swagger()",
       "id": "fullstack_template_manage_do_swagger"
     },
@@ -142,7 +142,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_build()",
       "id": "fullstack_template_manage_do_build"
     },
@@ -155,7 +155,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_run()",
       "id": "fullstack_template_manage_do_run"
     },
@@ -168,7 +168,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_stop()",
       "id": "fullstack_template_manage_do_stop"
     },
@@ -181,7 +181,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_kill()",
       "id": "fullstack_template_manage_do_kill"
     },
@@ -194,7 +194,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_status()",
       "id": "fullstack_template_manage_do_status"
     },
@@ -207,7 +207,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_troubleshoot()",
       "id": "fullstack_template_manage_do_troubleshoot"
     },
@@ -220,7 +220,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 4,
+      "community": 5,
       "norm_label": "do_test()",
       "id": "fullstack_template_manage_do_test"
     },
@@ -229,7 +229,7 @@
       "file_type": "code",
       "source_file": "frontend/vite.config.js",
       "source_location": "L1",
-      "community": 24,
+      "community": 25,
       "norm_label": "vite.config.js",
       "id": "frontend_vite_config_js"
     },
@@ -436,7 +436,7 @@
       "file_type": "code",
       "source_file": "frontend/eslint.config.js",
       "source_location": "L1",
-      "community": 25,
+      "community": 26,
       "norm_label": "eslint.config.js",
       "id": "frontend_eslint_config_js"
     },
@@ -445,7 +445,7 @@
       "file_type": "code",
       "source_file": "frontend/src/main.jsx",
       "source_location": "L1",
-      "community": 19,
+      "community": 20,
       "norm_label": "main.jsx",
       "id": "frontend_src_main_jsx"
     },
@@ -454,7 +454,7 @@
       "file_type": "code",
       "source_file": "frontend/src/App.jsx",
       "source_location": "L1",
-      "community": 19,
+      "community": 20,
       "norm_label": "app.jsx",
       "id": "frontend_src_app_jsx"
     },
@@ -463,7 +463,7 @@
       "file_type": "code",
       "source_file": "frontend/src/App.jsx",
       "source_location": "L5",
-      "community": 19,
+      "community": 20,
       "norm_label": "app()",
       "id": "src_app_app"
     },
@@ -868,7 +868,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L1",
-      "community": 13,
+      "community": 14,
       "norm_label": "health.go",
       "id": "backend_internal_health_health_go"
     },
@@ -877,7 +877,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L14",
-      "community": 13,
+      "community": 14,
       "norm_label": "init()",
       "id": "health_health_init"
     },
@@ -886,7 +886,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L18",
-      "community": 13,
+      "community": 14,
       "norm_label": "memorystats",
       "id": "health_memorystats"
     },
@@ -895,7 +895,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L25",
-      "community": 13,
+      "community": 14,
       "norm_label": "dependencycheck",
       "id": "health_dependencycheck"
     },
@@ -904,7 +904,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L30",
-      "community": 13,
+      "community": 14,
       "norm_label": "healthresponse",
       "id": "health_healthresponse"
     },
@@ -913,7 +913,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L47",
-      "community": 13,
+      "community": 14,
       "norm_label": "healthcheckhandler()",
       "id": "health_health_healthcheckhandler"
     },
@@ -1107,7 +1107,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "norm_label": "frontend entry point",
       "id": "frontend_index"
     },
@@ -1120,7 +1120,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "norm_label": "main react entry",
       "id": "frontend_main"
     },
@@ -1133,7 +1133,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 19,
       "norm_label": "frontend readme",
       "id": "frontend_readme"
     },
@@ -1146,7 +1146,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 27,
       "norm_label": "frontend dashboard mockup",
       "id": "frontend_dashboard_mockup"
     },
@@ -1181,7 +1181,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L1",
-      "community": 5,
+      "community": 3,
       "norm_label": "base_suite.go",
       "id": "e2etest_base_suite_go"
     },
@@ -1190,7 +1190,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L16",
-      "community": 5,
+      "community": 3,
       "norm_label": "baseapisuite",
       "id": "e2etest_baseapisuite"
     },
@@ -1199,7 +1199,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L22",
-      "community": 5,
+      "community": 3,
       "norm_label": ".setupsuite()",
       "id": "e2etest_baseapisuite_setupsuite"
     },
@@ -1208,7 +1208,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L26",
-      "community": 5,
+      "community": 3,
       "norm_label": ".setuptest()",
       "id": "e2etest_baseapisuite_setuptest"
     },
@@ -1217,7 +1217,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L30",
-      "community": 5,
+      "community": 3,
       "norm_label": ".teardowntest()",
       "id": "e2etest_baseapisuite_teardowntest"
     },
@@ -1226,7 +1226,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L41",
-      "community": 5,
+      "community": 3,
       "norm_label": ".loganddorequest()",
       "id": "e2etest_baseapisuite_loganddorequest"
     },
@@ -1235,7 +1235,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L67",
-      "community": 5,
+      "community": 3,
       "norm_label": "basewebsuite",
       "id": "e2etest_basewebsuite"
     },
@@ -1244,7 +1244,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L149",
-      "community": 5,
+      "community": 3,
       "norm_label": ".takescreenshot()",
       "id": "e2etest_basewebsuite_takescreenshot"
     },
@@ -1253,7 +1253,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L176",
-      "community": 5,
+      "community": 3,
       "norm_label": ".navigateto()",
       "id": "e2etest_basewebsuite_navigateto"
     },
@@ -1262,7 +1262,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L187",
-      "community": 5,
+      "community": 3,
       "norm_label": ".clickelement()",
       "id": "e2etest_basewebsuite_clickelement"
     },
@@ -1271,7 +1271,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L202",
-      "community": 5,
+      "community": 3,
       "norm_label": ".waittillelementfound()",
       "id": "e2etest_basewebsuite_waittillelementfound"
     },
@@ -1280,7 +1280,7 @@
       "file_type": "code",
       "source_file": "e2etest/main_test.go",
       "source_location": "L1",
-      "community": 5,
+      "community": 3,
       "norm_label": "main_test.go",
       "id": "e2etest_main_test_go"
     },
@@ -1289,7 +1289,7 @@
       "file_type": "code",
       "source_file": "e2etest/main_test.go",
       "source_location": "L8",
-      "community": 5,
+      "community": 3,
       "norm_label": "testmain()",
       "id": "e2etest_main_test_testmain"
     },
@@ -1298,7 +1298,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L1",
-      "community": 14,
+      "community": 15,
       "norm_label": "api_suite_test.go",
       "id": "e2etest_api_suite_test_go"
     },
@@ -1307,7 +1307,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L12",
-      "community": 14,
+      "community": 15,
       "norm_label": "apitestsuite",
       "id": "e2etest_apitestsuite"
     },
@@ -1316,7 +1316,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L17",
-      "community": 14,
+      "community": 15,
       "norm_label": ".setupsuite()",
       "id": "e2etest_apitestsuite_setupsuite"
     },
@@ -1325,7 +1325,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L25",
-      "community": 14,
+      "community": 15,
       "norm_label": ".testapihealthendpoint()",
       "id": "e2etest_apitestsuite_testapihealthendpoint"
     },
@@ -1334,7 +1334,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L61",
-      "community": 14,
+      "community": 15,
       "norm_label": ".testapiswaggerendpoint()",
       "id": "e2etest_apitestsuite_testapiswaggerendpoint"
     },
@@ -1343,7 +1343,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L93",
-      "community": 14,
+      "community": 15,
       "norm_label": "testrunapisuite()",
       "id": "e2etest_api_suite_test_testrunapisuite"
     },
@@ -1352,7 +1352,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L1",
-      "community": 15,
+      "community": 17,
       "norm_label": "web_suite_test.go",
       "id": "e2etest_web_suite_test_go"
     },
@@ -1361,7 +1361,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L13",
-      "community": 15,
+      "community": 17,
       "norm_label": "webtestsuite",
       "id": "e2etest_webtestsuite"
     },
@@ -1370,7 +1370,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L18",
-      "community": 15,
+      "community": 17,
       "norm_label": ".setupsuite()",
       "id": "e2etest_webtestsuite_setupsuite"
     },
@@ -1379,7 +1379,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L26",
-      "community": 15,
+      "community": 17,
       "norm_label": ".testfrontendworkflow()",
       "id": "e2etest_webtestsuite_testfrontendworkflow"
     },
@@ -1388,7 +1388,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L95",
-      "community": 15,
+      "community": 17,
       "norm_label": "testrunwebsuite()",
       "id": "e2etest_web_suite_test_testrunwebsuite"
     },
@@ -1460,7 +1460,7 @@
       "file_type": "code",
       "source_file": "e2etest/reporter.go",
       "source_location": "L74",
-      "community": 5,
+      "community": 3,
       "norm_label": "getreport()",
       "id": "e2etest_reporter_getreport"
     },
@@ -1554,19 +1554,6 @@
       "id": "report_api_e2e_tests"
     },
     {
-      "label": "TestRunAPISuite/TestAPIHealthEndpoint",
-      "file_type": "code",
-      "source_file": "e2etest/report.html",
-      "source_location": "TestRunAPISuite/TestAPIHealthEndpoint",
-      "source_url": null,
-      "captured_at": null,
-      "author": null,
-      "contributor": null,
-      "community": 16,
-      "norm_label": "testrunapisuite/testapihealthendpoint",
-      "id": "report_test_api_health_endpoint"
-    },
-    {
       "label": "GET /health",
       "file_type": "code",
       "source_file": "e2etest/report.html",
@@ -1588,7 +1575,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 28,
       "norm_label": "favicon",
       "id": "favicon_svg"
     },
@@ -1601,7 +1588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 29,
       "norm_label": "icon library",
       "id": "icons_svg"
     },
@@ -1614,7 +1601,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 30,
       "norm_label": "hero image",
       "id": "hero_png"
     },
@@ -1627,7 +1614,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 23,
       "norm_label": "vite logo",
       "id": "vite_svg"
     },
@@ -1640,7 +1627,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 23,
       "norm_label": "react logo",
       "id": "react_svg"
     },
@@ -1649,468 +1636,468 @@
       "file_type": "code",
       "source_file": "backend/docs/docs.go",
       "source_location": "L1",
-      "id": "backend_docs_docs_go",
-      "community": 21,
-      "norm_label": "docs.go"
+      "community": 22,
+      "norm_label": "docs.go",
+      "id": "backend_docs_docs_go"
     },
     {
       "label": "init()",
       "file_type": "code",
       "source_file": "backend/docs/docs.go",
       "source_location": "L242",
-      "id": "docs_docs_init",
-      "community": 21,
-      "norm_label": "init()"
+      "community": 22,
+      "norm_label": "init()",
+      "id": "docs_docs_init"
     },
     {
       "label": "swagger.json",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L1",
-      "id": "backend_docs_swagger_json",
       "community": 7,
-      "norm_label": "swagger.json"
+      "norm_label": "swagger.json",
+      "id": "backend_docs_swagger_json"
     },
     {
       "label": "swagger",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L2",
-      "id": "docs_swagger_swagger",
       "community": 7,
-      "norm_label": "swagger"
+      "norm_label": "swagger",
+      "id": "docs_swagger_swagger"
     },
     {
       "label": "info",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L3",
-      "id": "docs_swagger_info",
       "community": 7,
-      "norm_label": "info"
+      "norm_label": "info",
+      "id": "docs_swagger_info"
     },
     {
       "label": "title",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L5",
-      "id": "docs_swagger_info_title",
       "community": 7,
-      "norm_label": "title"
+      "norm_label": "title",
+      "id": "docs_swagger_info_title"
     },
     {
       "label": "termsOfService",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L6",
-      "id": "docs_swagger_info_termsofservice",
       "community": 7,
-      "norm_label": "termsofservice"
+      "norm_label": "termsofservice",
+      "id": "docs_swagger_info_termsofservice"
     },
     {
       "label": "contact",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L7",
-      "id": "docs_swagger_info_contact",
       "community": 7,
-      "norm_label": "contact"
+      "norm_label": "contact",
+      "id": "docs_swagger_info_contact"
     },
     {
       "label": "name",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L8",
-      "id": "docs_swagger_contact_name",
       "community": 7,
-      "norm_label": "name"
+      "norm_label": "name",
+      "id": "docs_swagger_contact_name"
     },
     {
       "label": "url",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L9",
-      "id": "docs_swagger_contact_url",
       "community": 7,
-      "norm_label": "url"
+      "norm_label": "url",
+      "id": "docs_swagger_contact_url"
     },
     {
       "label": "email",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L10",
-      "id": "docs_swagger_contact_email",
       "community": 7,
-      "norm_label": "email"
+      "norm_label": "email",
+      "id": "docs_swagger_contact_email"
     },
     {
       "label": "license",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L12",
-      "id": "docs_swagger_info_license",
       "community": 7,
-      "norm_label": "license"
+      "norm_label": "license",
+      "id": "docs_swagger_info_license"
     },
     {
       "label": "version",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L16",
-      "id": "docs_swagger_info_version",
       "community": 7,
-      "norm_label": "version"
+      "norm_label": "version",
+      "id": "docs_swagger_info_version"
     },
     {
       "label": "host",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L18",
-      "id": "docs_swagger_host",
       "community": 7,
-      "norm_label": "host"
+      "norm_label": "host",
+      "id": "docs_swagger_host"
     },
     {
       "label": "basePath",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L19",
-      "id": "docs_swagger_basepath",
       "community": 7,
-      "norm_label": "basepath"
+      "norm_label": "basepath",
+      "id": "docs_swagger_basepath"
     },
     {
       "label": "paths",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L20",
-      "id": "docs_swagger_paths",
       "community": 1,
-      "norm_label": "paths"
+      "norm_label": "paths",
+      "id": "docs_swagger_paths"
     },
     {
       "label": "/api/user",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L21",
-      "id": "docs_swagger_paths_api_user",
       "community": 1,
-      "norm_label": "/api/user"
+      "norm_label": "/api/user",
+      "id": "docs_swagger_paths_api_user"
     },
     {
       "label": "description",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L23",
-      "id": "docs_swagger_get_description",
       "community": 1,
-      "norm_label": "description"
+      "norm_label": "description",
+      "id": "docs_swagger_get_description"
     },
     {
       "label": "produces",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L24",
-      "id": "docs_swagger_get_produces",
       "community": 1,
-      "norm_label": "produces"
+      "norm_label": "produces",
+      "id": "docs_swagger_get_produces"
     },
     {
       "label": "tags",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L27",
-      "id": "docs_swagger_get_tags",
       "community": 1,
-      "norm_label": "tags"
+      "norm_label": "tags",
+      "id": "docs_swagger_get_tags"
     },
     {
       "label": "summary",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L30",
-      "id": "docs_swagger_get_summary",
       "community": 1,
-      "norm_label": "summary"
+      "norm_label": "summary",
+      "id": "docs_swagger_get_summary"
     },
     {
       "label": "parameters",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L31",
-      "id": "docs_swagger_get_parameters",
       "community": 1,
-      "norm_label": "parameters"
+      "norm_label": "parameters",
+      "id": "docs_swagger_get_parameters"
     },
     {
       "label": "responses",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L39",
-      "id": "docs_swagger_get_responses",
       "community": 1,
-      "norm_label": "responses"
+      "norm_label": "responses",
+      "id": "docs_swagger_get_responses"
     },
     {
       "label": "200",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L40",
-      "id": "docs_swagger_responses_200",
       "community": 1,
-      "norm_label": "200"
+      "norm_label": "200",
+      "id": "docs_swagger_responses_200"
     },
     {
       "label": "schema",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L42",
-      "id": "docs_swagger_200_schema",
       "community": 1,
-      "norm_label": "schema"
+      "norm_label": "schema",
+      "id": "docs_swagger_200_schema"
     },
     {
       "label": "type",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L43",
-      "id": "docs_swagger_schema_type",
-      "community": 3,
-      "norm_label": "type"
+      "community": 4,
+      "norm_label": "type",
+      "id": "docs_swagger_schema_type"
     },
     {
       "label": "additionalProperties",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L44",
-      "id": "docs_swagger_schema_additionalproperties",
       "community": 1,
-      "norm_label": "additionalproperties"
+      "norm_label": "additionalproperties",
+      "id": "docs_swagger_schema_additionalproperties"
     },
     {
       "label": "401",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L49",
-      "id": "docs_swagger_responses_401",
       "community": 1,
-      "norm_label": "401"
+      "norm_label": "401",
+      "id": "docs_swagger_responses_401"
     },
     {
       "label": "/auth/callback",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L61",
-      "id": "docs_swagger_paths_auth_callback",
       "community": 1,
-      "norm_label": "/auth/callback"
+      "norm_label": "/auth/callback",
+      "id": "docs_swagger_paths_auth_callback"
     },
     {
       "label": "302",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L88",
-      "id": "docs_swagger_responses_302",
       "community": 1,
-      "norm_label": "302"
+      "norm_label": "302",
+      "id": "docs_swagger_responses_302"
     },
     {
       "label": "/auth/login",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L97",
-      "id": "docs_swagger_paths_auth_login",
       "community": 1,
-      "norm_label": "/auth/login"
+      "norm_label": "/auth/login",
+      "id": "docs_swagger_paths_auth_login"
     },
     {
       "label": "/auth/logout",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L117",
-      "id": "docs_swagger_paths_auth_logout",
       "community": 1,
-      "norm_label": "/auth/logout"
+      "norm_label": "/auth/logout",
+      "id": "docs_swagger_paths_auth_logout"
     },
     {
       "label": "/health",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L140",
-      "id": "docs_swagger_paths_health",
       "community": 1,
-      "norm_label": "/health"
+      "norm_label": "/health",
+      "id": "docs_swagger_paths_health"
     },
     {
       "label": "get",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L141",
-      "id": "docs_swagger_health_get",
       "community": 1,
-      "norm_label": "get"
+      "norm_label": "get",
+      "id": "docs_swagger_health_get"
     },
     {
       "label": "consumes",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L143",
-      "id": "docs_swagger_get_consumes",
       "community": 1,
-      "norm_label": "consumes"
+      "norm_label": "consumes",
+      "id": "docs_swagger_get_consumes"
     },
     {
       "label": "$ref",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L157",
-      "id": "docs_swagger_schema_ref",
       "community": 1,
-      "norm_label": "$ref"
+      "norm_label": "$ref",
+      "id": "docs_swagger_schema_ref"
     },
     {
       "label": "definitions",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L164",
-      "id": "docs_swagger_definitions",
-      "community": 3,
-      "norm_label": "definitions"
+      "community": 4,
+      "norm_label": "definitions",
+      "id": "docs_swagger_definitions"
     },
     {
       "label": "health.DependencyCheck",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L165",
-      "id": "docs_swagger_definitions_health_dependencycheck",
-      "community": 3,
-      "norm_label": "health.dependencycheck"
+      "community": 4,
+      "norm_label": "health.dependencycheck",
+      "id": "docs_swagger_definitions_health_dependencycheck"
     },
     {
       "label": "details",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L168",
-      "id": "docs_swagger_properties_details",
-      "community": 3,
-      "norm_label": "details"
+      "community": 4,
+      "norm_label": "details",
+      "id": "docs_swagger_properties_details"
     },
     {
       "label": "status",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L171",
-      "id": "docs_swagger_properties_status",
-      "community": 3,
-      "norm_label": "status"
+      "community": 4,
+      "norm_label": "status",
+      "id": "docs_swagger_properties_status"
     },
     {
       "label": "health.HealthResponse",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L176",
-      "id": "docs_swagger_definitions_health_healthresponse",
-      "community": 3,
-      "norm_label": "health.healthresponse"
+      "community": 4,
+      "norm_label": "health.healthresponse",
+      "id": "docs_swagger_definitions_health_healthresponse"
     },
     {
       "label": "dependencies",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L179",
-      "id": "docs_swagger_properties_dependencies",
-      "community": 3,
-      "norm_label": "dependencies"
+      "community": 4,
+      "norm_label": "dependencies",
+      "id": "docs_swagger_properties_dependencies"
     },
     {
       "label": "environment",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L185",
-      "id": "docs_swagger_properties_environment",
-      "community": 3,
-      "norm_label": "environment"
+      "community": 4,
+      "norm_label": "environment",
+      "id": "docs_swagger_properties_environment"
     },
     {
       "label": "memory",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L188",
-      "id": "docs_swagger_properties_memory",
       "community": 1,
-      "norm_label": "memory"
+      "norm_label": "memory",
+      "id": "docs_swagger_properties_memory"
     },
     {
       "label": "timestamp",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L194",
-      "id": "docs_swagger_properties_timestamp",
-      "community": 3,
-      "norm_label": "timestamp"
+      "community": 4,
+      "norm_label": "timestamp",
+      "id": "docs_swagger_properties_timestamp"
     },
     {
       "label": "uptime_seconds",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L197",
-      "id": "docs_swagger_properties_uptime_seconds",
-      "community": 3,
-      "norm_label": "uptime_seconds"
+      "community": 4,
+      "norm_label": "uptime_seconds",
+      "id": "docs_swagger_properties_uptime_seconds"
     },
     {
       "label": "health.MemoryStats",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L202",
-      "id": "docs_swagger_definitions_health_memorystats",
-      "community": 3,
-      "norm_label": "health.memorystats"
+      "community": 4,
+      "norm_label": "health.memorystats",
+      "id": "docs_swagger_definitions_health_memorystats"
     },
     {
       "label": "properties",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L204",
-      "id": "docs_swagger_health_memorystats_properties",
-      "community": 3,
-      "norm_label": "properties"
+      "community": 4,
+      "norm_label": "properties",
+      "id": "docs_swagger_health_memorystats_properties"
     },
     {
       "label": "alloc_mb",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L205",
-      "id": "docs_swagger_properties_alloc_mb",
-      "community": 3,
-      "norm_label": "alloc_mb"
+      "community": 4,
+      "norm_label": "alloc_mb",
+      "id": "docs_swagger_properties_alloc_mb"
     },
     {
       "label": "num_gc",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L208",
-      "id": "docs_swagger_properties_num_gc",
-      "community": 3,
-      "norm_label": "num_gc"
+      "community": 4,
+      "norm_label": "num_gc",
+      "id": "docs_swagger_properties_num_gc"
     },
     {
       "label": "sys_mb",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L211",
-      "id": "docs_swagger_properties_sys_mb",
-      "community": 3,
-      "norm_label": "sys_mb"
+      "community": 4,
+      "norm_label": "sys_mb",
+      "id": "docs_swagger_properties_sys_mb"
     },
     {
       "label": "total_alloc_mb",
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L214",
-      "id": "docs_swagger_properties_total_alloc_mb",
-      "community": 3,
-      "norm_label": "total_alloc_mb"
+      "community": 4,
+      "norm_label": "total_alloc_mb",
+      "id": "docs_swagger_properties_total_alloc_mb"
     },
     {
       "label": "Antigravity Monorepo API",
@@ -2121,9 +2108,9 @@
       "captured_at": null,
       "author": "API Support",
       "contributor": null,
-      "id": "swagger_antigravity_monorepo_api",
-      "community": 30,
-      "norm_label": "antigravity monorepo api"
+      "community": 31,
+      "norm_label": "antigravity monorepo api",
+      "id": "swagger_antigravity_monorepo_api"
     },
     {
       "label": "health.DependencyCheck",
@@ -2134,9 +2121,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_health_dependencycheck",
-      "community": 17,
-      "norm_label": "health.dependencycheck"
+      "community": 18,
+      "norm_label": "health.dependencycheck",
+      "id": "swagger_health_dependencycheck"
     },
     {
       "label": "health.HealthResponse",
@@ -2147,9 +2134,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_health_healthresponse",
-      "community": 17,
-      "norm_label": "health.healthresponse"
+      "community": 18,
+      "norm_label": "health.healthresponse",
+      "id": "swagger_health_healthresponse"
     },
     {
       "label": "health.MemoryStats",
@@ -2160,9 +2147,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_health_memorystats",
-      "community": 17,
-      "norm_label": "health.memorystats"
+      "community": 18,
+      "norm_label": "health.memorystats",
+      "id": "swagger_health_memorystats"
     },
     {
       "label": "Get Logged In User Profile",
@@ -2173,9 +2160,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_api_user",
-      "community": 20,
-      "norm_label": "get logged in user profile"
+      "community": 21,
+      "norm_label": "get logged in user profile",
+      "id": "swagger_api_user"
     },
     {
       "label": "Google OAuth Callback Endpoint",
@@ -2186,9 +2173,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_auth_callback",
-      "community": 20,
-      "norm_label": "google oauth callback endpoint"
+      "community": 21,
+      "norm_label": "google oauth callback endpoint",
+      "id": "swagger_auth_callback"
     },
     {
       "label": "Initiate Google OAuth Login",
@@ -2199,9 +2186,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_auth_login",
-      "community": 20,
-      "norm_label": "initiate google oauth login"
+      "community": 21,
+      "norm_label": "initiate google oauth login",
+      "id": "swagger_auth_login"
     },
     {
       "label": "Logout User",
@@ -2212,9 +2199,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_auth_logout",
-      "community": 31,
-      "norm_label": "logout user"
+      "community": 32,
+      "norm_label": "logout user",
+      "id": "swagger_auth_logout"
     },
     {
       "label": "Get health status",
@@ -2225,9 +2212,175 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "swagger_health_endpoint",
-      "community": 17,
-      "norm_label": "get health status"
+      "community": 18,
+      "norm_label": "get health status",
+      "id": "swagger_health_endpoint"
+    },
+    {
+      "label": "e2e-test.json",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L1",
+      "id": "e2etest_e2e_test_json",
+      "community": 13,
+      "norm_label": "e2e-test.json"
+    },
+    {
+      "label": "frontend_url",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L2",
+      "id": "e2etest_e2e_test_frontend_url",
+      "community": 13,
+      "norm_label": "frontend_url"
+    },
+    {
+      "label": "backend_url",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L3",
+      "id": "e2etest_e2e_test_backend_url",
+      "community": 13,
+      "norm_label": "backend_url"
+    },
+    {
+      "label": "chromedriver_path",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L4",
+      "id": "e2etest_e2e_test_chromedriver_path",
+      "community": 13,
+      "norm_label": "chromedriver_path"
+    },
+    {
+      "label": "chromium_path",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L5",
+      "id": "e2etest_e2e_test_chromium_path",
+      "community": 13,
+      "norm_label": "chromium_path"
+    },
+    {
+      "label": "chromedriver_port",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L6",
+      "id": "e2etest_e2e_test_chromedriver_port",
+      "community": 13,
+      "norm_label": "chromedriver_port"
+    },
+    {
+      "label": "enable_evidence",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L7",
+      "id": "e2etest_e2e_test_enable_evidence",
+      "community": 13,
+      "norm_label": "enable_evidence"
+    },
+    {
+      "label": "evidence_dir",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L8",
+      "id": "e2etest_e2e_test_evidence_dir",
+      "community": 13,
+      "norm_label": "evidence_dir"
+    },
+    {
+      "label": "report_path",
+      "file_type": "code",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L9",
+      "id": "e2etest_e2e_test_report_path",
+      "community": 13,
+      "norm_label": "report_path"
+    },
+    {
+      "label": "config.go",
+      "file_type": "code",
+      "source_file": "e2etest/config.go",
+      "source_location": "L1",
+      "id": "e2etest_config_go",
+      "community": 3,
+      "norm_label": "config.go"
+    },
+    {
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "e2etest/config.go",
+      "source_location": "L8",
+      "id": "e2etest_config",
+      "community": 3,
+      "norm_label": "config"
+    },
+    {
+      "label": "LoadConfig()",
+      "file_type": "code",
+      "source_file": "e2etest/config.go",
+      "source_location": "L31",
+      "id": "e2etest_config_loadconfig",
+      "community": 3,
+      "norm_label": "loadconfig()"
+    },
+    {
+      "label": "TestRunAPISuite/TestAPIHealthEndpoint",
+      "file_type": "rationale",
+      "source_file": "e2etest/report.html",
+      "source_location": "Test Case",
+      "id": "report_testapihealthendpoint",
+      "community": 16,
+      "norm_label": "testrunapisuite/testapihealthendpoint"
+    },
+    {
+      "label": "Health Check Response Body",
+      "file_type": "document",
+      "source_file": "e2etest/report.html",
+      "source_location": "Response Body",
+      "id": "report_health_response",
+      "community": 16,
+      "norm_label": "health check response body"
+    },
+    {
+      "label": "Landing Page Screenshot",
+      "file_type": "image",
+      "source_file": "e2etest/report_evidences/01_landing_page_195625_000.png",
+      "id": "report_landing_page_screenshot",
+      "community": 16,
+      "norm_label": "landing page screenshot"
+    },
+    {
+      "label": "Dashboard Page Screenshot",
+      "file_type": "image",
+      "source_file": "e2etest/report_evidences/03_dashboard_page_195701_000.png",
+      "id": "report_dashboard_screenshot",
+      "community": 33,
+      "norm_label": "dashboard page screenshot"
+    },
+    {
+      "label": "Failure State Screenshot",
+      "file_type": "image",
+      "source_file": "e2etest/report_evidences/failure_state_195636_000.png",
+      "id": "report_failure_state_screenshot",
+      "community": 34,
+      "norm_label": "failure state screenshot"
+    },
+    {
+      "label": "Mock Consent Portal Screenshot",
+      "file_type": "image",
+      "source_file": "e2etest/report_evidences/02_mock_consent_portal_195700_000.png",
+      "id": "report_mock_consent_screenshot",
+      "community": 35,
+      "norm_label": "mock consent portal screenshot"
+    },
+    {
+      "label": "Returned to Landing Screenshot",
+      "file_type": "image",
+      "source_file": "e2etest/report_evidences/04_returned_to_landing_195702_000.png",
+      "id": "report_returned_landing_screenshot",
+      "community": 36,
+      "norm_label": "returned to landing screenshot"
     }
   ],
   "links": [
@@ -3698,7 +3851,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L67",
+      "source_location": "L74",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_base_suite_go",
@@ -3759,7 +3912,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L76",
+      "source_location": "L83",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3769,7 +3922,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L103",
+      "source_location": "L106",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3800,7 +3953,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L187",
+      "source_location": "L194",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3810,7 +3963,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L176",
+      "source_location": "L183",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3830,7 +3983,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L202",
+      "source_location": "L209",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3840,11 +3993,22 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/main_test.go",
-      "source_location": "L8",
+      "source_location": "L11",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_main_test_go",
       "target": "e2etest_main_test_testmain"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "e2etest/main_test.go",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "e2etest_main_test_testmain",
+      "target": "e2etest_config_loadconfig"
     },
     {
       "relation": "calls",
@@ -3861,7 +4025,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/api_suite_test.go",
-      "source_location": "L93",
+      "source_location": "L89",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_api_suite_test_go",
@@ -3871,7 +4035,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/api_suite_test.go",
-      "source_location": "L12",
+      "source_location": "L11",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_api_suite_test_go",
@@ -3881,7 +4045,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/api_suite_test.go",
-      "source_location": "L17",
+      "source_location": "L16",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_apitestsuite",
@@ -3891,7 +4055,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/api_suite_test.go",
-      "source_location": "L25",
+      "source_location": "L21",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_apitestsuite",
@@ -3901,7 +4065,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/api_suite_test.go",
-      "source_location": "L61",
+      "source_location": "L57",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_apitestsuite",
@@ -3911,7 +4075,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/web_suite_test.go",
-      "source_location": "L95",
+      "source_location": "L91",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_web_suite_test_go",
@@ -3921,7 +4085,7 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/web_suite_test.go",
-      "source_location": "L13",
+      "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_web_suite_test_go",
@@ -3931,7 +4095,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/web_suite_test.go",
-      "source_location": "L18",
+      "source_location": "L17",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_webtestsuite",
@@ -3941,7 +4105,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/web_suite_test.go",
-      "source_location": "L26",
+      "source_location": "L22",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_webtestsuite",
@@ -4116,7 +4280,7 @@
       "source_location": null,
       "weight": 1.0,
       "source": "report_api_e2e_tests",
-      "target": "report_test_api_health_endpoint"
+      "target": "report_testapihealthendpoint"
     },
     {
       "relation": "conceptually_related_to",
@@ -4129,13 +4293,21 @@
       "target": "report_api_e2e_tests"
     },
     {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "e2etest/report.html",
+      "source": "report_health_endpoint",
+      "target": "report_health_response"
+    },
+    {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
       "source_file": "e2etest/report.html",
       "source_location": null,
       "weight": 1.0,
-      "source": "report_test_api_health_endpoint",
+      "source": "report_testapihealthendpoint",
       "target": "report_health_endpoint"
     },
     {
@@ -4154,9 +4326,9 @@
       "source_file": "backend/docs/docs.go",
       "source_location": "L242",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_docs_docs_go",
-      "target": "docs_docs_init",
-      "confidence_score": 1.0
+      "target": "docs_docs_init"
     },
     {
       "relation": "contains",
@@ -4164,9 +4336,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L19",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_docs_swagger_json",
-      "target": "docs_swagger_basepath",
-      "confidence_score": 1.0
+      "target": "docs_swagger_basepath"
     },
     {
       "relation": "contains",
@@ -4174,9 +4346,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L164",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_docs_swagger_json",
-      "target": "docs_swagger_definitions",
-      "confidence_score": 1.0
+      "target": "docs_swagger_definitions"
     },
     {
       "relation": "contains",
@@ -4184,9 +4356,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_docs_swagger_json",
-      "target": "docs_swagger_host",
-      "confidence_score": 1.0
+      "target": "docs_swagger_host"
     },
     {
       "relation": "contains",
@@ -4194,9 +4366,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_docs_swagger_json",
-      "target": "docs_swagger_info",
-      "confidence_score": 1.0
+      "target": "docs_swagger_info"
     },
     {
       "relation": "contains",
@@ -4204,9 +4376,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_docs_swagger_json",
-      "target": "docs_swagger_paths",
-      "confidence_score": 1.0
+      "target": "docs_swagger_paths"
     },
     {
       "relation": "contains",
@@ -4214,9 +4386,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "backend_docs_swagger_json",
-      "target": "docs_swagger_swagger",
-      "confidence_score": 1.0
+      "target": "docs_swagger_swagger"
     },
     {
       "relation": "contains",
@@ -4224,9 +4396,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info",
-      "target": "docs_swagger_get_description",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_description"
     },
     {
       "relation": "contains",
@@ -4234,9 +4406,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info",
-      "target": "docs_swagger_info_contact",
-      "confidence_score": 1.0
+      "target": "docs_swagger_info_contact"
     },
     {
       "relation": "contains",
@@ -4244,9 +4416,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info",
-      "target": "docs_swagger_info_license",
-      "confidence_score": 1.0
+      "target": "docs_swagger_info_license"
     },
     {
       "relation": "contains",
@@ -4254,9 +4426,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info",
-      "target": "docs_swagger_info_termsofservice",
-      "confidence_score": 1.0
+      "target": "docs_swagger_info_termsofservice"
     },
     {
       "relation": "contains",
@@ -4264,9 +4436,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info",
-      "target": "docs_swagger_info_title",
-      "confidence_score": 1.0
+      "target": "docs_swagger_info_title"
     },
     {
       "relation": "contains",
@@ -4274,9 +4446,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L16",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info",
-      "target": "docs_swagger_info_version",
-      "confidence_score": 1.0
+      "target": "docs_swagger_info_version"
     },
     {
       "relation": "contains",
@@ -4284,9 +4456,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L10",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info_contact",
-      "target": "docs_swagger_contact_email",
-      "confidence_score": 1.0
+      "target": "docs_swagger_contact_email"
     },
     {
       "relation": "contains",
@@ -4294,9 +4466,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L8",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info_contact",
-      "target": "docs_swagger_contact_name",
-      "confidence_score": 1.0
+      "target": "docs_swagger_contact_name"
     },
     {
       "relation": "contains",
@@ -4304,9 +4476,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info_contact",
-      "target": "docs_swagger_contact_url",
-      "confidence_score": 1.0
+      "target": "docs_swagger_contact_url"
     },
     {
       "relation": "contains",
@@ -4314,9 +4486,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L13",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info_license",
-      "target": "docs_swagger_contact_name",
-      "confidence_score": 1.0
+      "target": "docs_swagger_contact_name"
     },
     {
       "relation": "contains",
@@ -4324,9 +4496,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_info_license",
-      "target": "docs_swagger_contact_url",
-      "confidence_score": 1.0
+      "target": "docs_swagger_contact_url"
     },
     {
       "relation": "contains",
@@ -4334,9 +4506,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths",
-      "target": "docs_swagger_paths_api_user",
-      "confidence_score": 1.0
+      "target": "docs_swagger_paths_api_user"
     },
     {
       "relation": "contains",
@@ -4344,9 +4516,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths",
-      "target": "docs_swagger_paths_auth_callback",
-      "confidence_score": 1.0
+      "target": "docs_swagger_paths_auth_callback"
     },
     {
       "relation": "contains",
@@ -4354,9 +4526,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L97",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths",
-      "target": "docs_swagger_paths_auth_login",
-      "confidence_score": 1.0
+      "target": "docs_swagger_paths_auth_login"
     },
     {
       "relation": "contains",
@@ -4364,9 +4536,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L117",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths",
-      "target": "docs_swagger_paths_auth_logout",
-      "confidence_score": 1.0
+      "target": "docs_swagger_paths_auth_logout"
     },
     {
       "relation": "contains",
@@ -4374,9 +4546,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L140",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths",
-      "target": "docs_swagger_paths_health",
-      "confidence_score": 1.0
+      "target": "docs_swagger_paths_health"
     },
     {
       "relation": "contains",
@@ -4384,9 +4556,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L22",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths_api_user",
-      "target": "docs_swagger_health_get",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_get"
     },
     {
       "relation": "contains",
@@ -4394,9 +4566,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L142",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_get",
-      "target": "docs_swagger_get_description",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_description"
     },
     {
       "relation": "contains",
@@ -4404,9 +4576,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L155",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_responses_200",
-      "target": "docs_swagger_get_description",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_description"
     },
     {
       "relation": "contains",
@@ -4414,9 +4586,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L109",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_responses_302",
-      "target": "docs_swagger_get_description",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_description"
     },
     {
       "relation": "contains",
@@ -4424,9 +4596,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_responses_401",
-      "target": "docs_swagger_get_description",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_description"
     },
     {
       "relation": "contains",
@@ -4434,9 +4606,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L146",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_get",
-      "target": "docs_swagger_get_produces",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_produces"
     },
     {
       "relation": "contains",
@@ -4444,9 +4616,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L149",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_get",
-      "target": "docs_swagger_get_tags",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_tags"
     },
     {
       "relation": "contains",
@@ -4454,9 +4626,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_get",
-      "target": "docs_swagger_get_summary",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_summary"
     },
     {
       "relation": "contains",
@@ -4464,9 +4636,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L71",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_get",
-      "target": "docs_swagger_get_parameters",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_parameters"
     },
     {
       "relation": "contains",
@@ -4474,9 +4646,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L154",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_get_responses",
-      "target": "docs_swagger_responses_200",
-      "confidence_score": 1.0
+      "target": "docs_swagger_responses_200"
     },
     {
       "relation": "contains",
@@ -4484,9 +4656,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_get_responses",
-      "target": "docs_swagger_responses_302",
-      "confidence_score": 1.0
+      "target": "docs_swagger_responses_302"
     },
     {
       "relation": "contains",
@@ -4494,9 +4666,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L49",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_get_responses",
-      "target": "docs_swagger_responses_401",
-      "confidence_score": 1.0
+      "target": "docs_swagger_responses_401"
     },
     {
       "relation": "contains",
@@ -4504,9 +4676,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L153",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_get",
-      "target": "docs_swagger_get_responses",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_responses"
     },
     {
       "relation": "contains",
@@ -4514,9 +4686,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L156",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_responses_200",
-      "target": "docs_swagger_200_schema",
-      "confidence_score": 1.0
+      "target": "docs_swagger_200_schema"
     },
     {
       "relation": "contains",
@@ -4524,9 +4696,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L132",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_200_schema",
-      "target": "docs_swagger_schema_additionalproperties",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_additionalproperties"
     },
     {
       "relation": "contains",
@@ -4534,9 +4706,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L157",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_200_schema",
-      "target": "docs_swagger_schema_ref",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_ref"
     },
     {
       "relation": "contains",
@@ -4544,9 +4716,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L131",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_200_schema",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4554,9 +4726,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L110",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_responses_302",
-      "target": "docs_swagger_200_schema",
-      "confidence_score": 1.0
+      "target": "docs_swagger_200_schema"
     },
     {
       "relation": "contains",
@@ -4564,9 +4736,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_responses_401",
-      "target": "docs_swagger_200_schema",
-      "confidence_score": 1.0
+      "target": "docs_swagger_200_schema"
     },
     {
       "relation": "contains",
@@ -4574,9 +4746,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L166",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions_health_dependencycheck",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4584,9 +4756,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions_health_healthresponse",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4594,9 +4766,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions_health_memorystats",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4604,9 +4776,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L206",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_alloc_mb",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4614,9 +4786,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L180",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_dependencies",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4624,9 +4796,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L169",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_details",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4634,9 +4806,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L186",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_environment",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4644,9 +4816,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L209",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_num_gc",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4654,9 +4826,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L192",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_status",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4664,9 +4836,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L212",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_sys_mb",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4674,9 +4846,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L195",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_timestamp",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4684,9 +4856,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L215",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_total_alloc_mb",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4694,9 +4866,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L198",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_uptime_seconds",
-      "target": "docs_swagger_schema_type",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_type"
     },
     {
       "relation": "contains",
@@ -4704,9 +4876,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_dependencies",
-      "target": "docs_swagger_schema_additionalproperties",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_additionalproperties"
     },
     {
       "relation": "contains",
@@ -4714,9 +4886,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L182",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_schema_additionalproperties",
-      "target": "docs_swagger_schema_ref",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_ref"
     },
     {
       "relation": "contains",
@@ -4724,9 +4896,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L62",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths_auth_callback",
-      "target": "docs_swagger_health_get",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_get"
     },
     {
       "relation": "contains",
@@ -4734,9 +4906,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L98",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths_auth_login",
-      "target": "docs_swagger_health_get",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_get"
     },
     {
       "relation": "contains",
@@ -4744,9 +4916,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L118",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths_auth_logout",
-      "target": "docs_swagger_health_get",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_get"
     },
     {
       "relation": "contains",
@@ -4754,9 +4926,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_paths_health",
-      "target": "docs_swagger_health_get",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_get"
     },
     {
       "relation": "contains",
@@ -4764,9 +4936,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L143",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_get",
-      "target": "docs_swagger_get_consumes",
-      "confidence_score": 1.0
+      "target": "docs_swagger_get_consumes"
     },
     {
       "relation": "contains",
@@ -4774,9 +4946,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L189",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_properties_memory",
-      "target": "docs_swagger_schema_ref",
-      "confidence_score": 1.0
+      "target": "docs_swagger_schema_ref"
     },
     {
       "relation": "contains",
@@ -4784,9 +4956,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions",
-      "target": "docs_swagger_definitions_health_dependencycheck",
-      "confidence_score": 1.0
+      "target": "docs_swagger_definitions_health_dependencycheck"
     },
     {
       "relation": "contains",
@@ -4794,9 +4966,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L176",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions",
-      "target": "docs_swagger_definitions_health_healthresponse",
-      "confidence_score": 1.0
+      "target": "docs_swagger_definitions_health_healthresponse"
     },
     {
       "relation": "contains",
@@ -4804,9 +4976,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L202",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions",
-      "target": "docs_swagger_definitions_health_memorystats",
-      "confidence_score": 1.0
+      "target": "docs_swagger_definitions_health_memorystats"
     },
     {
       "relation": "contains",
@@ -4814,9 +4986,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L167",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions_health_dependencycheck",
-      "target": "docs_swagger_health_memorystats_properties",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_memorystats_properties"
     },
     {
       "relation": "contains",
@@ -4824,9 +4996,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L168",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_details",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_details"
     },
     {
       "relation": "contains",
@@ -4834,9 +5006,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L191",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_status",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_status"
     },
     {
       "relation": "contains",
@@ -4844,9 +5016,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L178",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions_health_healthresponse",
-      "target": "docs_swagger_health_memorystats_properties",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_memorystats_properties"
     },
     {
       "relation": "contains",
@@ -4854,9 +5026,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L179",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_dependencies",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_dependencies"
     },
     {
       "relation": "contains",
@@ -4864,9 +5036,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_environment",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_environment"
     },
     {
       "relation": "contains",
@@ -4874,9 +5046,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L188",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_memory",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_memory"
     },
     {
       "relation": "contains",
@@ -4884,9 +5056,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L194",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_timestamp",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_timestamp"
     },
     {
       "relation": "contains",
@@ -4894,9 +5066,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_uptime_seconds",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_uptime_seconds"
     },
     {
       "relation": "contains",
@@ -4904,9 +5076,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L204",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_definitions_health_memorystats",
-      "target": "docs_swagger_health_memorystats_properties",
-      "confidence_score": 1.0
+      "target": "docs_swagger_health_memorystats_properties"
     },
     {
       "relation": "contains",
@@ -4914,9 +5086,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L205",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_alloc_mb",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_alloc_mb"
     },
     {
       "relation": "contains",
@@ -4924,9 +5096,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L208",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_num_gc",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_num_gc"
     },
     {
       "relation": "contains",
@@ -4934,9 +5106,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L211",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_sys_mb",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_sys_mb"
     },
     {
       "relation": "contains",
@@ -4944,9 +5116,9 @@
       "source_file": "backend/docs/swagger.json",
       "source_location": "L214",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "docs_swagger_health_memorystats_properties",
-      "target": "docs_swagger_properties_total_alloc_mb",
-      "confidence_score": 1.0
+      "target": "docs_swagger_properties_total_alloc_mb"
     },
     {
       "relation": "references",
@@ -4997,8 +5169,116 @@
       "weight": 1.0,
       "source": "swagger_auth_login",
       "target": "swagger_auth_callback"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_backend_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_chromedriver_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_chromedriver_port",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_chromium_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_enable_evidence",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_evidence_dir",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_frontend_url",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/e2e-test.json",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "e2etest_e2e_test_json",
+      "target": "e2etest_e2e_test_report_path",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/config.go",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "e2etest_config_go",
+      "target": "e2etest_config",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/config.go",
+      "source_location": "L31",
+      "weight": 1.0,
+      "source": "e2etest_config_go",
+      "target": "e2etest_config_loadconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "e2etest/report.html",
+      "source": "report_testapihealthendpoint",
+      "target": "report_landing_page_screenshot"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "85ce003e400672521a95a10adc7fd82ff398cb8f"
+  "built_at_commit": "9c90b42c6e3441465bb69ea7a47d63342112ea0f"
 }

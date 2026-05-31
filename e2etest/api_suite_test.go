@@ -3,7 +3,6 @@ package e2etest
 import (
 	"encoding/json"
 	"net/http"
-	"os"
 	"testing"
 
 	"github.com/stretchr/testify/suite"
@@ -16,10 +15,7 @@ type APITestSuite struct {
 
 func (s *APITestSuite) SetupSuite() {
 	s.BaseAPISuite.SetupSuite()
-	s.backendURL = os.Getenv("BACKEND_URL")
-	if s.backendURL == "" {
-		s.backendURL = "http://localhost:8080"
-	}
+	s.backendURL = GlobalConfig.BackendURL
 }
 
 func (s *APITestSuite) TestAPIHealthEndpoint() {

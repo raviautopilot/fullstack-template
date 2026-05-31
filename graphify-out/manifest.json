@@ -5,7 +5,7 @@
     "semantic_hash": "446de290a9491abd639a6418bd12028e"
   },
   "/home/ubuntu/code/github/raviautopilot/fullstack-template/manage.sh": {
-    "mtime": 1780236596.1052341,
+    "mtime": 1780237293.1768942,
     "ast_hash": "b9de4fde710303e23721698d8089a274",
     "semantic_hash": "b9de4fde710303e23721698d8089a274"
   },
@@ -80,27 +80,27 @@
     "semantic_hash": "876b2028e22272a2eeaf121d1ac4c6ac"
   },
   "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/base_suite.go": {
-    "mtime": 1780236447.3362744,
-    "ast_hash": "a0650859842664aad31fdc0daa0eb551",
-    "semantic_hash": "a0650859842664aad31fdc0daa0eb551"
+    "mtime": 1780237560.014295,
+    "ast_hash": "61451d1d6235483aa830f4317ff63505",
+    "semantic_hash": "61451d1d6235483aa830f4317ff63505"
   },
   "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/main_test.go": {
-    "mtime": 1780236451.2402997,
-    "ast_hash": "cf45d2f05338cd8b7fc8422310b67e73",
-    "semantic_hash": "cf45d2f05338cd8b7fc8422310b67e73"
+    "mtime": 1780237551.778252,
+    "ast_hash": "f6bdc65e884183283538fc5697cced44",
+    "semantic_hash": "f6bdc65e884183283538fc5697cced44"
   },
   "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/api_suite_test.go": {
-    "mtime": 1780236454.3523197,
-    "ast_hash": "5e573339ef6e349855c9aa8f18dd2b1f",
-    "semantic_hash": "5e573339ef6e349855c9aa8f18dd2b1f"
+    "mtime": 1780237564.8623207,
+    "ast_hash": "937b94b63cb3568eff137d0367574f77",
+    "semantic_hash": "937b94b63cb3568eff137d0367574f77"
   },
   "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/web_suite_test.go": {
-    "mtime": 1780236458.5443468,
-    "ast_hash": "9438196ad49e31aeeb4aa248bccea377",
-    "semantic_hash": "9438196ad49e31aeeb4aa248bccea377"
+    "mtime": 1780237571.2543542,
+    "ast_hash": "46f71114e5a52ddb5a560bf8e69f6063",
+    "semantic_hash": "46f71114e5a52ddb5a560bf8e69f6063"
   },
   "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/reporter.go": {
-    "mtime": 1780236530.744814,
+    "mtime": 1780237293.152894,
     "ast_hash": "72c1edf39fd6ea64e5cb95acb2f3b4cc",
     "semantic_hash": "72c1edf39fd6ea64e5cb95acb2f3b4cc"
   },
@@ -113,5 +113,15 @@
     "mtime": 1780236712.445845,
     "ast_hash": "da35528ae7559818340893e2c00e503d",
     "semantic_hash": "da35528ae7559818340893e2c00e503d"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/e2e-test.json": {
+    "mtime": 1780237579.386397,
+    "ast_hash": "e35f2ee4e9462c52f1fcd5b771689cac",
+    "semantic_hash": "e35f2ee4e9462c52f1fcd5b771689cac"
+  },
+  "/home/ubuntu/code/github/raviautopilot/fullstack-template/e2etest/config.go": {
+    "mtime": 1780237547.5742297,
+    "ast_hash": "0dbd8e9a369b8fabeb19228ed124a7f3",
+    "semantic_hash": "0dbd8e9a369b8fabeb19228ed124a7f3"
   }
 }

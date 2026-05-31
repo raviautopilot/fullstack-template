@@ -59,7 +59,14 @@ func (s *BaseAPISuite) LogAndDoRequest(req *http.Request, reqBody []byte) (*http
 	if resp.StatusCode >= 400 {
 		status = "FAILED"
 	}
-	s.CurrentTest.LogAPIStep("API Call Completed", status, req, reqBody, resp, respBody)
+
+	// Only record detailed API dumps if EnableEvidence is true in config
+	if GlobalConfig.EnableEvidence {
+		s.CurrentTest.LogAPIStep("API Call Completed", status, req, reqBody, resp, respBody)
+	} else {
+		s.CurrentTest.LogStep("API Call Completed", status, fmt.Sprintf("API Call: %s %s -> Status: %s (payload dumps disabled)", req.Method, req.URL.Path, resp.Status))
+	}
+	
 	return resp, respBody, nil
 }
 
@@ -75,13 +82,9 @@ type BaseWebSuite struct {
 
 func (s *BaseWebSuite) SetupSuite() {
 	s.SuiteReport = GetReport().AddSuite("Web UI E2E Tests")
-	s.ChromeDriverPort = 8082
+	s.ChromeDriverPort = GlobalConfig.ChromeDriverPort
 
-	var chromeDriverPath = os.Getenv("CHROMEDRIVER_PATH")
-	if chromeDriverPath == "" {
-		chromeDriverPath = "/usr/bin/chromedriver"
-	}
-
+	chromeDriverPath := GlobalConfig.ChromeDriverPath
 	opts := []selenium.ServiceOption{
 		selenium.Output(os.Stderr),
 	}
@@ -104,10 +107,7 @@ func (s *BaseWebSuite) SetupTest() {
 	s.CurrentTest = s.SuiteReport.AddTestCase(s.T().Name())
 
 	caps := selenium.Capabilities{"browserName": "chrome"}
-	var chromiumPath = os.Getenv("CHROMIUM_PATH")
-	if chromiumPath == "" {
-		chromiumPath = "/usr/bin/chromium"
-	}
+	chromiumPath := GlobalConfig.ChromiumPath
 
 	chromeCaps := map[string]interface{}{
 		"binary": chromiumPath,
@@ -150,13 +150,20 @@ func (s *BaseWebSuite) TakeScreenshot(name string) {
 	if s.WD == nil {
 		return
 	}
+
+	// Skip taking screenshots if EnableEvidence is false in config
+	if !GlobalConfig.EnableEvidence {
+		s.CurrentTest.LogStep("Take Screenshot", "INFO", "Skipped screenshot (evidence disabled in config)")
+		return
+	}
+
 	screenshot, err := s.WD.Screenshot()
 	if err != nil {
 		s.CurrentTest.LogStep("Take Screenshot", "INFO", fmt.Sprintf("Failed to take screenshot: %v", err))
 		return
 	}
 
-	evidencesDir := "report_evidences"
+	evidencesDir := GlobalConfig.EvidenceDir
 	if _, err := os.Stat(evidencesDir); os.IsNotExist(err) {
 		os.MkdirAll(evidencesDir, os.ModePerm)
 	}
@@ -167,7 +174,7 @@ func (s *BaseWebSuite) TakeScreenshot(name string) {
 		s.CurrentTest.LogStep("Save Screenshot", "INFO", fmt.Sprintf("Failed to save screenshot: %v", err))
 	} else {
 		// Use relative path for HTML report
-		relPath := filepath.Join("report_evidences", filename)
+		relPath := filepath.Join(GlobalConfig.EvidenceDir, filename)
 		s.CurrentTest.LogScreenshotStep("Capture Evidence", "INFO", fmt.Sprintf("Screenshot saved: %s", relPath), relPath)
 	}
 }

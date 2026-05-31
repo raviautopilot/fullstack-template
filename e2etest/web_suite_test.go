@@ -2,7 +2,6 @@ package e2etest
 
 import (
 	"fmt"
-	"os"
 	"testing"
 	"time"
 
@@ -17,10 +16,7 @@ type WebTestSuite struct {
 
 func (s *WebTestSuite) SetupSuite() {
 	s.BaseWebSuite.SetupSuite()
-	s.frontendURL = os.Getenv("FRONTEND_URL")
-	if s.frontendURL == "" {
-		s.frontendURL = "http://localhost:5173"
-	}
+	s.frontendURL = GlobalConfig.FrontendURL
 }
 
 func (s *WebTestSuite) TestFrontendWorkflow() {

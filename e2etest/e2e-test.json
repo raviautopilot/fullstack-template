@@ -1,0 +1,10 @@
+{
+  "frontend_url": "http://localhost:5173",
+  "backend_url": "http://localhost:8080",
+  "chromedriver_path": "/usr/bin/chromedriver",
+  "chromium_path": "/usr/bin/chromium",
+  "chromedriver_port": 8082,
+  "enable_evidence": true,
+  "evidence_dir": "report_evidences",
+  "report_path": "report.html"
+}
