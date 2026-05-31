@@ -68,6 +68,25 @@
       "server_main_main"
     ],
     "3": [
+      "e2etest_base_suite_go",
+      "e2etest_baseapisuite",
+      "e2etest_baseapisuite_loganddorequest",
+      "e2etest_baseapisuite_setupsuite",
+      "e2etest_baseapisuite_setuptest",
+      "e2etest_baseapisuite_teardowntest",
+      "e2etest_basewebsuite",
+      "e2etest_basewebsuite_clickelement",
+      "e2etest_basewebsuite_navigateto",
+      "e2etest_basewebsuite_takescreenshot",
+      "e2etest_basewebsuite_waittillelementfound",
+      "e2etest_config",
+      "e2etest_config_go",
+      "e2etest_config_loadconfig",
+      "e2etest_main_test_go",
+      "e2etest_main_test_testmain",
+      "e2etest_reporter_getreport"
+    ],
+    "4": [
       "docs_swagger_definitions",
       "docs_swagger_definitions_health_dependencycheck",
       "docs_swagger_definitions_health_healthresponse",
@@ -85,7 +104,7 @@
       "docs_swagger_properties_uptime_seconds",
       "docs_swagger_schema_type"
     ],
-    "4": [
+    "5": [
       "fullstack_template_manage_do_build",
       "fullstack_template_manage_do_install",
       "fullstack_template_manage_do_kill",
@@ -102,22 +121,6 @@
       "fullstack_template_manage_print_help",
       "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
       "manage_sh"
-    ],
-    "5": [
-      "e2etest_base_suite_go",
-      "e2etest_baseapisuite",
-      "e2etest_baseapisuite_loganddorequest",
-      "e2etest_baseapisuite_setupsuite",
-      "e2etest_baseapisuite_setuptest",
-      "e2etest_baseapisuite_teardowntest",
-      "e2etest_basewebsuite",
-      "e2etest_basewebsuite_clickelement",
-      "e2etest_basewebsuite_navigateto",
-      "e2etest_basewebsuite_takescreenshot",
-      "e2etest_basewebsuite_waittillelementfound",
-      "e2etest_main_test_go",
-      "e2etest_main_test_testmain",
-      "e2etest_reporter_getreport"
     ],
     "6": [
       "e2etest_apirequestdump",
@@ -206,6 +209,17 @@
       "mock_consent_portal"
     ],
     "13": [
+      "e2etest_e2e_test_backend_url",
+      "e2etest_e2e_test_chromedriver_path",
+      "e2etest_e2e_test_chromedriver_port",
+      "e2etest_e2e_test_chromium_path",
+      "e2etest_e2e_test_enable_evidence",
+      "e2etest_e2e_test_evidence_dir",
+      "e2etest_e2e_test_frontend_url",
+      "e2etest_e2e_test_json",
+      "e2etest_e2e_test_report_path"
+    ],
+    "14": [
       "backend_internal_health_health_go",
       "health_dependencycheck",
       "health_health_healthcheckhandler",
@@ -213,7 +227,7 @@
       "health_healthresponse",
       "health_memorystats"
     ],
-    "14": [
+    "15": [
       "e2etest_api_suite_test_go",
       "e2etest_api_suite_test_testrunapisuite",
       "e2etest_apitestsuite",
@@ -221,83 +235,97 @@
       "e2etest_apitestsuite_testapihealthendpoint",
       "e2etest_apitestsuite_testapiswaggerendpoint"
     ],
-    "15": [
+    "16": [
+      "report_api_e2e_tests",
+      "report_e2e_test_suite",
+      "report_health_endpoint",
+      "report_health_response",
+      "report_landing_page_screenshot",
+      "report_testapihealthendpoint"
+    ],
+    "17": [
       "e2etest_web_suite_test_go",
       "e2etest_web_suite_test_testrunwebsuite",
       "e2etest_webtestsuite",
       "e2etest_webtestsuite_setupsuite",
       "e2etest_webtestsuite_testfrontendworkflow"
     ],
-    "16": [
-      "report_api_e2e_tests",
-      "report_e2e_test_suite",
-      "report_health_endpoint",
-      "report_test_api_health_endpoint"
-    ],
-    "17": [
+    "18": [
       "swagger_health_dependencycheck",
       "swagger_health_endpoint",
       "swagger_health_healthresponse",
       "swagger_health_memorystats"
     ],
-    "18": [
+    "19": [
       "frontend_index",
       "frontend_main",
       "frontend_readme"
     ],
-    "19": [
+    "20": [
       "frontend_src_app_jsx",
       "frontend_src_main_jsx",
       "src_app_app"
     ],
-    "20": [
+    "21": [
       "swagger_api_user",
       "swagger_auth_callback",
       "swagger_auth_login"
     ],
-    "21": [
+    "22": [
       "backend_docs_docs_go",
       "docs_docs_init"
     ],
-    "22": [
+    "23": [
       "react_svg",
       "vite_svg"
     ],
-    "23": [
+    "24": [
       "update_graphify_sh"
     ],
-    "24": [
+    "25": [
       "frontend_vite_config_js"
     ],
-    "25": [
+    "26": [
       "frontend_eslint_config_js"
     ],
-    "26": [
+    "27": [
       "frontend_dashboard_mockup"
     ],
-    "27": [
+    "28": [
       "favicon_svg"
     ],
-    "28": [
+    "29": [
       "icons_svg"
     ],
-    "29": [
+    "30": [
       "hero_png"
     ],
-    "30": [
+    "31": [
       "swagger_antigravity_monorepo_api"
     ],
-    "31": [
+    "32": [
       "swagger_auth_logout"
+    ],
+    "33": [
+      "report_dashboard_screenshot"
+    ],
+    "34": [
+      "report_failure_state_screenshot"
+    ],
+    "35": [
+      "report_mock_consent_screenshot"
+    ],
+    "36": [
+      "report_returned_landing_screenshot"
     ]
   },
   "cohesion": {
     "0": 0.09090909090909091,
     "1": 0.14285714285714285,
     "2": 0.13071895424836602,
-    "3": 0.24166666666666667,
-    "4": 0.425,
-    "5": 0.18681318681318682,
+    "3": 0.14705882352941177,
+    "4": 0.24166666666666667,
+    "5": 0.425,
     "6": 0.15384615384615385,
     "7": 0.1794871794871795,
     "8": 0.2222222222222222,
@@ -305,15 +333,15 @@
     "10": 0.2222222222222222,
     "11": 0.2222222222222222,
     "12": 0.2222222222222222,
-    "13": 0.3333333333333333,
+    "13": 0.2222222222222222,
     "14": 0.3333333333333333,
-    "15": 0.4,
-    "16": 0.6666666666666666,
-    "17": 0.5,
-    "18": 0.6666666666666666,
+    "15": 0.3333333333333333,
+    "16": 0.4,
+    "17": 0.4,
+    "18": 0.5,
     "19": 0.6666666666666666,
     "20": 0.6666666666666666,
-    "21": 1.0,
+    "21": 0.6666666666666666,
     "22": 1.0,
     "23": 1.0,
     "24": 1.0,
@@ -323,7 +351,12 @@
     "28": 1.0,
     "29": 1.0,
     "30": 1.0,
-    "31": 1.0
+    "31": 1.0,
+    "32": 1.0,
+    "33": 1.0,
+    "34": 1.0,
+    "35": 1.0,
+    "36": 1.0
   },
   "gods": [
     {
@@ -379,6 +412,17 @@
   ],
   "surprises": [
     {
+      "source": "TestRunAPISuite/TestAPIHealthEndpoint",
+      "target": "Landing Page Screenshot",
+      "source_files": [
+        "e2etest/report.html",
+        "e2etest/report_evidences/01_landing_page_195625_000.png"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; crosses file types (doc \u2194 image)"
+    },
+    {
       "source": "Frontend Entry Point",
       "target": "Main React Entry",
       "source_files": [
@@ -421,21 +465,10 @@
       "confidence": "INFERRED",
       "relation": "calls",
       "why": "inferred connection - not explicitly stated in source"
-    },
-    {
-      "source": "Frontend README",
-      "target": "Frontend Entry Point",
-      "source_files": [
-        "frontend/README.md",
-        "frontend/index.html"
-      ],
-      "confidence": "INFERRED",
-      "relation": "conceptually_related_to",
-      "why": "inferred connection - not explicitly stated in source"
     }
   ],
   "tokens": {
-    "input": 1265,
-    "output": 1410
+    "input": 101198,
+    "output": 1040
   }
 }

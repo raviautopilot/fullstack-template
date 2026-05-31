@@ -12,7 +12,7 @@
         "language": "bash",
         "kind": "file"
       },
-      "community": 24,
+      "community": 23,
       "norm_label": "update-graphify.sh",
       "id": "update_graphify_sh"
     },
@@ -25,7 +25,7 @@
         "language": "bash",
         "kind": "file"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "manage.sh",
       "id": "manage_sh"
     },
@@ -38,7 +38,7 @@
         "language": "bash",
         "kind": "bash_entrypoint"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "manage.sh script",
       "id": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry"
     },
@@ -51,7 +51,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "log_info()",
       "id": "fullstack_template_manage_log_info"
     },
@@ -64,7 +64,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "log_success()",
       "id": "fullstack_template_manage_log_success"
     },
@@ -77,7 +77,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "log_warn()",
       "id": "fullstack_template_manage_log_warn"
     },
@@ -90,7 +90,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "log_error()",
       "id": "fullstack_template_manage_log_error"
     },
@@ -103,7 +103,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "print_help()",
       "id": "fullstack_template_manage_print_help"
     },
@@ -116,7 +116,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_install()",
       "id": "fullstack_template_manage_do_install"
     },
@@ -129,7 +129,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_swagger()",
       "id": "fullstack_template_manage_do_swagger"
     },
@@ -142,7 +142,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_build()",
       "id": "fullstack_template_manage_do_build"
     },
@@ -155,7 +155,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_run()",
       "id": "fullstack_template_manage_do_run"
     },
@@ -168,7 +168,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_stop()",
       "id": "fullstack_template_manage_do_stop"
     },
@@ -181,7 +181,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_kill()",
       "id": "fullstack_template_manage_do_kill"
     },
@@ -194,7 +194,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_status()",
       "id": "fullstack_template_manage_do_status"
     },
@@ -207,7 +207,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_troubleshoot()",
       "id": "fullstack_template_manage_do_troubleshoot"
     },
@@ -220,7 +220,7 @@
         "language": "bash",
         "kind": "bash_function"
       },
-      "community": 5,
+      "community": 2,
       "norm_label": "do_test()",
       "id": "fullstack_template_manage_do_test"
     },
@@ -229,7 +229,7 @@
       "file_type": "code",
       "source_file": "frontend/vite.config.js",
       "source_location": "L1",
-      "community": 25,
+      "community": 24,
       "norm_label": "vite.config.js",
       "id": "frontend_vite_config_js"
     },
@@ -436,7 +436,7 @@
       "file_type": "code",
       "source_file": "frontend/eslint.config.js",
       "source_location": "L1",
-      "community": 26,
+      "community": 25,
       "norm_label": "eslint.config.js",
       "id": "frontend_eslint_config_js"
     },
@@ -445,7 +445,7 @@
       "file_type": "code",
       "source_file": "frontend/src/main.jsx",
       "source_location": "L1",
-      "community": 20,
+      "community": 19,
       "norm_label": "main.jsx",
       "id": "frontend_src_main_jsx"
     },
@@ -454,7 +454,7 @@
       "file_type": "code",
       "source_file": "frontend/src/App.jsx",
       "source_location": "L1",
-      "community": 20,
+      "community": 19,
       "norm_label": "app.jsx",
       "id": "frontend_src_app_jsx"
     },
@@ -463,7 +463,7 @@
       "file_type": "code",
       "source_file": "frontend/src/App.jsx",
       "source_location": "L5",
-      "community": 20,
+      "community": 19,
       "norm_label": "app()",
       "id": "src_app_app"
     },
@@ -634,7 +634,7 @@
       "file_type": "code",
       "source_file": "backend/config/config.go",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "config.go",
       "id": "backend_config_config_go"
     },
@@ -643,7 +643,7 @@
       "file_type": "code",
       "source_file": "backend/config/config.go",
       "source_location": "L10",
-      "community": 2,
+      "community": 3,
       "norm_label": "config",
       "id": "config_config"
     },
@@ -652,7 +652,7 @@
       "file_type": "code",
       "source_file": "backend/config/config.go",
       "source_location": "L23",
-      "community": 2,
+      "community": 3,
       "norm_label": "load()",
       "id": "config_config_load"
     },
@@ -823,7 +823,7 @@
       "file_type": "code",
       "source_file": "backend/cmd/server/main.go",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "main.go",
       "id": "backend_cmd_server_main_go"
     },
@@ -832,7 +832,7 @@
       "file_type": "code",
       "source_file": "backend/cmd/server/main.go",
       "source_location": "L26",
-      "community": 2,
+      "community": 3,
       "norm_label": "main()",
       "id": "server_main_main"
     },
@@ -841,7 +841,7 @@
       "file_type": "code",
       "source_file": "backend/internal/router/router.go",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "router.go",
       "id": "backend_internal_router_router_go"
     },
@@ -850,7 +850,7 @@
       "file_type": "code",
       "source_file": "backend/internal/router/router.go",
       "source_location": "L17",
-      "community": 2,
+      "community": 3,
       "norm_label": "corsmiddleware()",
       "id": "router_router_corsmiddleware"
     },
@@ -859,7 +859,7 @@
       "file_type": "code",
       "source_file": "backend/internal/router/router.go",
       "source_location": "L38",
-      "community": 2,
+      "community": 3,
       "norm_label": "setuprouter()",
       "id": "router_router_setuprouter"
     },
@@ -868,7 +868,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L1",
-      "community": 14,
+      "community": 13,
       "norm_label": "health.go",
       "id": "backend_internal_health_health_go"
     },
@@ -877,7 +877,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L14",
-      "community": 14,
+      "community": 13,
       "norm_label": "init()",
       "id": "health_health_init"
     },
@@ -886,7 +886,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L18",
-      "community": 14,
+      "community": 13,
       "norm_label": "memorystats",
       "id": "health_memorystats"
     },
@@ -895,7 +895,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L25",
-      "community": 14,
+      "community": 13,
       "norm_label": "dependencycheck",
       "id": "health_dependencycheck"
     },
@@ -904,7 +904,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L30",
-      "community": 14,
+      "community": 13,
       "norm_label": "healthresponse",
       "id": "health_healthresponse"
     },
@@ -913,7 +913,7 @@
       "file_type": "code",
       "source_file": "backend/internal/health/health.go",
       "source_location": "L47",
-      "community": 14,
+      "community": 13,
       "norm_label": "healthcheckhandler()",
       "id": "health_health_healthcheckhandler"
     },
@@ -922,7 +922,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L1",
-      "community": 2,
+      "community": 3,
       "norm_label": "auth.go",
       "id": "backend_internal_auth_auth_go"
     },
@@ -931,7 +931,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L19",
-      "community": 2,
+      "community": 3,
       "norm_label": "claims",
       "id": "auth_claims"
     },
@@ -940,7 +940,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L28",
-      "community": 2,
+      "community": 3,
       "norm_label": "initoauth()",
       "id": "auth_auth_initoauth"
     },
@@ -949,7 +949,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L51",
-      "community": 2,
+      "community": 3,
       "norm_label": "loginhandler()",
       "id": "auth_auth_loginhandler"
     },
@@ -958,7 +958,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L70",
-      "community": 2,
+      "community": 3,
       "norm_label": "mockconsenthandler()",
       "id": "auth_auth_mockconsenthandler"
     },
@@ -967,7 +967,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L334",
-      "community": 2,
+      "community": 3,
       "norm_label": "callbackhandler()",
       "id": "auth_auth_callbackhandler"
     },
@@ -976,7 +976,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L450",
-      "community": 2,
+      "community": 3,
       "norm_label": "userhandler()",
       "id": "auth_auth_userhandler"
     },
@@ -985,7 +985,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L496",
-      "community": 2,
+      "community": 3,
       "norm_label": "logouthandler()",
       "id": "auth_auth_logouthandler"
     },
@@ -994,7 +994,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L503",
-      "community": 2,
+      "community": 3,
       "norm_label": "base64decode()",
       "id": "auth_auth_base64decode"
     },
@@ -1003,7 +1003,7 @@
       "file_type": "code",
       "source_file": "backend/internal/auth/auth.go",
       "source_location": "L523",
-      "community": 2,
+      "community": 3,
       "norm_label": "b64decode()",
       "id": "auth_auth_b64decode"
     },
@@ -1107,7 +1107,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 18,
       "norm_label": "frontend entry point",
       "id": "frontend_index"
     },
@@ -1120,7 +1120,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 18,
       "norm_label": "main react entry",
       "id": "frontend_main"
     },
@@ -1133,7 +1133,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 18,
       "norm_label": "frontend readme",
       "id": "frontend_readme"
     },
@@ -1146,7 +1146,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 26,
       "norm_label": "frontend dashboard mockup",
       "id": "frontend_dashboard_mockup"
     },
@@ -1181,7 +1181,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L1",
-      "community": 3,
+      "community": 4,
       "norm_label": "base_suite.go",
       "id": "e2etest_base_suite_go"
     },
@@ -1190,7 +1190,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L16",
-      "community": 3,
+      "community": 4,
       "norm_label": "baseapisuite",
       "id": "e2etest_baseapisuite"
     },
@@ -1199,7 +1199,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L22",
-      "community": 3,
+      "community": 4,
       "norm_label": ".setupsuite()",
       "id": "e2etest_baseapisuite_setupsuite"
     },
@@ -1208,7 +1208,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L26",
-      "community": 3,
+      "community": 4,
       "norm_label": ".setuptest()",
       "id": "e2etest_baseapisuite_setuptest"
     },
@@ -1217,7 +1217,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L30",
-      "community": 3,
+      "community": 4,
       "norm_label": ".teardowntest()",
       "id": "e2etest_baseapisuite_teardowntest"
     },
@@ -1226,7 +1226,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L41",
-      "community": 3,
+      "community": 4,
       "norm_label": ".loganddorequest()",
       "id": "e2etest_baseapisuite_loganddorequest"
     },
@@ -1235,7 +1235,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L67",
-      "community": 3,
+      "community": 4,
       "norm_label": "basewebsuite",
       "id": "e2etest_basewebsuite"
     },
@@ -1244,7 +1244,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L149",
-      "community": 3,
+      "community": 4,
       "norm_label": ".takescreenshot()",
       "id": "e2etest_basewebsuite_takescreenshot"
     },
@@ -1253,7 +1253,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L176",
-      "community": 3,
+      "community": 4,
       "norm_label": ".navigateto()",
       "id": "e2etest_basewebsuite_navigateto"
     },
@@ -1262,7 +1262,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L187",
-      "community": 3,
+      "community": 4,
       "norm_label": ".clickelement()",
       "id": "e2etest_basewebsuite_clickelement"
     },
@@ -1271,7 +1271,7 @@
       "file_type": "code",
       "source_file": "e2etest/base_suite.go",
       "source_location": "L202",
-      "community": 3,
+      "community": 4,
       "norm_label": ".waittillelementfound()",
       "id": "e2etest_basewebsuite_waittillelementfound"
     },
@@ -1280,7 +1280,7 @@
       "file_type": "code",
       "source_file": "e2etest/main_test.go",
       "source_location": "L1",
-      "community": 3,
+      "community": 4,
       "norm_label": "main_test.go",
       "id": "e2etest_main_test_go"
     },
@@ -1289,7 +1289,7 @@
       "file_type": "code",
       "source_file": "e2etest/main_test.go",
       "source_location": "L8",
-      "community": 3,
+      "community": 4,
       "norm_label": "testmain()",
       "id": "e2etest_main_test_testmain"
     },
@@ -1298,7 +1298,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L1",
-      "community": 15,
+      "community": 14,
       "norm_label": "api_suite_test.go",
       "id": "e2etest_api_suite_test_go"
     },
@@ -1307,7 +1307,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L12",
-      "community": 15,
+      "community": 14,
       "norm_label": "apitestsuite",
       "id": "e2etest_apitestsuite"
     },
@@ -1316,7 +1316,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L17",
-      "community": 15,
+      "community": 14,
       "norm_label": ".setupsuite()",
       "id": "e2etest_apitestsuite_setupsuite"
     },
@@ -1325,7 +1325,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L25",
-      "community": 15,
+      "community": 14,
       "norm_label": ".testapihealthendpoint()",
       "id": "e2etest_apitestsuite_testapihealthendpoint"
     },
@@ -1334,7 +1334,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L61",
-      "community": 15,
+      "community": 14,
       "norm_label": ".testapiswaggerendpoint()",
       "id": "e2etest_apitestsuite_testapiswaggerendpoint"
     },
@@ -1343,7 +1343,7 @@
       "file_type": "code",
       "source_file": "e2etest/api_suite_test.go",
       "source_location": "L93",
-      "community": 15,
+      "community": 14,
       "norm_label": "testrunapisuite()",
       "id": "e2etest_api_suite_test_testrunapisuite"
     },
@@ -1352,7 +1352,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L1",
-      "community": 17,
+      "community": 16,
       "norm_label": "web_suite_test.go",
       "id": "e2etest_web_suite_test_go"
     },
@@ -1361,7 +1361,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L13",
-      "community": 17,
+      "community": 16,
       "norm_label": "webtestsuite",
       "id": "e2etest_webtestsuite"
     },
@@ -1370,7 +1370,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L18",
-      "community": 17,
+      "community": 16,
       "norm_label": ".setupsuite()",
       "id": "e2etest_webtestsuite_setupsuite"
     },
@@ -1379,7 +1379,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L26",
-      "community": 17,
+      "community": 16,
       "norm_label": ".testfrontendworkflow()",
       "id": "e2etest_webtestsuite_testfrontendworkflow"
     },
@@ -1388,7 +1388,7 @@
       "file_type": "code",
       "source_file": "e2etest/web_suite_test.go",
       "source_location": "L95",
-      "community": 17,
+      "community": 16,
       "norm_label": "testrunwebsuite()",
       "id": "e2etest_web_suite_test_testrunwebsuite"
     },
@@ -1460,7 +1460,7 @@
       "file_type": "code",
       "source_file": "e2etest/reporter.go",
       "source_location": "L74",
-      "community": 3,
+      "community": 4,
       "norm_label": "getreport()",
       "id": "e2etest_reporter_getreport"
     },
@@ -1536,7 +1536,7 @@
       "captured_at": "2026-05-31 19:45:17",
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 15,
       "norm_label": "e2e test suite (web & api)",
       "id": "report_e2e_test_suite"
     },
@@ -1549,7 +1549,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 15,
       "norm_label": "api e2e tests",
       "id": "report_api_e2e_tests"
     },
@@ -1562,7 +1562,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 15,
       "norm_label": "get /health",
       "id": "report_health_endpoint"
     },
@@ -1575,7 +1575,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 27,
       "norm_label": "favicon",
       "id": "favicon_svg"
     },
@@ -1588,7 +1588,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 28,
       "norm_label": "icon library",
       "id": "icons_svg"
     },
@@ -1601,7 +1601,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 29,
       "norm_label": "hero image",
       "id": "hero_png"
     },
@@ -1614,7 +1614,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 23,
+      "community": 22,
       "norm_label": "vite logo",
       "id": "vite_svg"
     },
@@ -1627,7 +1627,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 23,
+      "community": 22,
       "norm_label": "react logo",
       "id": "react_svg"
     },
@@ -1636,7 +1636,7 @@
       "file_type": "code",
       "source_file": "backend/docs/docs.go",
       "source_location": "L1",
-      "community": 22,
+      "community": 21,
       "norm_label": "docs.go",
       "id": "backend_docs_docs_go"
     },
@@ -1645,7 +1645,7 @@
       "file_type": "code",
       "source_file": "backend/docs/docs.go",
       "source_location": "L242",
-      "community": 22,
+      "community": 21,
       "norm_label": "init()",
       "id": "docs_docs_init"
     },
@@ -1861,7 +1861,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L43",
-      "community": 4,
+      "community": 5,
       "norm_label": "type",
       "id": "docs_swagger_schema_type"
     },
@@ -1960,7 +1960,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L164",
-      "community": 4,
+      "community": 5,
       "norm_label": "definitions",
       "id": "docs_swagger_definitions"
     },
@@ -1969,7 +1969,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L165",
-      "community": 4,
+      "community": 5,
       "norm_label": "health.dependencycheck",
       "id": "docs_swagger_definitions_health_dependencycheck"
     },
@@ -1978,7 +1978,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L168",
-      "community": 4,
+      "community": 5,
       "norm_label": "details",
       "id": "docs_swagger_properties_details"
     },
@@ -1987,7 +1987,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L171",
-      "community": 4,
+      "community": 5,
       "norm_label": "status",
       "id": "docs_swagger_properties_status"
     },
@@ -1996,7 +1996,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L176",
-      "community": 4,
+      "community": 5,
       "norm_label": "health.healthresponse",
       "id": "docs_swagger_definitions_health_healthresponse"
     },
@@ -2005,7 +2005,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L179",
-      "community": 4,
+      "community": 5,
       "norm_label": "dependencies",
       "id": "docs_swagger_properties_dependencies"
     },
@@ -2014,7 +2014,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L185",
-      "community": 4,
+      "community": 5,
       "norm_label": "environment",
       "id": "docs_swagger_properties_environment"
     },
@@ -2032,7 +2032,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L194",
-      "community": 4,
+      "community": 5,
       "norm_label": "timestamp",
       "id": "docs_swagger_properties_timestamp"
     },
@@ -2041,7 +2041,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L197",
-      "community": 4,
+      "community": 5,
       "norm_label": "uptime_seconds",
       "id": "docs_swagger_properties_uptime_seconds"
     },
@@ -2050,7 +2050,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L202",
-      "community": 4,
+      "community": 5,
       "norm_label": "health.memorystats",
       "id": "docs_swagger_definitions_health_memorystats"
     },
@@ -2059,7 +2059,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L204",
-      "community": 4,
+      "community": 5,
       "norm_label": "properties",
       "id": "docs_swagger_health_memorystats_properties"
     },
@@ -2068,7 +2068,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L205",
-      "community": 4,
+      "community": 5,
       "norm_label": "alloc_mb",
       "id": "docs_swagger_properties_alloc_mb"
     },
@@ -2077,7 +2077,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L208",
-      "community": 4,
+      "community": 5,
       "norm_label": "num_gc",
       "id": "docs_swagger_properties_num_gc"
     },
@@ -2086,7 +2086,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L211",
-      "community": 4,
+      "community": 5,
       "norm_label": "sys_mb",
       "id": "docs_swagger_properties_sys_mb"
     },
@@ -2095,7 +2095,7 @@
       "file_type": "code",
       "source_file": "backend/docs/swagger.json",
       "source_location": "L214",
-      "community": 4,
+      "community": 5,
       "norm_label": "total_alloc_mb",
       "id": "docs_swagger_properties_total_alloc_mb"
     },
@@ -2108,7 +2108,7 @@
       "captured_at": null,
       "author": "API Support",
       "contributor": null,
-      "community": 31,
+      "community": 30,
       "norm_label": "antigravity monorepo api",
       "id": "swagger_antigravity_monorepo_api"
     },
@@ -2121,7 +2121,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 17,
       "norm_label": "health.dependencycheck",
       "id": "swagger_health_dependencycheck"
     },
@@ -2134,7 +2134,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 17,
       "norm_label": "health.healthresponse",
       "id": "swagger_health_healthresponse"
     },
@@ -2147,7 +2147,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 17,
       "norm_label": "health.memorystats",
       "id": "swagger_health_memorystats"
     },
@@ -2160,7 +2160,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 20,
       "norm_label": "get logged in user profile",
       "id": "swagger_api_user"
     },
@@ -2173,7 +2173,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 20,
       "norm_label": "google oauth callback endpoint",
       "id": "swagger_auth_callback"
     },
@@ -2186,7 +2186,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 20,
       "norm_label": "initiate google oauth login",
       "id": "swagger_auth_login"
     },
@@ -2199,7 +2199,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 31,
       "norm_label": "logout user",
       "id": "swagger_auth_logout"
     },
@@ -2212,178 +2212,214 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 17,
       "norm_label": "get health status",
       "id": "swagger_health_endpoint"
-    },
-    {
-      "label": "e2e-test.json",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L1",
-      "id": "e2etest_e2e_test_json",
-      "community": 13,
-      "norm_label": "e2e-test.json"
-    },
-    {
-      "label": "frontend_url",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L2",
-      "id": "e2etest_e2e_test_frontend_url",
-      "community": 13,
-      "norm_label": "frontend_url"
-    },
-    {
-      "label": "backend_url",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L3",
-      "id": "e2etest_e2e_test_backend_url",
-      "community": 13,
-      "norm_label": "backend_url"
-    },
-    {
-      "label": "chromedriver_path",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L4",
-      "id": "e2etest_e2e_test_chromedriver_path",
-      "community": 13,
-      "norm_label": "chromedriver_path"
-    },
-    {
-      "label": "chromium_path",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L5",
-      "id": "e2etest_e2e_test_chromium_path",
-      "community": 13,
-      "norm_label": "chromium_path"
-    },
-    {
-      "label": "chromedriver_port",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L6",
-      "id": "e2etest_e2e_test_chromedriver_port",
-      "community": 13,
-      "norm_label": "chromedriver_port"
-    },
-    {
-      "label": "enable_evidence",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L7",
-      "id": "e2etest_e2e_test_enable_evidence",
-      "community": 13,
-      "norm_label": "enable_evidence"
-    },
-    {
-      "label": "evidence_dir",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L8",
-      "id": "e2etest_e2e_test_evidence_dir",
-      "community": 13,
-      "norm_label": "evidence_dir"
-    },
-    {
-      "label": "report_path",
-      "file_type": "code",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L9",
-      "id": "e2etest_e2e_test_report_path",
-      "community": 13,
-      "norm_label": "report_path"
     },
     {
       "label": "config.go",
       "file_type": "code",
       "source_file": "e2etest/config.go",
       "source_location": "L1",
-      "id": "e2etest_config_go",
-      "community": 3,
-      "norm_label": "config.go"
+      "community": 4,
+      "norm_label": "config.go",
+      "id": "e2etest_config_go"
     },
     {
       "label": "Config",
       "file_type": "code",
       "source_file": "e2etest/config.go",
       "source_location": "L8",
-      "id": "e2etest_config",
-      "community": 3,
-      "norm_label": "config"
+      "community": 4,
+      "norm_label": "config",
+      "id": "e2etest_config"
     },
     {
       "label": "LoadConfig()",
       "file_type": "code",
       "source_file": "e2etest/config.go",
       "source_location": "L31",
-      "id": "e2etest_config_loadconfig",
-      "community": 3,
-      "norm_label": "loadconfig()"
+      "community": 4,
+      "norm_label": "loadconfig()",
+      "id": "e2etest_config_loadconfig"
     },
     {
       "label": "TestRunAPISuite/TestAPIHealthEndpoint",
       "file_type": "rationale",
       "source_file": "e2etest/report.html",
       "source_location": "Test Case",
-      "id": "report_testapihealthendpoint",
-      "community": 16,
-      "norm_label": "testrunapisuite/testapihealthendpoint"
+      "community": 15,
+      "norm_label": "testrunapisuite/testapihealthendpoint",
+      "id": "report_testapihealthendpoint"
     },
     {
       "label": "Health Check Response Body",
       "file_type": "document",
       "source_file": "e2etest/report.html",
       "source_location": "Response Body",
-      "id": "report_health_response",
-      "community": 16,
-      "norm_label": "health check response body"
+      "community": 15,
+      "norm_label": "health check response body",
+      "id": "report_health_response"
     },
     {
       "label": "Landing Page Screenshot",
       "file_type": "image",
       "source_file": "e2etest/report_evidences/01_landing_page_195625_000.png",
-      "id": "report_landing_page_screenshot",
-      "community": 16,
-      "norm_label": "landing page screenshot"
+      "community": 15,
+      "norm_label": "landing page screenshot",
+      "id": "report_landing_page_screenshot"
     },
     {
       "label": "Dashboard Page Screenshot",
       "file_type": "image",
       "source_file": "e2etest/report_evidences/03_dashboard_page_195701_000.png",
-      "id": "report_dashboard_screenshot",
-      "community": 33,
-      "norm_label": "dashboard page screenshot"
+      "community": 32,
+      "norm_label": "dashboard page screenshot",
+      "id": "report_dashboard_screenshot"
     },
     {
       "label": "Failure State Screenshot",
       "file_type": "image",
       "source_file": "e2etest/report_evidences/failure_state_195636_000.png",
-      "id": "report_failure_state_screenshot",
-      "community": 34,
-      "norm_label": "failure state screenshot"
+      "community": 33,
+      "norm_label": "failure state screenshot",
+      "id": "report_failure_state_screenshot"
     },
     {
       "label": "Mock Consent Portal Screenshot",
       "file_type": "image",
       "source_file": "e2etest/report_evidences/02_mock_consent_portal_195700_000.png",
-      "id": "report_mock_consent_screenshot",
-      "community": 35,
-      "norm_label": "mock consent portal screenshot"
+      "community": 34,
+      "norm_label": "mock consent portal screenshot",
+      "id": "report_mock_consent_screenshot"
     },
     {
       "label": "Returned to Landing Screenshot",
       "file_type": "image",
       "source_file": "e2etest/report_evidences/04_returned_to_landing_195702_000.png",
-      "id": "report_returned_landing_screenshot",
+      "community": 35,
+      "norm_label": "returned to landing screenshot",
+      "id": "report_returned_landing_screenshot"
+    },
+    {
+      "label": ".GetRunDirectory()",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L86",
+      "id": "e2etest_report_getrundirectory",
+      "community": 6,
+      "norm_label": ".getrundirectory()"
+    },
+    {
+      "label": "Antigravity Fullstack Monorepo Template",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "readme_antigravity_monorepo",
       "community": 36,
-      "norm_label": "returned to landing screenshot"
+      "norm_label": "antigravity fullstack monorepo template"
+    },
+    {
+      "label": "Go REST API Backend",
+      "file_type": "code",
+      "source_file": "backend/cmd/server/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "backend_server",
+      "community": 2,
+      "norm_label": "go rest api backend"
+    },
+    {
+      "label": "React Vite Frontend",
+      "file_type": "code",
+      "source_file": "frontend/src/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "frontend_client",
+      "community": 2,
+      "norm_label": "react vite frontend"
+    },
+    {
+      "label": "E2E Test Suite",
+      "file_type": "code",
+      "source_file": "e2etest/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "e2etest_suite",
+      "community": 2,
+      "norm_label": "e2e test suite"
+    },
+    {
+      "label": "HTML Reporting Engine",
+      "file_type": "code",
+      "source_file": "e2etest/reporter.go",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "e2etest_reporter",
+      "community": 2,
+      "norm_label": "html reporting engine"
+    },
+    {
+      "label": "Time-stamped Reports Directory",
+      "file_type": "document",
+      "source_file": "e2etest/reports/",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "id": "e2etest_reports_dir",
+      "community": 2,
+      "norm_label": "time-stamped reports directory"
     }
   ],
   "links": [
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "manage_sh",
+      "target": "backend_server"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "manage_sh",
+      "target": "e2etest_suite"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "manage_sh",
+      "target": "frontend_client"
+    },
     {
       "relation": "defines",
       "confidence": "EXTRACTED",
@@ -3903,7 +3939,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L77",
+      "source_location": "L84",
       "weight": 1.0,
       "source": "e2etest_baseapisuite_setupsuite",
       "target": "e2etest_reporter_getreport"
@@ -3933,7 +3969,7 @@
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L140",
+      "source_location": "L144",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_baseapisuite_teardowntest",
@@ -3943,7 +3979,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L136",
+      "source_location": "L140",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3953,7 +3989,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L194",
+      "source_location": "L199",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3963,7 +3999,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L183",
+      "source_location": "L188",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3973,7 +4009,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L149",
+      "source_location": "L153",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
@@ -3983,17 +4019,28 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/base_suite.go",
-      "source_location": "L209",
+      "source_location": "L214",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_basewebsuite",
       "target": "e2etest_basewebsuite_waittillelementfound"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "e2etest/base_suite.go",
+      "source_location": "L170",
+      "weight": 1.0,
+      "source": "e2etest_basewebsuite_takescreenshot",
+      "target": "e2etest_reporter_getreport"
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/main_test.go",
-      "source_location": "L11",
+      "source_location": "L12",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_main_test_go",
@@ -4005,7 +4052,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "e2etest/main_test.go",
-      "source_location": "L14",
+      "source_location": "L15",
       "weight": 1.0,
       "source": "e2etest_main_test_testmain",
       "target": "e2etest_config_loadconfig"
@@ -4016,7 +4063,7 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "e2etest/main_test.go",
-      "source_location": "L13",
+      "source_location": "L25",
       "weight": 1.0,
       "source": "e2etest_main_test_testmain",
       "target": "e2etest_reporter_getreport"
@@ -4185,7 +4232,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L151",
+      "source_location": "L156",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_testcase",
@@ -4195,7 +4242,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L133",
+      "source_location": "L138",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_testcase",
@@ -4205,7 +4252,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L116",
+      "source_location": "L121",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_testcase",
@@ -4215,7 +4262,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L101",
+      "source_location": "L106",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_testsuite",
@@ -4225,7 +4272,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L86",
+      "source_location": "L91",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_report",
@@ -4235,7 +4282,7 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L190",
+      "source_location": "L195",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_report",
@@ -4245,18 +4292,28 @@
       "relation": "method",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L229",
+      "source_location": "L234",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_report",
       "target": "e2etest_report_generatehtml"
     },
     {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "e2etest/reporter.go",
+      "source_location": "L86",
+      "weight": 1.0,
+      "source": "e2etest_report",
+      "target": "e2etest_report_getrundirectory",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/reporter.go",
-      "source_location": "L230",
+      "source_location": "L235",
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "e2etest_report_generatehtml",
@@ -5173,102 +5230,32 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L3",
-      "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_backend_url",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L4",
-      "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_chromedriver_path",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L6",
-      "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_chromedriver_port",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L5",
-      "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_chromium_path",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L7",
-      "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_enable_evidence",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
+      "source_file": "e2etest/config.go",
       "source_location": "L8",
       "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_evidence_dir",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L2",
-      "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_frontend_url",
-      "confidence_score": 1.0
-    },
-    {
-      "relation": "contains",
-      "confidence": "EXTRACTED",
-      "source_file": "e2etest/e2e-test.json",
-      "source_location": "L9",
-      "weight": 1.0,
-      "source": "e2etest_e2e_test_json",
-      "target": "e2etest_e2e_test_report_path",
-      "confidence_score": 1.0
+      "confidence_score": 1.0,
+      "source": "e2etest_config_go",
+      "target": "e2etest_config"
     },
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "e2etest/config.go",
-      "source_location": "L8",
+      "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "e2etest_config_go",
-      "target": "e2etest_config",
-      "confidence_score": 1.0
+      "target": "e2etest_config_loadconfig"
     },
     {
-      "relation": "contains",
+      "relation": "references",
       "confidence": "EXTRACTED",
-      "source_file": "e2etest/config.go",
-      "source_location": "L31",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
       "weight": 1.0,
-      "source": "e2etest_config_go",
-      "target": "e2etest_config_loadconfig",
-      "confidence_score": 1.0
+      "source": "e2etest_suite",
+      "target": "e2etest_config"
     },
     {
       "relation": "conceptually_related_to",
@@ -5277,8 +5264,48 @@
       "source_file": "e2etest/report.html",
       "source": "report_testapihealthendpoint",
       "target": "report_landing_page_screenshot"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "e2etest_suite",
+      "target": "backend_server"
+    },
+    {
+      "relation": "references",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "e2etest_suite",
+      "target": "frontend_client"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "e2etest_suite",
+      "target": "e2etest_reporter"
+    },
+    {
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1.0,
+      "source": "e2etest_reporter",
+      "target": "e2etest_reports_dir"
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "9c90b42c6e3441465bb69ea7a47d63342112ea0f"
+  "built_at_commit": "491993e00c4feca0654d0bbb771b36bc08f1b6f5"
 }

@@ -82,6 +82,11 @@ func GetReport() *Report {
 	return globalReport
 }
 
+// GetRunDirectory returns the active time-stamped directory for this test execution run
+func (r *Report) GetRunDirectory() string {
+	return filepath.Join("reports", "run_"+r.StartTime.Format("2006-01-02_15-04-05"))
+}
+
 // AddSuite creates and adds a new test suite
 func (r *Report) AddSuite(name string) *TestSuite {
 	r.mu.Lock()

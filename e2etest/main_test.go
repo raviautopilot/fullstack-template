@@ -2,6 +2,7 @@ package e2etest
 
 import (
 	"os"
+	"path/filepath"
 	"testing"
 )
 
@@ -24,10 +25,13 @@ func TestMain(m *testing.M) {
 	report := GetReport()
 	report.Finalize()
 
-	if err := report.GenerateHTML(GlobalConfig.ReportPath); err != nil {
+	runDir := report.GetRunDirectory()
+	reportFilePath := filepath.Join(runDir, GlobalConfig.ReportPath)
+
+	if err := report.GenerateHTML(reportFilePath); err != nil {
 		println("Error generating E2E HTML test report: ", err.Error())
 	} else {
-		println("Interactive E2E test report generated successfully: ", GlobalConfig.ReportPath)
+		println("Interactive E2E test report generated successfully: ", reportFilePath)
 	}
 
 	os.Exit(exitCode)
