@@ -1,6 +1,6 @@
 # 🚀 Antigravity Fullstack Monorepo Template
 
-Welcome to the **Antigravity Fullstack Monorepo Template**! This repository is a premium starting point that includes a Go REST API backend, a modern React (Vite) frontend, and a highly structured, professional Selenium & API End-to-End (E2E) testing framework with automatic interactive HTML reporting archived inside distinct, time-stamped folders.
+Welcome to the **Antigravity Fullstack Monorepo Template**! This repository is a premium starting point that includes a Go REST API backend, a modern React (Vite) frontend, and a highly structured, professional Selenium & API End-to-End (E2E) testing framework with automatic interactive HTML reporting and isolated dual-logging engines, archived inside distinct, time-stamped folders.
 
 ---
 
@@ -20,12 +20,14 @@ This workspace is organized as a unified monorepo:
 │   ├── config.go        # JSON parser and sample config auto-generator
 │   ├── e2e-test.json    # External test fixtures JSON file (generated dynamically)
 │   ├── base_suite.go    # Reusable Testify suite bases (BaseAPISuite, BaseWebSuite)
-│   ├── reporter.go      # Custom HTML interactive reporting engine
+│   ├── reporter.go      # Custom HTML interactive reporting engine & global log writers
 │   ├── api_suite_test.go# Reusable API test suite (endpoints validation)
 │   ├── web_suite_test.go# Headless/Graphical browser workflow automation
 │   └── reports/         # Dynamic time-stamped E2E reports directory
 │       └── run_YYYY-MM-DD_HH-MM-SS/   # Example E2E run archive
 │           ├── report.html            # Run-specific interactive HTML dashboard
+│           ├── execution.log          # Clean human-readable high-level execution steps
+│           ├── deep-debug.log         # Raw Chrome DevTools WebSocket network logs
 │           └── report_evidences/      # Visual evidence screenshots for this run
 └── manage.sh            # Monorepo Management CLI Script (portable & dynamic)
 ```
@@ -91,23 +93,21 @@ Open [e2etest/e2e-test.json](file:///home/ubuntu/code/github/raviautopilot/fulls
 By default, the Selenium tests run in `headless` mode (ideal for CI/CD environments). If you want to disable headless mode and **watch the physical Chrome browser launch, perform clicks, and automate the test flow on screen**, simply update the toggle:
 - Change `"headless": true` to `"headless": false`.
 
-#### 📸 Evidence & Report Customization
-- **`enable_evidence`**: Set to `false` to completely disable capturing visual screenshots and HTTP request/response payloads, producing a lightweight, text-only timeline.
-- **`evidence_dir`**: The folder where captured screenshots are saved.
-- **`report_path`**: The file name of the generated interactive HTML report (defaults to `report.html`).
-
 ---
 
-## 🕒 Run Archiving & Comparability (`reports/`)
+## 🕒 Run Archiving & Segregated Logging (`reports/`)
 
 Every time E2E tests run via `./manage.sh test e2e`, a **distinct, time-stamped directory** is created under `e2etest/reports/`:
 ```
 e2etest/reports/run_YYYY-MM-DD_HH-MM-SS/
 ```
 
-This directory isolates that specific run's assets completely:
-- The dashboard report page `report.html` is written directly inside.
-- Visual screenshot assets are isolated under its local `report_evidences/` folder.
+To keep execution tracking simple, the framework automatically diverts massive log noises away from standard consoles:
+
+- **`report.html`**: A premium, interactive execution dashboard compiled locally for this run.
+- **`execution.log` & Stdout**: A clean, human-readable timeline showing suite configurations and test milestones. This is printed live on the console and archived in `execution.log`.
+- **`deep-debug.log`**: Contains raw ChromeDriver and browser standard error outputs (e.g., Chrome DevTools WebSocket events, JSON commands like `Runtime.evaluate`), isolating protocol complexity for deep diagnosis.
+- **`report_evidences/`**: Visual screenshot assets captured at key milestones for this execution.
 
 This isolated layout is fully self-contained using relative references, meaning the entire directory can be packed, shared, or compared side-by-side in separate browser tabs for regression review.
 
@@ -124,7 +124,7 @@ This isolated layout is fully self-contained using relative references, meaning 
 | `./manage.sh status` | Displays PID, port, and health check activity for active background servers. |
 | `./manage.sh test backend` | Runs the Go backend package unit tests. |
 | `./manage.sh test frontend` | Builds the React frontend application bundle to verify compile check. |
-| `./manage.sh test e2e` | Runs E2E browser and API test suites, writing evidence to a time-stamped folder. |
+| `./manage.sh test e2e` | Runs E2E browser and API test suites, writing evidence and logs to a time-stamped folder. |
 | `./manage.sh test all` | Runs full backend unit, frontend compiler check, and E2E test pipelines. |
 | `./manage.sh troubleshoot` | Runs an automated network diagnostic check on monorepo dependencies. |
 

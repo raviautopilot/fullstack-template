@@ -1,0 +1,1 @@
+{"nodes": [{"id": "e2etest_base_suite", "label": "Testify Suite Bases", "file_type": "code", "source_file": "e2etest/base_suite.go", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
