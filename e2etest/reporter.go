@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"html/template"
+	"io"
 	"net/http"
 	"os"
 	"path/filepath"
@@ -85,6 +86,26 @@ func GetReport() *Report {
 // GetRunDirectory returns the active time-stamped directory for this test execution run
 func (r *Report) GetRunDirectory() string {
 	return filepath.Join("reports", "run_"+r.StartTime.Format("2006-01-02_15-04-05"))
+}
+
+var (
+	ExecutionLogWriter io.Writer
+	DeepDebugWriter    io.Writer
+)
+
+// LogExecution logs a high-level test step to Stdout and the execution.log file
+func LogExecution(format string, args ...interface{}) {
+	msg := fmt.Sprintf(format, args...)
+	timestamp := time.Now().Format("2006-01-02 15:04:05.000")
+	formattedMsg := fmt.Sprintf("[%s] %s\n", timestamp, msg)
+
+	// Output to terminal Stdout
+	fmt.Print(formattedMsg)
+
+	// Output to execution.log
+	if ExecutionLogWriter != nil {
+		ExecutionLogWriter.Write([]byte(formattedMsg))
+	}
 }
 
 // AddSuite creates and adds a new test suite
