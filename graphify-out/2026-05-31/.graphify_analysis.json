@@ -1,6 +1,53 @@
 {
   "communities": {
     "0": [
+      "frontend_package_dependencies",
+      "frontend_package_dependencies_react",
+      "frontend_package_dependencies_react_dom",
+      "frontend_package_devdependencies",
+      "frontend_package_devdependencies_eslint",
+      "frontend_package_devdependencies_eslint_js",
+      "frontend_package_devdependencies_eslint_plugin_react_hooks",
+      "frontend_package_devdependencies_eslint_plugin_react_refresh",
+      "frontend_package_devdependencies_globals",
+      "frontend_package_devdependencies_types_react",
+      "frontend_package_devdependencies_vite",
+      "frontend_package_devdependencies_vitejs_plugin_react",
+      "frontend_package_json",
+      "frontend_package_name",
+      "frontend_package_private",
+      "frontend_package_scripts",
+      "frontend_package_scripts_build",
+      "frontend_package_scripts_dev",
+      "frontend_package_scripts_lint",
+      "frontend_package_scripts_preview",
+      "frontend_package_type",
+      "frontend_package_version"
+    ],
+    "1": [
+      "docs_swagger_200_schema",
+      "docs_swagger_get_consumes",
+      "docs_swagger_get_description",
+      "docs_swagger_get_parameters",
+      "docs_swagger_get_produces",
+      "docs_swagger_get_responses",
+      "docs_swagger_get_summary",
+      "docs_swagger_get_tags",
+      "docs_swagger_health_get",
+      "docs_swagger_paths",
+      "docs_swagger_paths_api_user",
+      "docs_swagger_paths_auth_callback",
+      "docs_swagger_paths_auth_login",
+      "docs_swagger_paths_auth_logout",
+      "docs_swagger_paths_health",
+      "docs_swagger_properties_memory",
+      "docs_swagger_responses_200",
+      "docs_swagger_responses_302",
+      "docs_swagger_responses_401",
+      "docs_swagger_schema_additionalproperties",
+      "docs_swagger_schema_ref"
+    ],
+    "2": [
       "auth_auth_b64decode",
       "auth_auth_base64decode",
       "auth_auth_callbackhandler",
@@ -20,7 +67,25 @@
       "router_router_setuprouter",
       "server_main_main"
     ],
-    "1": [
+    "3": [
+      "docs_swagger_definitions",
+      "docs_swagger_definitions_health_dependencycheck",
+      "docs_swagger_definitions_health_healthresponse",
+      "docs_swagger_definitions_health_memorystats",
+      "docs_swagger_health_memorystats_properties",
+      "docs_swagger_properties_alloc_mb",
+      "docs_swagger_properties_dependencies",
+      "docs_swagger_properties_details",
+      "docs_swagger_properties_environment",
+      "docs_swagger_properties_num_gc",
+      "docs_swagger_properties_status",
+      "docs_swagger_properties_sys_mb",
+      "docs_swagger_properties_timestamp",
+      "docs_swagger_properties_total_alloc_mb",
+      "docs_swagger_properties_uptime_seconds",
+      "docs_swagger_schema_type"
+    ],
+    "4": [
       "fullstack_template_manage_do_build",
       "fullstack_template_manage_do_install",
       "fullstack_template_manage_do_kill",
@@ -38,7 +103,7 @@
       "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
       "manage_sh"
     ],
-    "2": [
+    "5": [
       "e2etest_base_suite_go",
       "e2etest_baseapisuite",
       "e2etest_baseapisuite_loganddorequest",
@@ -54,7 +119,7 @@
       "e2etest_main_test_testmain",
       "e2etest_reporter_getreport"
     ],
-    "3": [
+    "6": [
       "e2etest_apirequestdump",
       "e2etest_apiresponsedump",
       "e2etest_report",
@@ -70,22 +135,22 @@
       "e2etest_testsuite",
       "e2etest_testsuite_addtestcase"
     ],
-    "4": [
-      "frontend_package_dependencies",
-      "frontend_package_dependencies_react",
-      "frontend_package_dependencies_react_dom",
-      "frontend_package_json",
-      "frontend_package_name",
-      "frontend_package_private",
-      "frontend_package_scripts",
-      "frontend_package_scripts_build",
-      "frontend_package_scripts_dev",
-      "frontend_package_scripts_lint",
-      "frontend_package_scripts_preview",
-      "frontend_package_type",
-      "frontend_package_version"
+    "7": [
+      "backend_docs_swagger_json",
+      "docs_swagger_basepath",
+      "docs_swagger_contact_email",
+      "docs_swagger_contact_name",
+      "docs_swagger_contact_url",
+      "docs_swagger_host",
+      "docs_swagger_info",
+      "docs_swagger_info_contact",
+      "docs_swagger_info_license",
+      "docs_swagger_info_termsofservice",
+      "docs_swagger_info_title",
+      "docs_swagger_info_version",
+      "docs_swagger_swagger"
     ],
-    "5": [
+    "8": [
       "backend_config_config_dev_json",
       "config_config_dev_env_name",
       "config_config_dev_frontend_url",
@@ -96,7 +161,7 @@
       "config_config_dev_oauth_redirect_url",
       "config_config_dev_port"
     ],
-    "6": [
+    "9": [
       "backend_config_config_local_json",
       "config_config_local_env_name",
       "config_config_local_frontend_url",
@@ -107,7 +172,7 @@
       "config_config_local_oauth_redirect_url",
       "config_config_local_port"
     ],
-    "7": [
+    "10": [
       "backend_config_config_prd_json",
       "config_config_prd_env_name",
       "config_config_prd_frontend_url",
@@ -118,7 +183,7 @@
       "config_config_prd_oauth_redirect_url",
       "config_config_prd_port"
     ],
-    "8": [
+    "11": [
       "backend_config_config_tst_json",
       "config_config_tst_env_name",
       "config_config_tst_frontend_url",
@@ -129,7 +194,7 @@
       "config_config_tst_oauth_redirect_url",
       "config_config_tst_port"
     ],
-    "9": [
+    "12": [
       "backend_appconfig",
       "backend_auth_controller",
       "backend_config_loader",
@@ -140,18 +205,7 @@
       "google_idp",
       "mock_consent_portal"
     ],
-    "10": [
-      "frontend_package_devdependencies",
-      "frontend_package_devdependencies_eslint",
-      "frontend_package_devdependencies_eslint_js",
-      "frontend_package_devdependencies_eslint_plugin_react_hooks",
-      "frontend_package_devdependencies_eslint_plugin_react_refresh",
-      "frontend_package_devdependencies_globals",
-      "frontend_package_devdependencies_types_react",
-      "frontend_package_devdependencies_vite",
-      "frontend_package_devdependencies_vitejs_plugin_react"
-    ],
-    "11": [
+    "13": [
       "backend_internal_health_health_go",
       "health_dependencycheck",
       "health_health_healthcheckhandler",
@@ -159,7 +213,7 @@
       "health_healthresponse",
       "health_memorystats"
     ],
-    "12": [
+    "14": [
       "e2etest_api_suite_test_go",
       "e2etest_api_suite_test_testrunapisuite",
       "e2etest_apitestsuite",
@@ -167,86 +221,119 @@
       "e2etest_apitestsuite_testapihealthendpoint",
       "e2etest_apitestsuite_testapiswaggerendpoint"
     ],
-    "13": [
+    "15": [
       "e2etest_web_suite_test_go",
       "e2etest_web_suite_test_testrunwebsuite",
       "e2etest_webtestsuite",
       "e2etest_webtestsuite_setupsuite",
       "e2etest_webtestsuite_testfrontendworkflow"
     ],
-    "14": [
+    "16": [
       "report_api_e2e_tests",
       "report_e2e_test_suite",
       "report_health_endpoint",
       "report_test_api_health_endpoint"
     ],
-    "15": [
+    "17": [
+      "swagger_health_dependencycheck",
+      "swagger_health_endpoint",
+      "swagger_health_healthresponse",
+      "swagger_health_memorystats"
+    ],
+    "18": [
       "frontend_index",
       "frontend_main",
       "frontend_readme"
     ],
-    "16": [
+    "19": [
       "frontend_src_app_jsx",
       "frontend_src_main_jsx",
       "src_app_app"
     ],
-    "17": [
+    "20": [
+      "swagger_api_user",
+      "swagger_auth_callback",
+      "swagger_auth_login"
+    ],
+    "21": [
+      "backend_docs_docs_go",
+      "docs_docs_init"
+    ],
+    "22": [
       "react_svg",
       "vite_svg"
     ],
-    "18": [
+    "23": [
       "update_graphify_sh"
     ],
-    "19": [
+    "24": [
       "frontend_vite_config_js"
     ],
-    "20": [
+    "25": [
       "frontend_eslint_config_js"
     ],
-    "21": [
+    "26": [
       "frontend_dashboard_mockup"
     ],
-    "22": [
+    "27": [
       "favicon_svg"
     ],
-    "23": [
+    "28": [
       "icons_svg"
     ],
-    "24": [
+    "29": [
       "hero_png"
+    ],
+    "30": [
+      "swagger_antigravity_monorepo_api"
+    ],
+    "31": [
+      "swagger_auth_logout"
     ]
   },
   "cohesion": {
-    "0": 0.13071895424836602,
-    "1": 0.425,
-    "2": 0.18681318681318682,
-    "3": 0.15384615384615385,
-    "4": 0.15384615384615385,
-    "5": 0.2222222222222222,
-    "6": 0.2222222222222222,
-    "7": 0.2222222222222222,
+    "0": 0.09090909090909091,
+    "1": 0.14285714285714285,
+    "2": 0.13071895424836602,
+    "3": 0.24166666666666667,
+    "4": 0.425,
+    "5": 0.18681318681318682,
+    "6": 0.15384615384615385,
+    "7": 0.1794871794871795,
     "8": 0.2222222222222222,
     "9": 0.2222222222222222,
     "10": 0.2222222222222222,
-    "11": 0.3333333333333333,
-    "12": 0.3333333333333333,
-    "13": 0.4,
-    "14": 0.6666666666666666,
-    "15": 0.6666666666666666,
+    "11": 0.2222222222222222,
+    "12": 0.2222222222222222,
+    "13": 0.3333333333333333,
+    "14": 0.3333333333333333,
+    "15": 0.4,
     "16": 0.6666666666666666,
-    "17": 1.0,
-    "18": 1.0,
-    "19": 1.0,
-    "20": 1.0,
+    "17": 0.5,
+    "18": 0.6666666666666666,
+    "19": 0.6666666666666666,
+    "20": 0.6666666666666666,
     "21": 1.0,
     "22": 1.0,
     "23": 1.0,
-    "24": 1.0
+    "24": 1.0,
+    "25": 1.0,
+    "26": 1.0,
+    "27": 1.0,
+    "28": 1.0,
+    "29": 1.0,
+    "30": 1.0,
+    "31": 1.0
   },
   "gods": [
     {
       "id": "home_ubuntu_code_github_raviautopilot_fullstack_template_manage_sh__entry",
       "label": "manage.sh script",
+      "degree": 12
+    },
+    {
+      "id": "docs_swagger_health_get",
+      "label": "get",
       "degree": 12
     },
     {
@@ -275,6 +362,11 @@
       "degree": 7
     },
     {
+      "id": "docs_swagger_info",
+      "label": "info",
+      "degree": 7
+    },
+    {
       "id": "fullstack_template_manage_do_swagger",
       "label": "do_swagger()",
       "degree": 6
@@ -283,16 +375,6 @@
       "id": "fullstack_template_manage_do_kill",
       "label": "do_kill()",
       "degree": 6
-    },
-    {
-      "id": "fullstack_template_manage_do_build",
-      "label": "do_build()",
-      "degree": 5
-    },
-    {
-      "id": "fullstack_template_manage_do_stop",
-      "label": "do_stop()",
-      "degree": 5
     }
   ],
   "surprises": [
@@ -353,7 +435,7 @@
     }
   ],
   "tokens": {
-    "input": 32251,
-    "output": 1463
+    "input": 1265,
+    "output": 1410
   }
 }
