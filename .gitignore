@@ -112,3 +112,9 @@ certs/
 # package-lock.json
 # yarn.lock
 # pnpm-lock.yaml
+
+# E2E Test Reports and Evidences
+e2etest/reports/
+e2etest/report_evidences/
+e2etest/e2e-test.json
+e2etest/report.html

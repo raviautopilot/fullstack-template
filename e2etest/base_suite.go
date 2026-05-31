@@ -109,15 +109,19 @@ func (s *BaseWebSuite) SetupTest() {
 	caps := selenium.Capabilities{"browserName": "chrome"}
 	chromiumPath := GlobalConfig.ChromiumPath
 
+	args := []string{
+		"--no-sandbox",
+		"--disable-gpu",
+		"--disable-dev-shm-usage",
+		"--remote-debugging-port=9222",
+	}
+	if GlobalConfig.Headless {
+		args = append(args, "--headless=new")
+	}
+
 	chromeCaps := map[string]interface{}{
 		"binary": chromiumPath,
-		"args": []string{
-			"--headless=new",
-			"--no-sandbox",
-			"--disable-gpu",
-			"--disable-dev-shm-usage",
-			"--remote-debugging-port=9222",
-		},
+		"args":   args,
 	}
 	caps["goog:chromeOptions"] = chromeCaps
 
@@ -163,17 +167,18 @@ func (s *BaseWebSuite) TakeScreenshot(name string) {
 		return
 	}
 
-	evidencesDir := GlobalConfig.EvidenceDir
+	runDir := GetReport().GetRunDirectory()
+	evidencesDir := filepath.Join(runDir, GlobalConfig.EvidenceDir)
 	if _, err := os.Stat(evidencesDir); os.IsNotExist(err) {
 		os.MkdirAll(evidencesDir, os.ModePerm)
 	}
 
-	filename := fmt.Sprintf("%s_%s.png", name, time.Now().Format("150405_000"))
+	filename := fmt.Sprintf("%s.png", name)
 	fullPath := filepath.Join(evidencesDir, filename)
 	if err := os.WriteFile(fullPath, screenshot, 0644); err != nil {
 		s.CurrentTest.LogStep("Save Screenshot", "INFO", fmt.Sprintf("Failed to save screenshot: %v", err))
 	} else {
-		// Use relative path for HTML report
+		// Use relative path for HTML report (relative to report.html in runDir)
 		relPath := filepath.Join(GlobalConfig.EvidenceDir, filename)
 		s.CurrentTest.LogScreenshotStep("Capture Evidence", "INFO", fmt.Sprintf("Screenshot saved: %s", relPath), relPath)
 	}

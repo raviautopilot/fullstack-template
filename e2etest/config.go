@@ -11,6 +11,7 @@ type Config struct {
 	ChromeDriverPath string `json:"chromedriver_path"`
 	ChromiumPath     string `json:"chromium_path"`
 	ChromeDriverPort int    `json:"chromedriver_port"`
+	Headless         bool   `json:"headless"`
 	EnableEvidence   bool   `json:"enable_evidence"`
 	EvidenceDir      string `json:"evidence_dir"`
 	ReportPath       string `json:"report_path"`
@@ -22,6 +23,7 @@ var DefaultConfig = Config{
 	ChromeDriverPath: "/usr/bin/chromedriver",
 	ChromiumPath:     "/usr/bin/chromium",
 	ChromeDriverPort: 8082,
+	Headless:         true,
 	EnableEvidence:   true,
 	EvidenceDir:      "report_evidences",
 	ReportPath:       "report.html",
