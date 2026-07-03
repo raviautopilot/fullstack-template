@@ -120,6 +120,32 @@ do_build() {
 
 do_run() {
     local target="${1:-all}"
+    local env="local"
+
+    # If first argument is an environment name, set env and default target to 'all'
+    if [ "$target" = "local" ] || [ "$target" = "dev" ] || [ "$target" = "tst" ] || [ "$target" = "prd" ]; then
+        env="$target"
+        target="all"
+    elif [ -n "${2:-}" ]; then
+        env="$2"
+    fi
+
+    # Validate target
+    if [ "$target" != "backend" ] && [ "$target" != "frontend" ] && [ "$target" != "all" ]; then
+        log_error "Unknown run target: ${target}"
+        echo -e "Usage: ./manage.sh run [target] [env]"
+        echo -e "Valid targets: backend, frontend, all"
+        echo -e "Valid environments: local, dev, tst, prd"
+        exit 1
+    fi
+
+    # Validate environment
+    if [ "$env" != "local" ] && [ "$env" != "dev" ] && [ "$env" != "tst" ] && [ "$env" != "prd" ]; then
+        log_error "Unknown environment: ${env}"
+        echo -e "Valid environments: local, dev, tst, prd"
+        exit 1
+    fi
+
     mkdir -p "${WORKSPACE_DIR}/logs"
     
     # Ensure port is clean
@@ -139,9 +165,9 @@ do_run() {
 
     # Run Backend
     if [ "$target" = "backend" ] || [ "$target" = "all" ]; then
-        log_info "Starting Go backend in background..."
+        log_info "Starting Go backend in background (env: ${env})...."
         cd "${BACKEND_DIR}"
-        export APP_ENV=local
+        export APP_ENV="${env}"
         # Run binary in background
         ./bin/server > "${WORKSPACE_DIR}/logs/backend.log" 2>&1 &
         local backend_pid=$!
@@ -408,7 +434,7 @@ case "$CMD" in
         do_build
         ;;
     run)
-        do_run "${1:-all}"
+        do_run "${1:-all}" "${2:-}"
         ;;
     stop)
         do_stop
